@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 林風</title>
+    <link>https://buheyugan.github.io/categories/</link>
+    <description>Recent content in Categories on 林風</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Aug 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://buheyugan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>art</title>
+      <link>https://buheyugan.github.io/category/art/</link>
+      <pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/category/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://buheyugan.github.io/category/notes/</link>
+      <pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/category/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>https://buheyugan.github.io/category/science/</link>
+      <pubDate>Tue, 06 Aug 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/category/science/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
