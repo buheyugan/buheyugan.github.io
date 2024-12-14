@@ -8,12 +8,21 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 11 Dec 2024 19:00:42 +0800</lastBuildDate><atom:link href="https://buheyugan.github.io/tag/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>科学</title>
-      <link>https://buheyugan.github.io/2024/12/11/%E7%A7%91%E5%AD%A6/</link>
+      <title>Pseudoenzyme</title>
+      <link>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</link>
       <pubDate>Wed, 11 Dec 2024 19:00:42 +0800</pubDate>
       
-      <guid>https://buheyugan.github.io/2024/12/11/%E7%A7%91%E5%AD%A6/</guid>
-      <description>這是一個簡單的筆記。</description>
+      <guid>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</guid>
+      <description>前言</description>
+    </item>
+    
+    <item>
+      <title>科学</title>
+      <link>https://buheyugan.github.io/2024/12/11/science/</link>
+      <pubDate>Wed, 11 Dec 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/2024/12/11/science/</guid>
+      <description>前言</description>
     </item>
     
   </channel>
