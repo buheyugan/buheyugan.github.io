@@ -6,10 +6,629 @@
     <description>Recent content on POETREW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Dec 2024 19:00:42 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2024 19:00:42 +0800</lastBuildDate>
     
     <atom:link href="https://buheyugan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pseudoenzyme</title>
+      <link>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</link>
+      <pubDate>Sun, 15 Dec 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</guid>
+      <description>前言 定义——假酶 (pseudoenzyme) 是一类具有相关家族保守序列但失去催化活性的酶。假酶不同于假基因 (pseudogenes) ，前者具有表达和功能的特征。 例子——假酶的重要例子包括与蛋</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<ul>
+<li>
+<p>定义——假酶 (pseudoenzyme) 是一类具有相关家族保守序列但失去催化活性的酶。假酶不同于假基因 (pseudogenes) ，前者具有表达和功能的特征。</p>
+</li>
+<li>
+<p>例子——假酶的重要例子包括与蛋白酶、激酶、磷酸酶、E2 泛素缀合酶和磷脂酶相关的蛋白质等。</p>
+</li>
+<li>
+<p>比例——假激酶</p>
+<blockquote>
+<p>蛋白激酶存在于生命的各个领域，并在细胞信号传导中发挥不同的作用。</p>
+</blockquote>
+<ul>
+<li>
+<p>植物：占植物激酶组的 8-17%；</p>
+</li>
+<li>
+<p>微生物：变化较大；3%~50%</p>
+</li>
+<li>
+<p>脊椎动物：通常占激酶组含量的约 10% （假激酶组几乎总是与脊椎动物物种中激酶组的大小成正比）</p>
+<!-- raw HTML omitted -->
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="假酶的功能">假酶的功能</h2>
+<ul>
+<li>
+<p>特点</p>
+<ul>
+<li>假酶通常利用其与同源酶结合相同底物和辅因子的能力，并保留其物理亚细胞位置</li>
+<li>假酶倾向于调节其同源酶参与的过程——可以在进化学上发挥新的功能</li>
+</ul>
+</li>
+<li>
+<p>假酶发挥功能的几种形式</p>
+<ul>
+<li>
+<p>激活：与活性激酶形成异二聚体以稳定活性激酶的活性构象</p>
+<ul>
+<li>HER3——过表达、破坏其自抑制构象稳定性的突变——HER2过激活</li>
+<li>KSR——破坏 KSR 与 MEK 和 BRAF 的相互作用的突变——MAPK 通路激活受损</li>
+<li>FAM20A——突变——FAM20C 激活与分泌受损</li>
+</ul>
+</li>
+<li>
+<p>抑制：变构结合活性激酶结构域，将其稳定在非活性构象</p>
+<ul>
+<li>JAK2的JH2结构域——突变——JH1结构过激活或过抑制；</li>
+</ul>
+</li>
+<li>
+<p>支架：介导活性激酶的降解</p>
+<ul>
+<li>TRIB1/TRIB2——过表达—— 与C/EBPα 和 E3 泛素连接酶 COP1 相互作用增强—— C/EBPα 过度降解</li>
+</ul>
+</li>
+<li>
+<p>捣乱——底物竞争</p>
+<ul>
+<li>假磷酸酶 STYX 与传统磷酸酶DUSP4 竞争与 ERK1/2 激酶的结合——调控ERK1/2的活性</li>
+</ul>
+</li>
+<li>
+<p>变构形成多聚体诱发细胞凋亡</p>
+</li>
+<li>
+<ul>
+<li>
+<p>The mixed lineage kinase domain-like (MLKL) ——磷酸化后构象打开（分子开关）—— 形成多聚体诱发细胞凋亡</p>
+</li>
+<li>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<!-- raw HTML omitted -->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="靶向假激酶的药理学策略">靶向假激酶的药理学策略</h2>
+<blockquote>
+<p>到目前为止，ATP结合位点是蛋白激酶中最“可成药”的口袋，因为它具有与小分子相互作用的进化能力。</p>
+</blockquote>
+<ul>
+<li><strong>抑制与活性激酶的结合——小分子、抗体</strong>：KSR2、TRIB2、HER3</li>
+<li><strong>靶向降解——PROTAC</strong>：HER3</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="激酶的活性口袋">激酶的活性口袋</h2>
+<blockquote>
+<p>激酶的活性口袋由高度保守的两个叶组成，即氨基末端叶（N-叶）和C-叶，它们通过柔性铰链区连接。</p>
+<p>与激酶在催化过程中的相对运动相关的活性位点位于 N 叶和 C 叶之间，由两个叶提供的结构元件组成。</p>
+<p>这些运动用于调节核苷酸和底物结合、ATP水解、磷酸转移以及ADP和磷酸化底物的最终释放。</p>
+</blockquote>
+<ul>
+<li>
+<p>二价金属离子</p>
+<ul>
+<li>特点：最典型的是 Mg2+；常与DFG位点中的天冬氨酸配位</li>
+<li>功能：① 能够中和核苷酸的净负电荷，并使核苷酸能够结合到激酶活性位点；②对于 ATP 配位和磷酸转移化学也至关重要</li>
+</ul>
+</li>
+<li>
+<p>保守催化残基</p>
+<ul>
+<li>
+<p>Glycine-rich-loop</p>
+<ul>
+<li>
+<p>特点：N叶中富含甘氨酸的环通常符合活性激酶中的共有序列GXGXXG。</p>
+</li>
+<li>
+<p>功能：甘氨酸残基中不存在侧链，使得富含甘氨酸的环与 ATP 的腺苷环紧密接触，从而实现核苷酸结合和 ATP 的正确定位以进行催化。</p>
+<blockquote>
+<p>在假激酶中，甘氨酸通常被较大的氨基酸取代，通常带负电荷，从而干扰ATP结合。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>αC 螺旋：在活性构象中，螺旋αC向活性位点旋转，αC 的 Glu 与 β3 的Lys形成盐桥；</p>
+</li>
+<li>
+<p>VAIK (Val-Ala-Ile-<strong>Lys</strong>) 基序内的赖氨酸</p>
+<ul>
+<li>
+<p>特点：位于N叶的β3链中；</p>
+</li>
+<li>
+<p>功能：与αC 中保守的谷氨酸之间形成盐桥——协调保证ATP的正确结合</p>
+<blockquote>
+<p>SRC/CDK-like inactive：赖氨酸与螺旋αC的盐桥在激酶的非活性构象中被破坏；螺旋αC旋转远离活性位点</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>DFG (<strong>Asp</strong>-Phe-Gly) 基序内的天冬氨酸</p>
+<ul>
+<li>
+<p>功能：天冬氨酸指向活性位点；协调 Mg2+离子（与 ATP 的 β-磷酸盐和 γ-磷酸盐相互作用的）</p>
+<blockquote>
+<p>激酶的受磷酸化后，DFG会改变非活性的束缚构象并向内延伸。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>HRD (His-Arg-<strong>Asp</strong>) 基序内的天冬氨酸</p>
+<ul>
+<li>
+<p>功能：参与催化过程；Asp 在 ATP 水解过程中充当催化碱基</p>
+<blockquote>
+<p>Asp其突变将使激酶失去催化活性。</p>
+</blockquote>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="基于结构区分的四种假激酶类别">基于结构区分的四种假激酶类别</h2>
+<ul>
+<li>
+<p>Class 1 —— 不结合核苷酸或阳离子的假激酶</p>
+<ul>
+<li>代表：TRIB1、VRK3、ROR2、Pragmin 和细菌假激酶 MviN</li>
+<li>结构：核苷酸结合位点通常被疏水残基封闭——也不具有活性激酶中存在的典型可药物口袋，设计靶向药物困难</li>
+</ul>
+</li>
+<li>
+<p>Class 2 —— 在没有阳离子的情况下结合核苷酸的假激酶</p>
+<ul>
+<li>代表：STRADα、MLKL、FAM20A、CASK 和 TRIB2；</li>
+<li>结构：此类中的大多数假激酶都缺乏活性激酶 DFG 基序中发现的典型金属配位天冬氨酸残基；</li>
+</ul>
+</li>
+<li>
+<p>Class 3 —— 结合阳离子但不结合核苷酸的假激酶</p>
+<ul>
+<li>代表：弓形虫蛋白棒状体蛋白 2 (ROP2) 和 PEAK1（Pragmin 的密切同源物）</li>
+<li>结构
+<ul>
+<li>具有高度封闭的假活性位点，这些位点在结构上似乎与核苷酸结合不相容</li>
+<li>都不具有完整的 DFG 基序；尚不清楚阳离子是否在生理环境中与 PEAK1 和 ROP2 结合</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Class 4 —— 结合核苷酸和阳离子的假激酶</p>
+<ul>
+<li>代表：HER3、KSR、RNase L 和 JAK 的 JH2 假激酶结构域</li>
+<li>结构：具有可测量的激酶活性，通常比催化活性激酶低几个数量级。</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="植物中的假激酶">植物中的假激酶</h2>
+<ul>
+<li>
+<p>酪氨酸激酶样 (TKL) 假激酶</p>
+</li>
+<li>
+<ul>
+<li>
+<p>植物白细胞介素-1 受体相关激酶样假激酶 (interleukin-1 receptor-associated kinase (IRAK)-like pseudokinases)：TKL 组的一部分，在植物中大量扩增</p>
+</li>
+<li>
+<p>从机制上讲，已知植物 IRAK 激酶在植物-真菌相互作用中发挥着至关重要的作用，无论是在共生相互作用期间还是在病原体防御期间，这表明真菌 TKL      激酶和假激酶的扩张可能是由于紧密的共生共同进化而产生的。</p>
+</li>
+<li>
+<p>不同假激酶家族之间的失活激酶结构域构象通过在进化过程中被选择性限制的不同序列基序以不同的方式稳定。</p>
+<p><img src="../../../static/images/image-20241215195005618.png" alt="image-20241215195005618"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>一些假激酶的功能</p>
+<ul>
+<li>
+<p>LysM</p>
+<ul>
+<li>
+<p>活性LysM RLK 发挥多种传感功能：① 识别植物对真菌的防御反应中的几丁质寡糖；② 结合细菌细胞壁上的肽聚糖以帮助识别共生细菌</p>
+</li>
+<li>
+<p>LysM 假激酶被认为通过与其他活性 LysM RLK 相互作用，有助于其适当的信号传导途径</p>
+<blockquote>
+<p><em>紫花苜蓿</em> 中的 LysM 假激酶被认为通过与活性 LysM RLK 成员相互作用来促进<em>根瘤菌</em>相互作用，这让人想起后生动物酪氨酸激酶和酪氨酸假激酶，例如变构调节密切相关的经典     EGFR 家族的 HER3 假激酶</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>DLSV：该假激酶含有与盐胁迫和抗真菌反应相关的胞外结构域</p>
+</li>
+<li>
+<p>LRRVI-2：该假激酶与根毛形成 相关的植物钾通道 AKT2相互作用。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="其他氨基酸缩写与性质表">其他——氨基酸缩写与性质表</h2>
+<p><img src="../../../static/images/image-20241215194121329.png" alt="image-20241215194121329"></p>
+<h2 id="参考文献">参考文献</h2>
+<ol>
+<li>Adrain C, Freeman M. New lives for old: evolution of pseudoenzyme function illustrated by iRhoms. <em>Nat Rev Mol Cell Biol</em>, 2012, 13(8): 489-498.</li>
+<li>Kung JE, Jura N. Structural basis for the non-catalytic functions of protein kinases. <em>Structure</em>, 2016, 24(1): 7-24.</li>
+<li>Murphy JM, Mace PD, Eyers PA. Live and let die: insights into pseudoenzyme mechanisms from structure. <em>Curr Opin Struct Biol</em>, 2017, 47: 95-104.</li>
+<li>Kung JE, Jura N. Prospects for pharmacological targeting of pseudokinases. <em>Nat Rev Drug Discov</em>, 2019, 18(7): 501-526.</li>
+<li>Kwon A, Scott S, Taujale R, Yeung W, Kochut KJ, Eyers PA, Kannan N. Tracing the Origin and Evolution of Pseudokinases Across the Tree of Life. <em>Sci Signal</em>, 2019, 12(578): eaav3810.</li>
+<li>Ribeiro AJM, Das S, Dawson N, Zaru R, Orchard S, Thornton JM, Orengo C, Zeqiraj E, Murphy JM, Eyers PA. Emerging concepts in pseudoenzyme classification, evolution, and signaling. <em>Sci Signal</em>, 2019, 12(594): eaat9797.</li>
+<li>Mace PD, Murphy JM. There’s more to death than life: Noncatalytic functions in kinase and pseudokinase signaling. <em>J Biol Chem</em>, 2021, 296: 100705.</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>假酶(pseudoenzyme)</title>
+      <link>https://buheyugan.github.io/2024/12/15/pseudoenzyme/</link>
+      <pubDate>Sun, 15 Dec 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/2024/12/15/pseudoenzyme/</guid>
+      <description>前言 定义——假酶 (pseudoenzyme) 是一类具有相关家族保守序列但失去催化活性的酶。假酶不同于假基因 (pseudogenes) ，前者具有表达和功能的特征。 例子——假酶的重要例子包括与蛋</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<ul>
+<li>
+<p>定义——假酶 (pseudoenzyme) 是一类具有相关家族保守序列但失去催化活性的酶。假酶不同于假基因 (pseudogenes) ，前者具有表达和功能的特征。</p>
+</li>
+<li>
+<p>例子——假酶的重要例子包括与蛋白酶、激酶、磷酸酶、E2 泛素缀合酶和磷脂酶相关的蛋白质等。</p>
+</li>
+<li>
+<p>比例——假激酶</p>
+<blockquote>
+<p>蛋白激酶存在于生命的各个领域，并在细胞信号传导中发挥不同的作用。</p>
+</blockquote>
+<ul>
+<li>
+<p>植物：占植物激酶组的 8-17%；</p>
+</li>
+<li>
+<p>微生物：变化较大；3%~50%</p>
+</li>
+<li>
+<p>脊椎动物：通常占激酶组含量的约 10% （假激酶组几乎总是与脊椎动物物种中激酶组的大小成正比）</p>
+<p><img src="/images/image-20241215190044494.png" alt="image-20241215190044494"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="假酶的功能">假酶的功能</h2>
+<ul>
+<li>
+<p>特点</p>
+<ul>
+<li>假酶通常利用其与同源酶结合相同底物和辅因子的能力，并保留其物理亚细胞位置</li>
+<li>假酶倾向于调节其同源酶参与的过程——可以在进化学上发挥新的功能</li>
+</ul>
+</li>
+<li>
+<p>假酶发挥功能的几种形式</p>
+<ul>
+<li>
+<p>激活：与活性激酶形成异二聚体以稳定活性激酶的活性构象</p>
+<ul>
+<li>HER3——过表达、破坏其自抑制构象稳定性的突变——HER2过激活</li>
+<li>KSR——破坏 KSR 与 MEK 和 BRAF 的相互作用的突变——MAPK 通路激活受损</li>
+<li>FAM20A——突变——FAM20C 激活与分泌受损</li>
+</ul>
+</li>
+<li>
+<p>抑制：变构结合活性激酶结构域，将其稳定在非活性构象</p>
+<ul>
+<li>JAK2的JH2结构域——突变——JH1结构过激活或过抑制；</li>
+</ul>
+</li>
+<li>
+<p>支架：介导活性激酶的降解</p>
+<ul>
+<li>TRIB1/TRIB2——过表达—— 与C/EBPα 和 E3 泛素连接酶 COP1 相互作用增强—— C/EBPα 过度降解</li>
+</ul>
+</li>
+<li>
+<p>捣乱——底物竞争</p>
+<ul>
+<li>假磷酸酶 STYX 与传统磷酸酶DUSP4 竞争与 ERK1/2 激酶的结合——调控ERK1/2的活性</li>
+</ul>
+</li>
+<li>
+<p>变构形成多聚体诱发细胞凋亡</p>
+<ul>
+<li>
+<p>The mixed lineage kinase domain-like (MLKL) ——磷酸化后构象打开（分子开关）—— 形成多聚体诱发细胞凋亡</p>
+<p><img src="/images/image-20241215194334525.png" alt="image-20241215194334525"></p>
+<p><img src="/images/image-20241215200750106.png" alt="image-20241215200750106"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="靶向假激酶的药理学策略">靶向假激酶的药理学策略</h2>
+<blockquote>
+<p>到目前为止，ATP结合位点是蛋白激酶中最“可成药”的口袋，因为它具有与小分子相互作用的进化能力。</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>抑制与活性激酶的结合——小分子、抗体</strong>：KSR2、TRIB2、HER3</p>
+</li>
+<li>
+<p><strong>靶向降解——PROTAC</strong>：HER3</p>
+<p><img src="/images/image-20241215192741747.png" alt="image-20241215192741747"></p>
+</li>
+</ul>
+<h2 id="激酶的活性口袋">激酶的活性口袋</h2>
+<blockquote>
+<p>激酶的活性口袋由高度保守的两个叶组成，即氨基末端叶（N-叶）和C-叶，它们通过柔性铰链区连接。</p>
+<p>与激酶在催化过程中的相对运动相关的活性位点位于 N 叶和 C 叶之间，由两个叶提供的结构元件组成。</p>
+<p>这些运动用于调节核苷酸和底物结合、ATP水解、磷酸转移以及ADP和磷酸化底物的最终释放。</p>
+</blockquote>
+<ul>
+<li>
+<p>二价金属离子</p>
+<ul>
+<li>特点：最典型的是 Mg2+；常与DFG位点中的天冬氨酸配位</li>
+<li>功能：① 能够中和核苷酸的净负电荷，并使核苷酸能够结合到激酶活性位点；②对于 ATP 配位和磷酸转移化学也至关重要</li>
+</ul>
+</li>
+<li>
+<p>保守催化残基</p>
+<ul>
+<li>
+<p>Glycine-rich-loop</p>
+<ul>
+<li>
+<p>特点：N叶中富含甘氨酸的环通常符合活性激酶中的共有序列GXGXXG。</p>
+</li>
+<li>
+<p>功能：甘氨酸残基中不存在侧链，使得富含甘氨酸的环与 ATP 的腺苷环紧密接触，从而实现核苷酸结合和 ATP 的正确定位以进行催化。</p>
+<blockquote>
+<p>在假激酶中，甘氨酸通常被较大的氨基酸取代，通常带负电荷，从而干扰ATP结合。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>αC 螺旋：在活性构象中，螺旋αC向活性位点旋转，αC 的 Glu 与 β3 的Lys形成盐桥；</p>
+</li>
+<li>
+<p>VAIK (Val-Ala-Ile-<strong>Lys</strong>) 基序内的赖氨酸</p>
+<ul>
+<li>
+<p>特点：位于N叶的β3链中；</p>
+</li>
+<li>
+<p>功能：与αC 中保守的谷氨酸之间形成盐桥——协调保证ATP的正确结合</p>
+<blockquote>
+<p>SRC/CDK-like inactive：赖氨酸与螺旋αC的盐桥在激酶的非活性构象中被破坏；螺旋αC旋转远离活性位点</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>DFG (<strong>Asp</strong>-Phe-Gly) 基序内的天冬氨酸</p>
+<ul>
+<li>
+<p>功能：天冬氨酸指向活性位点；协调 Mg2+离子（与 ATP 的 β-磷酸盐和 γ-磷酸盐相互作用的）</p>
+<blockquote>
+<p>激酶的受磷酸化后，DFG会改变非活性的束缚构象并向内延伸。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>HRD (His-Arg-<strong>Asp</strong>) 基序内的天冬氨酸</p>
+<ul>
+<li>
+<p>功能：参与催化过程；Asp 在 ATP 水解过程中充当催化碱基</p>
+<blockquote>
+<p>Asp其突变将使激酶失去催化活性。</p>
+</blockquote>
+<p><img src="/images/image-20241215191207063.png" alt="image-20241215191207063"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="基于结构区分的四种假激酶类别">基于结构区分的四种假激酶类别</h2>
+<ul>
+<li>
+<p>Class 1 —— 不结合核苷酸或阳离子的假激酶</p>
+<ul>
+<li>代表：TRIB1、VRK3、ROR2、Pragmin 和细菌假激酶 MviN</li>
+<li>结构：核苷酸结合位点通常被疏水残基封闭——也不具有活性激酶中存在的典型可药物口袋，设计靶向药物困难</li>
+</ul>
+</li>
+<li>
+<p>Class 2 —— 在没有阳离子的情况下结合核苷酸的假激酶</p>
+<ul>
+<li>代表：STRADα、MLKL、FAM20A、CASK 和 TRIB2；</li>
+<li>结构：此类中的大多数假激酶都缺乏活性激酶 DFG 基序中发现的典型金属配位天冬氨酸残基；</li>
+</ul>
+</li>
+<li>
+<p>Class 3 —— 结合阳离子但不结合核苷酸的假激酶</p>
+<ul>
+<li>代表：弓形虫蛋白棒状体蛋白 2 (ROP2) 和 PEAK1（Pragmin 的密切同源物）</li>
+<li>结构
+<ul>
+<li>具有高度封闭的假活性位点，这些位点在结构上似乎与核苷酸结合不相容</li>
+<li>都不具有完整的 DFG 基序；尚不清楚阳离子是否在生理环境中与 PEAK1 和 ROP2 结合</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Class 4 —— 结合核苷酸和阳离子的假激酶</p>
+<ul>
+<li>
+<p>代表：HER3、KSR、RNase L 和 JAK 的 JH2 假激酶结构域</p>
+</li>
+<li>
+<p>结构：具有可测量的激酶活性，通常比催化活性激酶低几个数量级。</p>
+<p><img src="/images/image-20241215192627750.png" alt="image-20241215192627750"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="植物中的假激酶">植物中的假激酶</h2>
+<ul>
+<li>
+<p>酪氨酸激酶样 (TKL) 假激酶</p>
+</li>
+<li>
+<ul>
+<li>
+<p>植物白细胞介素-1 受体相关激酶样假激酶 (interleukin-1 receptor-associated kinase (IRAK)-like pseudokinases)：TKL 组的一部分，在植物中大量扩增</p>
+</li>
+<li>
+<p>从机制上讲，已知植物 IRAK 激酶在植物-真菌相互作用中发挥着至关重要的作用，无论是在共生相互作用期间还是在病原体防御期间，这表明真菌 TKL      激酶和假激酶的扩张可能是由于紧密的共生共同进化而产生的。</p>
+</li>
+<li>
+<p>不同假激酶家族之间的失活激酶结构域构象通过在进化过程中被选择性限制的不同序列基序以不同的方式稳定。</p>
+<p><img src="/images/image-20241215195005618.png" alt="image-20241215195005618"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>一些假激酶的功能</p>
+<ul>
+<li>
+<p>LysM</p>
+<ul>
+<li>
+<p>活性LysM RLK 发挥多种传感功能：① 识别植物对真菌的防御反应中的几丁质寡糖；② 结合细菌细胞壁上的肽聚糖以帮助识别共生细菌</p>
+</li>
+<li>
+<p>LysM 假激酶被认为通过与其他活性 LysM RLK 相互作用，有助于其适当的信号传导途径</p>
+<blockquote>
+<p><em>紫花苜蓿</em> 中的 LysM 假激酶被认为通过与活性 LysM RLK 成员相互作用来促进<em>根瘤菌</em>相互作用，这让人想起后生动物酪氨酸激酶和酪氨酸假激酶，例如变构调节密切相关的经典     EGFR 家族的 HER3 假激酶</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>DLSV：该假激酶含有与盐胁迫和抗真菌反应相关的胞外结构域</p>
+</li>
+<li>
+<p>LRRVI-2：该假激酶与根毛形成 相关的植物钾通道 AKT2相互作用。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="其他氨基酸缩写与性质表">其他——氨基酸缩写与性质表</h2>
+<p><img src="/images/image-20241215194121329.png" alt="image-20241215194121329"></p>
+<h2 id="参考文献">参考文献</h2>
+<ol>
+<li>Adrain C, Freeman M. New lives for old: evolution of pseudoenzyme function illustrated by iRhoms. <em>Nat Rev Mol Cell Biol</em>, 2012, 13(8): 489-498.</li>
+<li>Kung JE, Jura N. Structural basis for the non-catalytic functions of protein kinases. <em>Structure</em>, 2016, 24(1): 7-24.</li>
+<li>Murphy JM, Mace PD, Eyers PA. Live and let die: insights into pseudoenzyme mechanisms from structure. <em>Curr Opin Struct Biol</em>, 2017, 47: 95-104.</li>
+<li>Kung JE, Jura N. Prospects for pharmacological targeting of pseudokinases. <em>Nat Rev Drug Discov</em>, 2019, 18(7): 501-526.</li>
+<li>Kwon A, Scott S, Taujale R, Yeung W, Kochut KJ, Eyers PA, Kannan N. Tracing the Origin and Evolution of Pseudokinases Across the Tree of Life. <em>Sci Signal</em>, 2019, 12(578): eaav3810.</li>
+<li>Ribeiro AJM, Das S, Dawson N, Zaru R, Orchard S, Thornton JM, Orengo C, Zeqiraj E, Murphy JM, Eyers PA. Emerging concepts in pseudoenzyme classification, evolution, and signaling. <em>Sci Signal</em>, 2019, 12(594): eaat9797.</li>
+<li>Mace PD, Murphy JM. There’s more to death than life: Noncatalytic functions in kinase and pseudokinase signaling. <em>J Biol Chem</em>, 2021, 296: 100705.</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>西方艺术史之一 史前艺术</title>
+      <link>https://buheyugan.github.io/2024/12/15/history_of_western_art_i._prehistoric-art/</link>
+      <pubDate>Sun, 15 Dec 2024 11:00:42 +0800</pubDate>
+      
+      <guid>https://buheyugan.github.io/2024/12/15/history_of_western_art_i._prehistoric-art/</guid>
+      <description>史前艺术 史前艺术时期又可以分为三个主要阶段：旧石器晚期（公元前四万—前一万年）、中石器时期（公元前一万—前八千年）与新石器时期（公元前八千—</description>
+      <content:encoded><![CDATA[<h2 id="史前艺术">史前艺术</h2>
+<p>史前艺术时期又可以分为三个主要阶段：<strong>旧石器晚期</strong>（公元前四万—前一万年）、<strong>中石器时期</strong>（公元前一万—前八千年）与<strong>新石器时期</strong>（公元前八千—前两千年）。其中，旧石器时期的时间范围从公元前两百万—前一万年；分为早期、中期和晚期三个阶段；但只有到晚期时艺术才开始发展。中石器时期无特殊的艺术门类，此处略过。</p>
+<p><strong>旧石器晚期</strong>的生产特征还为狩猎、采集和打制石器（粗石器）。该期间的艺术类型主要有洞窟艺术（以壁画为主）和器具艺术两类，分别对应后世的绘画和雕塑。该时期人类的生存境况还十分不稳定，靠天吃饭，因此此时期的艺术创作主要出于对巫术宗教的需要——祈祷打猎顺利与生殖兴盛。</p>
+<p>那么，为什么洞窟壁画与器具艺术能够保佑人们打猎顺利与生殖兴盛呢？这就需要提及当时人们对于巫术想象的两个规律：</p>
+<p>​	<strong>①相似律：同类相生，两个相似的事物就会相互影响。</strong></p>
+<p>​	<strong>②接触律：两个接触过的东西，当他们脱离接触后依旧能够相互影响。</strong></p>
+<blockquote>
+<p>今天的我们似乎依旧会在某些时刻相信这两个规律；想来多么奇妙，当未来的某时我们使用这两个规律来祈祷些什么时，是否会想起在千万年前某刻的人们也在专注地祈祷些什么？</p>
+</blockquote>
+<p>该时期的壁画主要呈现以下几个<strong>特点</strong>，这些特点可以对上述论点进行相应的佐证：</p>
+<p>​	①题材主要为大型哺乳动物——不易猎取的动物；</p>
+<p>​	②动物形象单独且很大，往往是现实比例——相似律；</p>
+<p>​	③动物形象上常有人们的手、箭等图案——捕捉；</p>
+<p>​	④画面紊乱、有重叠刻画的作品——当某处壁画灵验时，人们就会在此处重复刻画，以希求下次的灵验。</p>
+<blockquote>
+<p>手的绘画很有意思，此时的手主要有两种绘画方法：一种方法是将颜料涂在手上，然后将手按在墙壁上，留下图案（阳法）；另一种方法是用动物骨头制作吹管，将骨头两端敲开，将颜料放入一端，然后将手放在墙上与吹管之间，通过吹出颜料形成手印，手拿开后留下未覆盖颜料的手形轮廓（风刮法）。</p>
+</blockquote>
+<p>该时期的器具艺术的主要特点是：形象以女性为主，生殖特征突出。</p>
+<ul>
+<li>
+<p><em>斑点马和人手；石灰石；佩什 - 梅尔洞，法国；约公元前16,000-15,000年</em>
+<img src="/images/image-20241213142415424.png" alt="image-20241213142415424"></p>
+</li>
+<li>
+<p><em>重叠的动物线刻画；三兄弟洞，法国；约公元前40,000一前10,000年 （下左）</em></p>
+</li>
+<li>
+<p><em>威伦道夫的女子；石灰石，高11.1 cm；奥地利；约公元前28,000一前25,000年 （下右）</em>
+<img src="/images/image-20241213145348953.png" alt="image-20241213145348953"></p>
+</li>
+</ul>
+<p><strong>新石器时期</strong>的生产特征演变为畜牧、农耕和磨制石器（细石器）。该期间的艺术类型主要有陶器和巨石结构两类，后者对应后世的建筑。或许由于新时期时期人类的生存和繁殖问题已经进入了相对稳定的阶段，该时期的创作已经开始转向生活化的场景。</p>
+<p>该时期的陶器主要是会有抽象图案的黏土器具，也用黏土制作小塑像，风格较为抽象。</p>
+<blockquote>
+<p>器具的话，没错！就是你印象中的那种早期陶器，就不放图了；小塑像是真的抽象，很有现代风格了，见下图。</p>
+</blockquote>
+<p>巨石结构主要源于对葬礼和宗教仪式的关心；主要有三类：①单块大石头立在那边；②两块立着的大石头上面再横着一块；③前面两种的结合，形成一个石阵。</p>
+<ul>
+<li>
+<p><em>男女塑像；陶像，高11.5 cm；切尔纳天达，罗马尼亚；约公元前3500年</em></p>
+<p><img src="/images/image-20241213150847212.png" alt="image-20241213150847212"></p>
+</li>
+<li>
+<p><em>斯通亨奇；石圈直径29.6米；索尔兹伯里平原，英国；约公元前2100年</em></p>
+<p><img src="/images/image-20241213151140400.png" alt="image-20241213151140400"></p>
+</li>
+</ul>
+<h2 id="其他">其他</h2>
+<p>研究史前艺术的一个很重要的议题是研究艺术的起源问题。在这个问题上目前主要有三种研究途径：</p>
+<p>①考古研究：从史前考古学角度出发，对史前艺术遗迹进行分析和研究。这种方法所得结果最为直接且有力。</p>
+<p>②部落研究：通过现在残存的原始部落所留存下来的艺术，对史前艺术的遗迹进行分析和研究。考虑到后续部落的进一步演化与现代人对部落的干预，该方法获得的结果主要作为旁证。</p>
+<p>③儿童研究：从儿童艺术心理学的角度研究艺术的起源。该方法基于将早期原始人比作早期儿童（人类物种的孩童时期——现代个人的孩童时期）的假设，因此结果主要作为一种猜想。</p>
+<p>有趣的事是，现存两个有名的史前艺术遗迹——阿尔塔米拉洞窟（西班牙，最早被发现）和拉斯科洞窟（法国，最大的史前洞窟）均是由孩童发现的。</p>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li>
+<p><a href="https://www.bilibili.com/video/BV1A4411j7g1/">孙乃树. 西方美术欣赏60讲. 2017</a></p>
+</li>
+<li>
+<p><a href="https://book.douban.com/subject/21363162/?_dtcc=1">H.W.Janson 等. 詹森艺术史 (第七版). 2013</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Art-History-6th-Marilyn-Stokstad/dp/0134475887">Marilyn Stokstad, et al. Art History (6th Edition). 2017</a></p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
     
     <item>
       <title>艺术与科学</title>
@@ -35,7 +654,7 @@
 </blockquote>
 <p>④ 艺术的自主性更强，我们完全做自己想做的任何事；同时感谢杜尚的小便池，现在的艺术是玩的艺术，任何事物只要它足够特别、有趣，它便是一件艺术品；至于成功认可问题，我们的社会认可点可以在科研上，而艺术只需自己和“懂行”的人喜欢便好。</p>
 <h2 id="彩蛋">彩蛋</h2>
-<p>早先一直想做一个关于讨论科研活动的装置，一直没有进行，作为此处的彩蛋吧：</p>
+<p>早先一直想做一个关于讨论科研活动的装置，一直没有进行，作为此处的彩蛋吧（哈哈感谢劳伦斯·韦纳提供的偷懒灵感）：</p>
 <blockquote>
 <p>一个竖立的迷宫，迷宫的上方有一个入口，迷宫的下方有九个出口，这九个出口的最中间的那个出口下方放了一个琉璃瓶；</p>
 <p>沙子从上方的入口流入，受重力影响向下流动，在中间经历了无序未知的道路，最终随机地从下方的出口流出，而其中少部分的沙子从中间的出口流进了琉璃瓶中。</p>
@@ -129,103 +748,6 @@
     </item>
     
     <item>
-      <title>西方艺术史之一 史前艺术</title>
-      <link>https://buheyugan.github.io/2024/12/11/history_of_western_art_i._prehistoric-art/</link>
-      <pubDate>Wed, 11 Dec 2024 21:00:42 +0800</pubDate>
-      
-      <guid>https://buheyugan.github.io/2024/12/11/history_of_western_art_i._prehistoric-art/</guid>
-      <description>史前艺术 史前艺术时期又可以分为三个主要阶段：旧石器晚期（公元前四万—前一万年）、中石器时期（公元前一万—前八千年）与新石器时期（公元前八千—</description>
-      <content:encoded><![CDATA[<h2 id="史前艺术">史前艺术</h2>
-<p>史前艺术时期又可以分为三个主要阶段：<strong>旧石器晚期</strong>（公元前四万—前一万年）、<strong>中石器时期</strong>（公元前一万—前八千年）与<strong>新石器时期</strong>（公元前八千—前两千年）。其中，旧石器时期的时间范围从公元前两百万—前一万年；分为早期、中期和晚期三个阶段；但只有到晚期时艺术才开始发展。中石器时期无特殊的艺术门类，此处略过。</p>
-<p><strong>旧石器晚期</strong>的生产特征还为狩猎、采集和打制石器（粗石器）。该期间的艺术类型主要有洞窟艺术（以壁画为主）和器具艺术两类，分别对应后世的绘画和雕塑。该时期人类的生存境况还十分不稳定，靠天吃饭，因此此时期的艺术创作主要出于对巫术宗教的需要——祈祷打猎顺利与生殖兴盛。</p>
-<p>那么，为什么洞窟壁画与器具艺术能够保佑人们打猎顺利与生殖兴盛呢？这就需要提及当时人们对于巫术想象的两个规律：</p>
-<p>​	<strong>①相似律：同类相生，两个相似的事物就会相互影响。</strong></p>
-<p>​	<strong>②接触律：两个接触过的东西，当他们脱离接触后依旧能够相互影响。</strong></p>
-<blockquote>
-<p>今天的我们似乎依旧会在某些时刻相信这两个规律；想来多么奇妙，当未来的某时我们使用这两个规律来祈祷些什么时，是否会想起在千万年前某刻的人们也在专注地祈祷些什么？</p>
-</blockquote>
-<p>该时期的壁画主要呈现以下几个<strong>特点</strong>，这些特点可以对上述论点进行相应的佐证：</p>
-<p>​	①题材主要为大型哺乳动物——不易猎取的动物；</p>
-<p>​	②动物形象单独且很大，往往是现实比例——相似律；</p>
-<p>​	③动物形象上常有人们的手、箭等图案——捕捉；</p>
-<p>​	④画面紊乱、有重叠刻画的作品——当某处壁画灵验时，人们就会在此处重复刻画，以希求下次的灵验。</p>
-<blockquote>
-<p>手的绘画很有意思，此时的手主要有两种绘画方法：一种方法是将颜料涂在手上，然后将手按在墙壁上，留下图案（阳法）；另一种方法是用动物骨头制作吹管，将骨头两端敲开，将颜料放入一端，然后将手放在墙上与吹管之间，通过吹出颜料形成手印，手拿开后留下未覆盖颜料的手形轮廓（风刮法）。</p>
-</blockquote>
-<p>该时期的器具艺术的主要特点是：形象以女性为主，生殖特征突出。</p>
-<ul>
-<li>
-<p><em>斑点马和人手；石灰石；佩什 - 梅尔洞，法国；约公元前16,000-15,000年</em>
-<img src="/images/image-20241213142415424.png" alt="image-20241213142415424"></p>
-</li>
-<li>
-<p><em>重叠的动物线刻画；三兄弟洞，法国；约公元前40,000一前10,000年 （下左）</em></p>
-</li>
-<li>
-<p><em>威伦道夫的女子；石灰石，高11.1 cm；奥地利；约公元前28,000一前25,000年 （下右）</em>
-<img src="/images/image-20241213145348953.png" alt="image-20241213145348953"></p>
-</li>
-</ul>
-<p><strong>新石器时期</strong>的生产特征演变为畜牧、农耕和磨制石器（细石器）。该期间的艺术类型主要有陶器和巨石结构两类，后者对应后世的建筑。或许由于新时期时期人类的生存和繁殖问题已经进入了相对稳定的阶段，该时期的创作已经开始转向生活化的场景。</p>
-<p>该时期的陶器主要是会有抽象图案的黏土器具，也用黏土制作小塑像，风格较为抽象。</p>
-<blockquote>
-<p>器具的话，没错！就是你印象中的那种早期陶器，就不放图了；小塑像是真的抽象，很有现代风格了，见下图。</p>
-</blockquote>
-<p>巨石结构主要源于对葬礼和宗教仪式的关心；主要有三类：①单块大石头立在那边；②两块立着的大石头上面再横着一块；③前面两种的结合，形成一个石阵。</p>
-<ul>
-<li>
-<p><em>男女塑像；陶像，高11.5 cm；切尔纳天达，罗马尼亚；约公元前3500年</em></p>
-<p><img src="/images/image-20241213150847212.png" alt="image-20241213150847212"></p>
-</li>
-<li>
-<p><em>斯通亨奇；石圈直径29.6米；索尔兹伯里平原，英国；约公元前2100年</em></p>
-<p><img src="/images/image-20241213151140400.png" alt="image-20241213151140400"></p>
-</li>
-</ul>
-<h2 id="其他">其他</h2>
-<p>研究史前艺术的一个很重要的议题是研究艺术的起源问题。在这个问题上目前主要有三种研究途径：</p>
-<p>①考古研究：从史前考古学角度出发，对史前艺术遗迹进行分析和研究。这种方法所得结果最为直接且有力。</p>
-<p>②部落研究：通过现在残存的原始部落所留存下来的艺术，对史前艺术的遗迹进行分析和研究。考虑到后续部落的进一步演化与现代人对部落的干预，该方法获得的结果主要作为旁证。</p>
-<p>③儿童研究：从儿童艺术心理学的角度研究艺术的起源。该方法基于将早期原始人比作早期儿童（人类物种的孩童时期——现代个人的孩童时期）的假设，因此结果主要作为一种猜想。</p>
-<p>有趣的事是，现存两个有名的史前艺术遗迹——阿尔塔米拉洞窟（西班牙，最早被发现）和拉斯科洞窟（法国，最大的史前洞窟）均是由孩童发现的。</p>
-<h2 id="参考资料">参考资料</h2>
-<ol>
-<li>
-<p><a href="https://www.bilibili.com/video/BV1A4411j7g1/">孙乃树. 西方美术欣赏60讲. 2017</a></p>
-</li>
-<li>
-<p><a href="https://book.douban.com/subject/21363162/?_dtcc=1">H.W.Janson 等. 詹森艺术史 (第七版). 2013</a></p>
-</li>
-<li>
-<p><a href="https://www.amazon.com/Art-History-6th-Marilyn-Stokstad/dp/0134475887">Marilyn Stokstad, et al. Art History (6th Edition). 2017</a></p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Pseudoenzyme</title>
-      <link>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</link>
-      <pubDate>Wed, 11 Dec 2024 19:00:42 +0800</pubDate>
-      
-      <guid>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/pseudoenzyme/</guid>
-      <description>前言</description>
-      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>科学</title>
-      <link>https://buheyugan.github.io/2024/12/11/science/</link>
-      <pubDate>Wed, 11 Dec 2024 19:00:42 +0800</pubDate>
-      
-      <guid>https://buheyugan.github.io/2024/12/11/science/</guid>
-      <description>前言</description>
-      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>媚俗</title>
       <link>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/kitsch/</link>
       <pubDate>Wed, 11 Dec 2024 19:00:42 +0800</pubDate>
@@ -305,6 +827,22 @@
 <p>艺术可以是简单、随意、即时反馈的，在做科学感到shit的时候搞点艺术，填充在科学延迟的间隙。</p>
 <p>做科学的时候，过度的理性使人感觉自身主体性的丧失，艺术中充满的人文主义使人记住自己还为人。</p>
 <p>二者都通向伟大，</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/%E5%8F%8B%E9%93%BE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buheyugan.github.io/%E8%8D%89%E7%A8%BF/%E5%8F%8B%E9%93%BE/</guid>
+      <description>友链 槽边往事 林海草原 – 愿我经历的苦难你不要经历，愿我已有的幸福你触手可及 积薪 太隐 Pseudoyu</description>
+      <content:encoded><![CDATA[<h2 id="友链">友链</h2>
+<p><a href="https://www.hecaitou.com/">槽边往事</a></p>
+<p><a href="https://lhcy.org/">林海草原 – 愿我经历的苦难你不要经历，愿我已有的幸福你触手可及</a></p>
+<p><a href="https://darmau.co/zh">积薪</a></p>
+<p><a href="https://wangyurui.com/">太隐</a></p>
+<p><a href="https://www.pseudoyu.com/zh/">Pseudoyu</a></p>
 ]]></content:encoded>
     </item>
     
