@@ -174,6 +174,86 @@ pre {
 }
 
 /* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+h1 tt,
+h1 code {
+    font-size: inherit !important;
+}
+
+h2 tt,
+h2 code {
+    font-size: inherit !important;
+}
+
+h3 tt,
+h3 code {
+    font-size: inherit !important;
+}
+
+h4 tt,
+h4 code {
+    font-size: inherit !important;
+}
+
+h5 tt,
+h5 code {
+    font-size: inherit !important;
+}
+
+h6 tt,
+h6 code {
+    font-size: inherit !important;
+}
+
+h2 a,
+h3 a {
+    color: #34495e;
+}
 
 h1 { 
   font-size: 28px;
@@ -199,23 +279,45 @@ h2:after {
   /*border-bottom: 3px solid rgba(0,0,0,0.2);*/
 }
 
-h3 { 
-  font-size: 16px;
-  line-height: 1.285714285714286em; 
-  font-weight: 600;
-  margin-top: 30px; 
-  margin-bottom: 30px;
-}
-h3:after {
-  display: block;
-  content: " ";
-  margin-top: 10px;
-  width: 40px;
-  border-bottom: 3px solid rgba(235,35,68,1);
+h3 {
+    font-size: 18px;
+    line-height: 1.43;
+    margin: 1.6em auto 1.2em;
+    padding-left: 9px;
+    border-left: 5px solid #f22f27;
 }
 
+
+/* 三级四级标题点击后左边的提示图标 */
+
+#write>h3.md-focus:before,
+#write>h4.md-focus:before {
+    width: auto;
+    height: auto;
+    background-color: var(--main-5);
+    color: var(--mid-1);
+}
+
+/* #write h4::before{
+    position: absolute;
+    right: calc(100% + .8em);
+    top: 0;
+    color: var(--mid-1);
+    font-size: 0.8rem;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    border: 0;
+    background-color: var(--main-5);
+}
+
+#write h4::before {
+    content: 'H4';
+    top: 0.18rem;
+} */
+
 h4 { 
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.285714285714286em; 
   font-weight: 600;
   margin-top: 30px; 
