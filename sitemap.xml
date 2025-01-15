@@ -10,42 +10,49 @@
   
   <url>
     <loc>https://poetryw.cn/categories/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://poetryw.cn/tag/idea/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://poetryw.cn/category/idea/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://poetryw.cn/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://poetryw.cn/posts/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://poetryw.cn/tags/</loc>
-    <lastmod>2025-01-13T15:00:42+08:00</lastmod>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://poetryw.cn/2025/01/15/intimate-fantasia/</loc>
+    <lastmod>2025-01-15T16:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
