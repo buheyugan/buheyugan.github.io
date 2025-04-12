@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>science on 逍遙游</title>
+    <link>https://flysein.me/tag/science/</link>
+    <description>Recent content in science on 逍遙游</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 06 Feb 2025 15:00:42 +0800</lastBuildDate><atom:link href="https://flysein.me/tag/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>失眠认知行为疗法</title>
+      <link>https://flysein.me/cognitive-behavioral-treatment-of-insomnia/</link>
+      <pubDate>Thu, 06 Feb 2025 15:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/cognitive-behavioral-treatment-of-insomnia/</guid>
+      <description>前段时间由于实验原因破坏了自己的昼夜节律，产生了严重的失眠状况，想起曾经了解到的这个方法是个较为科学的、非药物治疗失眠的方法（据说是最好），</description>
+    </item>
+    
+    <item>
+      <title>中国命理学概要</title>
+      <link>https://flysein.me/an-overview-of-chinese-numerology/</link>
+      <pubDate>Wed, 18 Dec 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/an-overview-of-chinese-numerology/</guid>
+      <description>前言 早些时候曾有一次短暂地接触过命理学，当时啥也不懂，然后看着自己的十神，就有一个困惑，“为什么是这几个十神，而不是ABCDEFGHIJ等那</description>
+    </item>
+    
+    <item>
+      <title>假酶 (pseudoenzyme)</title>
+      <link>https://flysein.me/pseudoenzyme/</link>
+      <pubDate>Sun, 15 Dec 2024 19:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/pseudoenzyme/</guid>
+      <description>前言 定义——假酶 (pseudoenzyme) 是一类具有相关家族保守序列但失去催化活性的酶。假酶不同于假基因 (pseudogenes) ，前者具有表达和功能的特征。 例子——假酶的重要例子包括与蛋</description>
+    </item>
+    
+    <item>
+      <title>超分辨光学成像技术</title>
+      <link>https://flysein.me/super-resolution-optical-imaging-technology/</link>
+      <pubDate>Mon, 24 Jan 2022 19:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/super-resolution-optical-imaging-technology/</guid>
+      <description>总引 分辨率极限 光学原理：圆孔夫琅禾费衍射→艾里斑 频域原理 实际光学系统/物镜：是一个低通滤波器，空间截止频率为2NA/λ； 物体可以被看作是个具</description>
+    </item>
+    
+    <item>
+      <title>基础光学成像技术</title>
+      <link>https://flysein.me/basic-optical-imaging-technology/</link>
+      <pubDate>Mon, 24 Jan 2022 16:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/basic-optical-imaging-technology/</guid>
+      <description>物理光学 光的波-粒二象性 波动性 粒子性 光的干涉、衍射 可持续光波干涉的条件：固定相位差 + 固定波长差；（相长干涉、相消干涉） 杨氏双缝干涉（相长干涉</description>
+    </item>
+    
+  </channel>
+</rss>

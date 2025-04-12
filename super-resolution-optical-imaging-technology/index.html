@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <script src="/js/custom.js"></script>
+  <meta name="generator" content="Hugo 0.110.0" />
+  <meta charset="utf-8">
+  <title>超分辨光学成像技术 · 逍遙游</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="总引 分辨率极限 光学原理：圆孔夫琅禾费衍射→艾里斑 频域原理 实际光学系统/物镜：是一个低通滤波器，空间截止频率为2NA/λ； 物体可以被看作是个具" />
+
+  <meta name="keywords" content="Hugo, theme, den" />
+
+<link rel="canonical" href="https://flysein.me/super-resolution-optical-imaging-technology/" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://flysein.me/css/den.css">
+
+<link rel="stylesheet" href="https://flysein.me/css/custom.css">
+
+
+
+
+<meta property="og:title" content="超分辨光学成像技术" />
+<meta property="og:description" content="总引 分辨率极限 光学原理：圆孔夫琅禾费衍射→艾里斑 频域原理 实际光学系统/物镜：是一个低通滤波器，空间截止频率为2NA/λ； 物体可以被看作是个具" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://flysein.me/super-resolution-optical-imaging-technology/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-24T19:00:42+08:00" />
+<meta property="article:modified_time" content="2022-01-24T19:00:42+08:00" />
+<meta itemprop="name" content="超分辨光学成像技术">
+<meta itemprop="description" content="总引 分辨率极限 光学原理：圆孔夫琅禾费衍射→艾里斑 频域原理 实际光学系统/物镜：是一个低通滤波器，空间截止频率为2NA/λ； 物体可以被看作是个具"><meta itemprop="datePublished" content="2022-01-24T19:00:42+08:00" />
+<meta itemprop="dateModified" content="2022-01-24T19:00:42+08:00" />
+<meta itemprop="wordCount" content="28193">
+<meta itemprop="keywords" content="science," />
+
+<head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-860LXS9FV3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-860LXS9FV3');
+</script>
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+</head>
+<body>
+  
+  <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://flysein.me/images/background.jpg'); background-position: center; background-size: cover;">
+  <div class="container">
+  <nav class="header-nav navbar navbar-expand-md navbar-dark light-dark">
+    <div class="header-logo navbar-brand">
+      
+        <a class="float-left" href="https://flysein.me/">
+      
+        
+        <img class="mr20 header-logo-image" src="https://flysein.me/images/picasso.png" alt="logo">
+        
+        
+          Flysein
+         
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/text/">文字</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/photography/">影像</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/science/">科学</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/art/">艺术</a>
+              
+            
+          </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">超分辨光学成像技术</h1>
+        <p class="header-date">作者：
+          林風 /
+        
+        2022-01-24
+          / 分类：
+          <a href="https://flysein.me/category/science/">Science</a>
+        </p>
+        
+        <div class="header-underline"></div>
+        
+          <div class="clearfix"></div>
+          <p class="float-right header-tags">
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              <a href="https://flysein.me/tag/science/">science</a>
+          </p>
+        
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <main>
+<div class="toc-container">
+  <h2>目录</h2>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#总引">总引</a></li>
+    <li><a href="#解码编码">解码、编码</a></li>
+    <li><a href="#点扩散函数">点扩散函数</a></li>
+    <li><a href="#单分分子定位成像">单分分子定位成像</a></li>
+    <li><a href="#z轴分辨率">Z轴分辨率</a></li>
+    <li><a href="#样品放大exm">样品放大：ExM</a></li>
+    <li><a href="#附1-成像深度像差">附1 成像深度、像差</a></li>
+    <li><a href="#附2-多色成像">附2 多色成像</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
+</div>
+<div class="container content">
+  <article>
+  <h2 id="总引">总引</h2>
+<h3 id="分辨率极限">分辨率极限</h3>
+<p>光学原理：圆孔夫琅禾费衍射→艾里斑</p>
+<p>频域原理</p>
+<ul>
+<li>
+<p>实际光学系统/物镜：是一个低通滤波器，空间截止频率为2NA/λ；</p>
+<ul>
+<li>物体可以被看作是个具有复杂结构的衍射光栅，因此光束经过物体后被衍射成为向很多不同方向传播的平面波分量，然后在成像系统的后焦面处形成衍射图样（频谱）。
+<img src="/images/Snipaste_2021-10-24_18-22-01.png" style="width: 75%" /></li>
+<li>根据阿贝理论，显微镜中的图像形成。样品由聚光器发出的光照亮。这种光被物体平面中的细节衍射：物体的细节结构越小，衍射角越大。对象的结构可以表示为正弦分量的总和。分量空间变化的速度由每个分量的周期或正弦函数中相邻峰值之间的距离定义。空间频率是周期的倒数。细节越精细，代表对象细节的组件所需的空间频率就越高。物体中的每个空间频率分量都会在特定角度产生衍射，这取决于光的波长。在这里，例如，空间频率为 1,000 线/毫米的结构样本产生的衍射角为 33.6°。显微镜物镜收集这些衍射波并将它们引导到焦平面，在那里衍射波之间的干涉产生物体的图像。</li>
+<li>物点在经物镜聚焦后，将在物镜后焦面生成频谱，产生0级、1级、2级&hellip;光斑，这些光斑经过衍射，射到成像面上，产生物象</li>
+<li>0级、±1级、±2&hellip;&hellip;衍射条纹，条纹级数越高：频率越高、角度越大（超过物镜镜角）、强度越小（难以接收到）</li>
+<li>实际光学系统/物镜具有有限的光瞳/镜角：物体高频信息的某些方向的平面波会由于光瞳的限制作用而无法通过光学系统到达像面 → 高频信息丢失，成像分辨率受限。</li>
+</ul>
+</li>
+<li>
+<p>光学系统PSF（低通滤波器）的FT变换为OTF（Optical transfer function）</p>
+<ul>
+<li>
+<p>该OTF并非均一的，而是越到边缘强度越小，受噪声影响越大；→ 反卷积提升分辨率的原因</p>
+</li>
+<li>
+<p>SNR（Signal-to-noise ratio，信噪比）</p>
+<p><img src="/images/Snipaste_2021-11-05_19-09-16-16378949473912.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-05_19-34-44.png" style="width:50%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>PSF</p>
+<ul>
+<li>
+<p>点扩散函数（Point spread function, PSF）：物点与像点之间的关系，是光学系统的性质表征（物 <em>卷积</em> PSF = 像）</p>
+</li>
+<li>
+<p>与物像的关系：球形的PSF具有最好的3D成像效果</p>
+</li>
+<li>
+<p>与NA的关系：更大的 NA 会允许更多的光进入，但它允许包含更高阶的像差以降低图像形成，导致越来越扭曲的 PSF</p>
+<p><img src="/images/Snipaste_2021-10-04_13-02-19-16378949505973.png" style="width: 50%;" /><img src="/images/Snipaste_2021-10-04_21-22-07.png" style="width:50%;" /></p>
+</li>
+</ul>
+<p>FWHM</p>
+<ul>
+<li><strong>半峰全宽（Full width at half maximum, FWHM）</strong>：正态分布；FWHM = 2·sqrt(2ln2)·σ ≈ 2.355σ（约76%区域）
+<img src="/images/500px-FWHM.svg.png" style="width: 37%;" /></li>
+</ul>
+<p>公式</p>
+<ul>
+<li>数值：横向~200 nm；轴向~800nm（NA=1.34，λ=488nm，n=1.5，α=63°）
+<img src="/images/Snipaste_2021-11-17_19-51-35.png" style="width:30%;" /></li>
+<li>符号
+<ul>
+<li>λ：（可见光）光波长 ≥ 450nm</li>
+<li>n：介质折射率：N空气=1、N香柏油/石蜡油=1.5</li>
+<li>α：1/2物镜镜口角≤ 70°</li>
+<li>NA：物镜的数值孔径(NA=n·sinα)</li>
+</ul>
+</li>
+</ul>
+<h3 id="噪声">噪声</h3>
+<p>泊松噪声</p>
+<ul>
+<li>
+<p>全称：Poisson noise；也称为散粒噪声(Shot noise)</p>
+</li>
+<li>
+<p>泊松噪声，就是符合泊松分布的噪声模型（单位时间内随机事件发生的次数的概率分布）</p>
+</li>
+<li>
+<p>强度为光强的开方成正比</p>
+<blockquote>
+<p>参考：https://www.cnblogs.com/sunny-li/p/8378517.html、https://zhuanlan.zhihu.com/p/153079295、https://zhuanlan.zhihu.com/p/430976792</p>
+</blockquote>
+</li>
+</ul>
+<p>高斯噪声</p>
+<ul>
+<li>
+<p>高斯噪声是指它的概率密度函数服从高斯分布（即正态分布）的一类噪声。如果一个噪声，它的幅度分布服从高斯分布，而它的功率谱密度又是均匀分布的，则称它为高斯白噪声。高斯白噪声的二阶矩不相关，一阶矩为常数，是指先后信号在时间上的相关性。</p>
+</li>
+<li>
+<p>读出噪声来自于电路过程，该误差满足高斯分布。高斯噪声的主要影响因素是温度，因为温度会影响电子电路的器件参数。由于高斯噪声与图像亮度无关，因此，同样是在低亮度下，信噪比相对更低，高斯噪声突出。</p>
+</li>
+<li>
+<p>产生原因：</p>
+<ul>
+<li>图像传感器在拍摄时市场不够明亮、亮度不够均匀；</li>
+<li>电路各元器件自身噪声和相互影响；</li>
+<li>图像传感器长期工作，温度过高。</li>
+</ul>
+</li>
+</ul>
+<p>乘性噪声</p>
+<ul>
+<li>定义：乘性噪声一般由信道不理想引起，它们与信号的关系是相乘，信号在它在，信号不在他也就不在。</li>
+</ul>
+<p>椒盐噪声</p>
+<ul>
+<li>定义：椒盐噪声，椒盐噪声又称脉冲噪声，它随机改变一些像素值；（胡椒噪声：灰度值为0；盐粒噪声：灰度值为L-1；）</li>
+<li>产生原因：图像传感器，传输信道，解码处理</li>
+</ul>
+<h3 id="思路">思路</h3>
+<p>矛盾因素</p>
+<ul>
+<li>空间分辨率(XY, Z)</li>
+<li>时间分辨率</li>
+<li>光强(能量利用率)（活细胞成像，百瓦）</li>
+<li>成像维度(深度、多色)</li>
+</ul>
+<p>Old ideas：光学系统、样品、算法</p>
+<ol>
+<li>XY超分辨：解码/编码SIM、PSF调制STED、维度增加PALM、样品膨胀ExM</li>
+<li>Z轴分辨率：制造差异ROSE、多维度4Pi、TIRF/SAF/掠入射、Light-sheet</li>
+<li>成像速度：转盘（并行光路）、深度学习（减少数据量要求，1000张→计算10万张效果）</li>
+<li>成像深度、像差：双光子、自适应光学、组织透明化</li>
+<li>多色成像</li>
+</ol>
+<p>New ideas：</p>
+<ul>
+<li>
+<p>成像速度—成像精度间的矛盾→→增加计算量来解决</p>
+<ul>
+<li>
+<p>深度学习：降低数据量要求 → 成像速度；</p>
+</li>
+<li>
+<p>硬件&amp;算法：高维信息编码、获取、解码 → 精度</p>
+</li>
+</ul>
+</li>
+<li>
+<p>荧光光子利用率、高频信息&hellip;..</p>
+</li>
+</ul>
+<h3 id="超分辨技术特性总结">超分辨技术特性总结</h3>
+<p><strong>分辨率、光子需求量、光强、成像时间</strong>
+<img src="/images/Snipaste_2021-11-12_18-37-02-16378949581694.png" style="width: 50%;" /></p>
+<p><img src="/images/Snipaste_2021-11-13_20-40-02.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-13_20-38-01-16378949605025.png" style="width:50%;" /></p>
+<p><strong>分辨率选择</strong></p>
+<ul>
+<li>200nm：传统显微镜、Lattice light sheet</li>
+<li>100-200nm：宽场SIM、Lattice SIM</li>
+<li>60-100nm：高NA SIM、PA NL-SIM</li>
+<li>&lt;60nm：PALM /STORM、iPALM（RESOLFT无商业化，不考虑）</li>
+<li>&lt;10nm：电镜</li>
+</ul>
+<p>3D需求：TIRF~ 100nm；2D~ 600nm；3D~ whole cell</p>
+<h2 id="解码编码">解码、编码</h2>
+<h3 id="sim">SIM</h3>
+<p>全称：结构光照明显微镜（Structure Illumination Microscopy, SIM）</p>
+<p>原理</p>
+<ul>
+<li>
+<p>基础</p>
+<ul>
+<li>高频信息＋高频信息→低频信息</li>
+<li>样本侧没有衍射受限的概念，激发也不受限，收集时衍射受限</li>
+<li>发射光分布=激发光分布×样品荧光分子分布；探测像面=发射光分布-(卷积)-PSF</li>
+</ul>
+</li>
+<li>
+<p>SIM</p>
+<ul>
+<li>光是一种波，可由正弦函数表示。高频的信息对应着更大的频率。</li>
+<li>SIM利用高频的调制照明光将(不可检测的)物体高频信息转换成(不可检测的)更高频信息和(可检测的)低频信息；</li>
+<li>再通过该低频信息，结合高频调制光信息，则可解码出物品高频信息。</li>
+<li>如：sinα·sinβ = cos(α+β) - cos(α-β)，cos(α+β)不可检测，cos(α-β)可检测，又已知sinα，则可推sinβ</li>
+</ul>
+<p><img src="/images/Snipaste_2021-11-05_19-41-58-16378949631446.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-05_19-53-19.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-05_19-43-11-16378949647607.png" style="width:50%;" /></p>
+</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>
+<p>参数</p>
+<ul>
+<li>SIM：横向100 nm；轴向 300 nm (3D)；</li>
+<li>光开光 NL-SIM：50 nm</li>
+<li>PA NL-SIM：62 nm</li>
+</ul>
+</li>
+<li>
+<p>优点</p>
+<ul>
+<li>通过增加峰覆盖原先缺少的高频信息，代价小（光强、时间）</li>
+<li>低光强，高光子利用率，对生物样品友好</li>
+<li>成像速度快</li>
+</ul>
+</li>
+<li>
+<p>缺点</p>
+<ul>
+<li>分辨率可进一步提高</li>
+</ul>
+</li>
+</ul>
+<p>发展</p>
+<ul>
+<li>
+<p>LMEM：横向调制激发显微镜(Laterally Modulated Excitation Microscopy，LMEM)</p>
+</li>
+<li>
+<p>2D-SIM：二维结构光照明显微成像技术( Two Dimensional Structured Illumination Microscopy，2D-SIM)</p>
+</li>
+<li>
+<p>3D-SIM：三维结构光照明显微成像技术(Three Dimensional Structured Illumination Microscopy，3D-SIM)</p>
+</li>
+<li>
+<p>NL-SIM：Nonlinear SIM</p>
+<ul>
+<li>patterned saturation（基于高光强激发光饱和）
+<ul>
+<li>SPEM：饱和结构光激发显微镜 (Saturated Patterned Excitation Microscopy，SPEM)——NL-SIM理论</li>
+<li>SSIM：饱和结构光照明显微镜 (Saturated Structured Illumination Microscopy， SSIM) ——NL-SIM实现</li>
+</ul>
+</li>
+<li>patterned depletion（基于长时间暗态光饱和）：SD NL-SIM：饱和耗尽NL-SIM（Saturated depletion NL-SIM）</li>
+<li>patterned activation（基于激活光饱和）：PA-SIM：图案激活非线性结构光照明显微镜（patterned activation NL-SIM, PA NL-SIM）</li>
+</ul>
+</li>
+</ul>
+<h3 id="3d-sim">3D-SIM</h3>
+<p><img src="/images/Snipaste_2021-11-05_20-17-01-16378949673748.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-13_20-04-15.png" style="width:50%;" /></p>
+<h3 id="nl-sim">NL-SIM</h3>
+<h4 id="spemssim">SPEM/SSIM</h4>
+<ul>
+<li>原理：当激发光强度增加到一定程度时 <strong>(8MW/cm2)</strong> 、荧光分子进入<strong>饱和激发状态</strong>，荧光发射强度与激发光强度呈非线性正相关，此时荧光分子具有更高阶的谐波响应→将更高阶的物体频率转为低阶频率；
+<img src="/images/Snipaste_2021-11-05_20-10-58.png" style="width:50%;" /></li>
+</ul>
+<h4 id="sd-nl-sim">SD NL-SIM</h4>
+<p>原理：</p>
+<ul>
+<li>光开关蛋白Dronpa（405nm激活，488nm激发/关闭）</li>
+<li>饱和关闭状态应该导致照明模式的更小最小值，从而导致更高阶谐波的更高信噪比；</li>
+<li>选择使<strong>关闭状态</strong>饱和，从而在照明强度和样品的荧光发射之间产生非线性关系。
+<img src="/images/Snipaste_2021-11-13_20-50-39.png" style="width:50%;" /></li>
+</ul>
+<h4 id="pa-nl-sim">PA NL-SIM</h4>
+<p>原理</p>
+<ul>
+<li>
+<p>光开关蛋白Skylan-NS（405nm激活，488nm激发/关闭）</p>
+</li>
+<li>
+<p>借助在SLM引入相位和周期差异来补偿两种光的色差，使激活光和激发光在样品位置具有相同的周期和相位，使得产生的非线性谐波振幅最大化</p>
+</li>
+<li>
+<p>选择使<strong>激活状态</strong>饱和，从而在照明强度和样品的荧光发射之间产生非线性关系。</p>
+</li>
+<li>
+<p>(i) 405 nm 图案照明 1 ms 以激活荧光分子；(ii) 488 nm 图案照明 5 到 ~30 ms 以读出激活的分子；(iii) 488 nm 均匀照明 2 到 ~10 ms，以读出剩余的活化分子并将样品恢复到原始未活化状态。
+<img src="/images/Snipaste_2021-11-13_21-07-19-16378949774379.png" style="width: 50%;" /></p>
+</li>
+</ul>
+<h4 id="lsfm-sim">LSFM-SIM</h4>
+<blockquote>
+<p>将SIM和光片显微镜结合；Chen B, Chang BJ, Roudot P, et al. Resolution doubling in light-sheet microscopy via oblique plane structured illumination. <em>Nat Methods</em>. 2022;19(11):1419-1426. doi:10.1038/s41592-022-01635-8</p>
+<p>评述：Doubling the resolution of light-sheet fluorescence microscopy. <em>Nat Methods</em>. 2022;19(11):1355-1356. doi:10.1038/s41592-022-01636-7</p>
+</blockquote>
+<h2 id="点扩散函数">点扩散函数</h2>
+<h3 id="4pi">4pi</h3>
+<ul>
+<li>
+<p>原理</p>
+<ul>
+<li>因为一个物镜在理论上最多可以覆盖空间立体角的一半（2π），所以两个相对的物镜可以实现全空间立体角（4π），故命名为 4Pi 显微镜。</li>
+<li>光在焦平面的干涉相长，上下焦面的干涉相消，缩小Z轴PSF大小，提高分辨率。</li>
+</ul>
+</li>
+<li>
+<p>实际上，由于物镜的口径范围为1.3Π~1.5Π，故空间立体角通常为 2.6π~3π；</p>
+</li>
+<li>
+<p>元件</p>
+<ul>
+<li>Beamsplitter：分光镜</li>
+<li>Dichroic mirror：二向色镜</li>
+<li>Scanning mirror：扫瞄镜：变换角度，扫描</li>
+</ul>
+</li>
+<li>
+<p>类型：A型 (<strong>激发光</strong>干涉)、B型 (<strong>发射光</strong>干涉)、C型 (激发光干涉+发射光干涉)</p>
+</li>
+<li>
+<p>分辨率：纵向~100nm</p>
+</li>
+<li>
+<p>优点：宽场成像(快)、Z轴分辨率、构成简单(易于套用)</p>
+</li>
+<li>
+<p>缺点：双物镜 → 聚焦调校精度要求高，搭建调试难度大（数月）
+<img src="/images/Snipaste_2021-10-21_09-19-08-163789498271210.png" style="width: 70%;" /></p>
+</li>
+</ul>
+<h3 id="sted">STED</h3>
+<p>全称：受激发射损耗荧光显微技术（Stimulated Emission Depletion, STED）</p>
+<h5 id="原理">原理</h5>
+<h6 id="受激发射">受激发射</h6>
+<img src="/images/Snipaste_2021-09-20_21-24-25-163789499735214.png" style="width:70%;" />
+<h6 id="甜甜圈状受激发射光">甜甜圈状受激发射光</h6>
+<ul>
+<li>
+<p>圆偏振光→0~2Π涡旋相位板调制</p>
+<ul>
+<li>原理：
+<ul>
+<li>整个相位板将光调制0-2Π个相位(分别对应0-2Π厚度)，对面的光线产生光程差 → Π相位差 →</li>
+<li>在物镜的后焦面，对面的两束光线在通过物镜聚焦在焦点是完全干涉相消，导致焦点处为暗，而在焦点之外的地方，不完全相消，有一定亮度，逐渐向外延伸</li>
+<li>（STED光强分布：中心到外：暗→亮→暗，山峰）
+<img src="/images/Snipaste_2021-09-22_15-02-04.png" style="width: 70%;" /></li>
+</ul>
+</li>
+<li>特点：
+<ul>
+<li>优点：具有较高的转换效率，能够用于高功率的激光；</li>
+<li>缺点：单一相位板产生的涡旋光束固定；加工困难</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>其它调制法</p>
+<ul>
+<li>
+<p>液晶空间光调制器（Liquid Crystal Spatial Light Modulator, LCSLM）</p>
+<ul>
+<li>原理：利用液晶的电光效应实现对光波的振幅和相位的调制。使用计算机设计好的螺旋相位图直接 显示在纯相位空间光调制器上，通过激光照射空间光调制器上的螺旋相位图就能够产生光学涡旋。</li>
+<li>特点
+<ul>
+<li>优点
+<ul>
+<li>能够根据需求比较灵活地控制产生光学涡旋的位置、大小和拓扑荷等各类参数，并可以实时动态调整光学涡旋；</li>
+<li>相较于位相板，SLM可以对入射到其上的光束施加多种类型的相位调制，因此可以在加载0-2Π相位的同时通过波前调制矫正系统中存在的像差，从而提高焦平面处空心斑的质量。</li>
+</ul>
+</li>
+<li>缺点：转换效率低，不能处理高功率激光束</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>几何模式转换法</p>
+<ul>
+<li>
+<p>类型：柱面透镜法、圆锥透镜法</p>
+<p><img src="/images/Snipaste_2021-09-22_14-18-20-163789504505615.png" style="width: 50%;" /> <img src="/images/Snipaste_2021-09-22_14-20-04-16322916805921.png" style="width: 50%;" /></p>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>优点；光学涡旋纯度高；转换效率高；</li>
+<li>缺点：器件精度要求高，加工复杂；产生的光学涡旋的种类和参数难以控制；实际应用不灵活</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>计算全息法(Computer-generated hologram, CGH)</p>
+<ul>
+<li>原理：利用螺旋波与平面波之间的干涉条纹是位错光栅结构的性质来产生光学涡旋</li>
+<li>步骤：利用 计算机产生全息干涉条纹，将干涉条纹按一定比例微缩到胶片上，便成了实际可用的位错光栅，将平面波照射到位错光栅上，在 ±1级衍射级次上即可得到所需要的光学涡旋</li>
+<li>特点：
+<ul>
+<li>优点：快速、灵活、适用范围广；</li>
+<li>缺点：转换效率低；（受仪器分辨率影响）产生的光学涡旋通常是较为低阶的；</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="实现显微镜搭建步骤">实现（显微镜搭建）、步骤</h5>
+<img src="/images/Snipaste_2021-09-20_21-47-21.png" style="width: 50%;" />
+<ul>
+<li>
+<p>STED(𝜆STED)光束射出后，经过0~2Π涡旋相位板调制，形成甜甜圈状光圈；</p>
+</li>
+<li>
+<p>激发光(𝜆Ex)和STED光束由二向色镜DM1和DM2合并，由物镜(OBJ)聚焦。</p>
+</li>
+<li>
+<p>物镜收集发射回的荧光，用DM1、DM2和带通滤光片(F)分离激光，聚焦到检测器上(D)。</p>
+<ul>
+<li>
+<p>二向色镜：指45度入射或大角度入射时，把光源分离出特定的光谱改变部分光谱光路方向；特点是对一定波长的光几乎完全透过，而对另一些波长的光几乎完全反射</p>
+</li>
+<li>
+<p>带通滤光片：只允许在某一个通频带范围内的信号通过的滤光片，而比通频带下限频率低和比上限频率高的信号均加以衰减或抑制</p>
+<ul>
+<li>荧光具有宽谱的特征（S~1~ → 非S~0~*，而是到其它S~0~层级），使多色成像串色（除了带通滤光片，使用光谱扫描与拆分效果更佳）</li>
+<li>（二向色镜的反射不是百分百（非全反射），因此有部分泄露，但激光的光强&raquo;荧光光强；因此需要带通滤波片的进一步过滤）</li>
+</ul>
+<img src="/images/v2-b6358ad749ea27b7b8f3a565c74f2853_r.jpg" style="width: 40%;" />
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="脉冲光or连续光">脉冲光OR连续光</h5>
+<ul>
+<li>脉冲光
+<ul>
+<li>步骤：先激发激光脉冲，然后立即STED激光脉冲</li>
+<li>优点：
+<ul>
+<li>①采用脉冲光源使得激发光和损耗光在时域上具有可分离性，防止激发光照射荧光分子导致重新跃迁；使得受激发射损耗的消光过程更便于操控；</li>
+<li>②由于STED的显微术的分辨率随着所用损耗光光强的增加而提高，在相同的平均功率下脉冲光具有比连续光更高的峰值光强。</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>①为了实现较好的消光效果，激发光和损耗光的脉冲宽度需要根据所用荧光样品的不同而做相应的优化调整；一般典型值为激发光脉宽&lt;80ps，损耗光脉宽约为250p；</li>
+<li>②激发光脉冲和损耗光脉冲之间也应具有一定的时间延迟。→需要对脉冲进行展宽和同步的光学器件→复杂、昂贵。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>连续光：
+<ul>
+<li>理论：当损耗光的消光速率&raquo;激发光的激发速率时，损耗光和激发光在时域上的可分离性将变得不再重要。</li>
+<li>优点：
+<ul>
+<li>①虽然连续光STED系统所需的平均功率较大，但是其峰值光强相比脉冲光来说要小很多→因此可以降低对荧光粉产生不必要的多光子激发的可能性；</li>
+<li>②同时连续光STED系统还可以实现比脉冲型STED更快的扫描速度</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="理论分辨率img-srcimagesimage-20220104143318446png-altimage-20220104143318446-stylewidth22-">理论分辨率：<img src="/images/image-20220104143318446.png" alt="image-20220104143318446" style="width:22%;" /></h5>
+<ul>
+<li>λ：激发光波长；</li>
+<li>NA：物镜的数值孔径；</li>
+<li><em>Imax</em>：STED的最大光强</li>
+<li>𝐼𝑠：荧光发射概率减少到一半时的荧光饱和强度；与样品的荧光寿命、STED光的吸收截面成反比</li>
+</ul>
+<h5 id="特点">特点</h5>
+<ul>
+<li>
+<p>优点：对染料无太严苛要求；分辨率高</p>
+</li>
+<li>
+<p>缺点：高光强原因</p>
+<ul>
+<li>
+<p>荧光发射时间短→时间要求短→解决：延长激发态停留时间时间</p>
+</li>
+<li>
+<p>中空涡旋光束的光强并非是均一的→而是呈高斯分布
+<img src="/images/image-20211110152719639.png" alt="image-20211110152719639" style="width:70%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>改进：GSD、RESOLFT</p>
+</li>
+<li>
+<p>应用：活细胞成像；与FLIM结合，提高FLIM精度；荧光相关谱测量；光刻、光储存</p>
+</li>
+<li>
+<p><strong>参数：</strong></p>
+<ul>
+<li>分辨率：横向~35 nm；纵向~500 nm；</li>
+<li>成像速度：s</li>
+</ul>
+</li>
+</ul>
+<h5 id="荧光团的选择">荧光团的选择</h5>
+<ol>
+<li>
+<p>荧光团的发射光谱必须与所使用的STED激光器的波长兼容（STED激光器应该在染料发射光谱红移尾的范围内）</p>
+</li>
+<li>
+<p>具有相对较长的荧光寿命的荧光团是理想的，因为它们允许更多的时间来有效地刺激发射（消除高光强）。</p>
+<ul>
+<li>从单态到三重态的系统间交叉率小的荧光团特别适合于STED显微镜，因为这一特性有助于避免探针的光漂白，而这通常与三重态居群有关。</li>
+<li>还原和氧化系统(ROXSs)也可以用来帮助减少易于光漂白的三重态，从而提高荧光团的光稳定性，并允许使用更高强度的STED光束</li>
+</ul>
+</li>
+</ol>
+<h3 id="gsd">GSD</h3>
+<p>全称：基态损耗显微镜（Ground State Depletion, GSD）</p>
+<p>原理</p>
+<ul>
+<li>
+<p><strong>改进点</strong>：具有三重态的荧光分子；T1态的光子寿命&raquo;S1态的光子寿命 →→ 可将T1态光子近似为长时间暗态（延长激发态停留时间，ms-s级）</p>
+<p><img src="/images/7-Figure2.1-1.png" style="width: 50%;" /><img src="/images/Snipaste_2021-09-21_21-06-54-163789506084016.png" style="width: 14%;" /></p>
+</li>
+</ul>
+<p>步骤</p>
+<ul>
+<li>首先采用一束（强度较高的）连续STED光饱和激发荧光分子（确保更多的分子转移到三态），耗尽基态的电子使它们最终布居于长寿命的三态上；</li>
+<li>接下来用一束（强度较低的）波长相同的脉冲探针光激发样品（更多分子可用于荧光发射，而到亚稳态的ISC次数较少），只有没被GSD光耗尽基态电子的中心区域的荧光分子可以被正常激发和发射荧光，从而压缩PSF尺度。</li>
+<li>在较长时间之后大部分三线态分子回到基态之后，使用检测光能够得到全部分子的荧光信号。</li>
+<li>GSD显微镜分辨率只取决于基态损耗饱和程度,类似于STED显微镜,同样不受衍射限制,分辨率公式与STED显微镜相同。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>增加了单点记录所用的时间；</li>
+<li>荧光分子有可能回到基态，被重新激发→分辨率下降
+<ul>
+<li>先受激损耗后激发检测</li>
+<li>亚稳态能级的电子有一定的概率跃迁至基态，参与激发和发射荧光</li>
+<li>破坏PSF形状，分辨率下降</li>
+</ul>
+</li>
+</ul>
+<h3 id="resolft">RESOLFT</h3>
+<p>全称：可逆饱和光学线性荧光跃迁（Reversible saturable optical linear fluorescence transitions, RESOLFT）</p>
+<p>原理</p>
+<ul>
+<li>改进点：具有可逆光开关性质的荧光物质（使外圈区域滞留在OFF态→ON态时间，ms级）
+<ul>
+<li>恢复光/激发光：暗态→亮态</li>
+<li>关闭光：亮态→暗态</li>
+</ul>
+</li>
+<li>可逆光开光物质：光转化荧光蛋白（asFP595、DRONPA）；光诱导荧光染料</li>
+</ul>
+<p>优点</p>
+<ul>
+<li>高分辨率</li>
+<li>激光功率低于标准型→光损伤、光漂白小</li>
+<li>活细胞成像</li>
+<li>暗态寿命可以人为控制→降低光强；无关闭分子被激活问题</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>较长的暗态→采集时间长</li>
+<li>使用的荧光蛋白或染料需可进行光开关</li>
+</ul>
+<h3 id="isosted">isoSTED</h3>
+<ul>
+<li>
+<p>结论：理论分辨率： 40–45 nm（x、y、z）</p>
+</li>
+<li>
+<p>原理</p>
+<ul>
+<li>
+<p>三维空心光斑的产生</p>
+<img src="/images/Snipaste_2021-10-04_11-11-47.png" style="width:90%;" />
+<ul>
+<li>元件
+<ul>
+<li>二向色镜(DCSP、DCLP)
+<ul>
+<li>指45度入射或大角度入射时，把光源分离出特定的光谱改变部分光谱光路方向；特点是对一定波长的光几乎完全透过，而对另一些波长的光几乎完全反射。</li>
+<li>（在同时具有激发光和发射光的光路中使用）</li>
+</ul>
+</li>
+<li>偏振分束镜(PBS)：使入射光线→分解成两束互相垂直的光线。</li>
+<li>半波片(H1、H2)
+<ul>
+<li>若入射线偏振光的振动方向与波片快轴(或慢轴)夹角为α，则出射线偏振光的振动方向为入射光向着快轴(或慢轴)方向转过2α角</li>
+<li>快轴、慢轴
+<ul>
+<li>当一束线偏振光垂直入射到由单轴晶体制成的波片时，在波片中分解成沿原方向传播但振动方向互相垂直的o光和e光，相应的折射率为no、ne；</li>
+<li>快轴：晶体中波速快的光矢量的方向（分解后具有最大分量的轴）</li>
+<li>慢轴：与波速快的光矢量方向垂直的光矢量方向</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>压电驱动反射镜(MP)
+<ul>
+<li>控制两个腔臂之间的光程差，从而控制所有光束的 4Pi 相位</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>STEDz：Z轴空心光斑的产生：在S平面，两路的STEDz相位差为Π，相消，而非S平面，未完全相消，达到STED效果！</strong></li>
+</ul>
+</li>
+<li>
+<p>参数：三向 ~40nm</p>
+</li>
+<li>
+<p>双色三维成像</p>
+<ul>
+<li>有机荧光团+二抗：DY-485XL (Dyomics GmbH)和NK51 (Atto-Tec)具有相似的<strong>发射光谱</strong>，因此可以被相同的STED(647 nm)猝灭；</li>
+<li>二者的激发波长不一样：DY为488nm；NK51为532nm；2个通道分别照射（在分离光路（3或4）中增加不同的激发光滤光片）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>拓展（AO isoSTED）</p>
+<ul>
+<li>
+<p>问题与解决</p>
+<ul>
+<li>
+<p>问题1：isoSTED的<strong>STEDz</strong>具有旁瓣 → 具有焦平面上、下方结构的“重影”</p>
+</li>
+<li>
+<p>解决1：使用<strong>SLM</strong>调节<strong>STEDz</strong>，使之产生一定的离焦 → 消除旁瓣</p>
+<p><img src="/images/Snipaste_2021-10-04_16-26-55.png" style="width: 50%;" /><img src="/images/Snipaste_2021-10-04_17-10-50-163789507134817.png" style="width: 50%;" /></p>
+</li>
+<li>
+<p>问题2：当成像深度达到μm级，累积的散射像差 → 显著影响分辨率</p>
+</li>
+<li>
+<p>解决2：使用2个<strong>DM</strong>分别置于上、下光路中 → （自适应光学）校正像差
+<img src="/images/Snipaste_2021-10-04_16-27-36.png" style="width:50%;" /></p>
+</li>
+<li>
+<p>问题3：本光路中采用线偏振光，仅一个方向；荧光分子为偶极子，具有不同的取向；→ 不同荧光分子被线偏振光的激活程度不同 → 亮度差异性→ 分子数误判</p>
+</li>
+<li>
+<p>解决3：在2个物镜前分别添加1个四分之一波片 (QWP) → 线偏振光 to 圆偏振光。（还可以顺便降低背景，类似单分子定位）
+<img src="/images/Snipaste_2021-10-04_16-32-57.png" style="width:50%;" /></p>
+</li>
+<li>
+<p>问题4：isoSTED采用两个光路，较为复杂</p>
+</li>
+<li>
+<p>解决4：使用SLM，单光路，分别对STEDxy，STEDz进行调制</p>
+<ul>
+<li>
+<p>水平偏振光 STEDxy和垂直偏振光 STEDz经SLM调制后，只有水平偏振的光 STEDxy受到调制；而两束光经过1/4 波片、透镜、反射，再经过透镜、1/4 波片；两束光的偏振方向与原方向垂直，即STEDxy变为垂直偏振光；STEDz变为水平偏振光，此时再经过SLM调制，只有STEDz受到调制。</p>
+</li>
+<li>
+<p>通过调节两束损耗光的光强比→ 分别调节横向和纵向的损耗光斑大小→ 得到不同形状的荧光点扩散函数（PSF）；</p>
+</li>
+<li>
+<p>通过SLM还可以很方便地对暗斑的形状及位置进行控制→通过泽尼克系数对损耗光进行波前补偿→校正像差</p>
+</li>
+<li>
+<p>注：由于为单光路，且光源相同，为避免STEDxy与STEDz发生干涉，需对其中一束光采用一定的延迟模块处理。</p>
+</li>
+</ul>
+<img src="/images/image-20241225141419178.png" style="width: 50%;" />
+<img src="/images/image-20241225141529450.png" style="width: 50%;" />
+</li>
+</ul>
+</li>
+<li>
+<p><strong>效果：</strong></p>
+<ul>
+<li>深度、分辨率：30-35 μm厚生物样品内：表层里层均为，35-50 nm的三维、各向同性分辨率</li>
+<li>速度：30min</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="单分分子定位成像">单分分子定位成像</h2>
+<blockquote>
+<p>最新进展</p>
+<p>Helmerich DA, Beliu G, Taban D, et al. Photoswitching fingerprint analysis bypasses the 10-nm resolution barrier. <em>Nat Methods</em>. 2022;19(8):986-994. doi:10.1038/s41592-022-01548-6</p>
+<p>分析SMLM无法突破10nm的原因：在较短（远低于 10 nm）的荧光团间距离处，荧光团开始通过偶极-偶极相互作用进行通信。具体来说，数据表明亮状态的荧光团（供体）和相邻的暗状态的荧光团（受体）之间的能量转移加速了光活化，从而导致更快的眨眼，然后是过早和不可逆的光漂白（图<a href="https://www.nature.com/articles/s41592-022-01565-5#Fig1">1b</a>）。至关重要的是，这种快速漂白可能会导致生物样本中的定位缺失。如上所述，图像结构的密集采样对于高图像分辨率是必需的；否则，超高的定位精度无法发挥其潜力</p>
+</blockquote>
+<h3 id="简介">简介</h3>
+<p>分辨率影响因素</p>
+<ul>
+<li>标记密度→采样定理</li>
+<li>定位精度→小于分辨率</li>
+</ul>
+<p>单分子定位思想</p>
+<ul>
+<li>将某一维度难以分辨的信息→增加到高纬度→分辨
+<ul>
+<li>时间：具有0/1差异：亮度、光谱、波动、极性</li>
+</ul>
+</li>
+</ul>
+<p>类别</p>
+<ul>
+<li>基于荧光分子激发状态（亮/暗态）
+<ul>
+<li>基于光激活荧光蛋白/染料：PALM、STORM</li>
+<li>基于DNA配对、明暗差异（对荧光蛋白无要求）：DNA-PAINT</li>
+<li>基于激发光、荧光分子暗态定位：MINFLUX</li>
+</ul>
+</li>
+<li>基于荧光分子波动的不同周期：SOFI</li>
+<li>基于荧光分子的极性/朝向不同：SPoD/ExPAN、SDOM</li>
+</ul>
+<p>思想</p>
+<ul>
+<li>单分子定位技术使用特定的荧光分子探针标记样品，通过改变分子所处的外部环境有效控制其光开关 特性，将空间上重叠的多分子荧光图像在时间上分离为一系列子图像，使得每一帧子图像中只有少量稀疏分 布的单分子发射荧光，即每个衍射极限范围内只有一个荧光分子被激发．采集成千上万帧荧光信号随机分布 的图像，利用单分子定位算法精确定位每个分子的中心位置．最后，将所有获得的定位点进行叠加，重建出一幅突破衍射极限的超分辨图像</li>
+<li>衍射极限指的是区分，区分两个光子的最小距离，而不是定位单一光子的最大精度。只是我们在确定单一光子的最大精度的时候常常受到其他光子的影响</li>
+</ul>
+<p>光路设计-照明方式</p>
+<ul>
+<li>
+<p>照明要求：信噪比、稀疏成像</p>
+</li>
+<li>
+<p>全内反射照明(Total internal reflection fluorescence,TIRF)</p>
+<ul>
+<li>优点：光强弱，穿透深度小（几百nm） → 背景低</li>
+<li>缺点：成像深度小</li>
+</ul>
+</li>
+<li>
+<p>高倾斜光片照明(High Inclined Laminated Optical sheet,HILO)</p>
+<ul>
+<li>优点：可以照眀更深层的样品，其倾斜魚度越大，照明区域越深</li>
+<li>缺点；光片厚度也随之增大，信噪比降低</li>
+</ul>
+</li>
+<li>
+<p>转盘共緊焦照明(Spinning disk confocal,SDC)</p>
+<ul>
+<li>优点：常用</li>
+<li>缺点：离焦部分的荧光分子仍会被激发，一定程度上增加了光漂白，降低了信噪比
+<img src="/images/Snipaste_2021-10-31_21-04-39.png" style="width: 70%;" /></li>
+</ul>
+</li>
+</ul>
+<h3 id="单分子定位">单分子定位</h3>
+<p>特点-共同点（PALM、STORM、DNA-PAINT）</p>
+<ul>
+<li>
+<p>优点：</p>
+<ul>
+<li>
+<p>实现超分辨率</p>
+</li>
+<li>
+<p>光学装置较为简单</p>
+</li>
+<li>
+<p>可以通过单分子平均提高分辨率(多角度拍摄，合成三维)，但仅适用于高度重复样本(如核孔)</p>
+<blockquote>
+<p>Szymborska A, de Marco A, Daigle N, Cordes VC, Briggs JA, Ellenberg J. Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging. <em>Science</em>. 2013;341(6146):655-658. doi:10.1126/science.1240672</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>缺点：</p>
+<ul>
+<li>稀疏性发光限制(TIRF) → 成像深度小，仅限于接近覆盖层的薄物体层</li>
+<li>采集时间长，难以进行高动态成像</li>
+<li>（PALM、STORM）荧光分子要求可光开光、光漂白低、光子数目多、<strong>低占空比</strong>
+<ul>
+<li>光子数目多：分辨率</li>
+<li>低占空比：防止两个相近的光都在亮态状态；防止等淬灭时间太久→图像采集时间长</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="定位原理">定位原理</h4>
+<p>（PALM、STORM、DNA-PAINT）</p>
+<ul>
+<li>
+<p>光强分布：单个荧光分子发出的荧光经成像系统产生模糊的艾里斑，其光强分布与==一阶贝塞尔函数==相关，其中央最亮处会聚了84%的光强。</p>
+</li>
+<li>
+<p>拟合模型——高斯模型：一个位于（x0，y0）处的荧光分子在探测器平面的分布可近似为：（s为高斯函数标准差，公式还有一项——背景b，u=u+b
+<img src="/images/image-20211101111040412.png" alt="image-20211101111040412" style="width: 50%;" /></p>
+</li>
+<li>
+<p>拟合算法</p>
+<ul>
+<li>
+<p>最小二乘法</p>
+<ul>
+<li>拟合精度：单个荧光分子在二维平面上的定位精度（b和s可通过上述拟合得知）</li>
+<li>公式意义：光子噪声、探测器有限像素大小影响、背景影响。
+<img src="/images/Snipaste_2021-11-01_10-50-22.png" style="width: 50%;" /></li>
+</ul>
+<blockquote>
+<p>Thompson RE, Larson DR, Webb WW. Precise nanometer localization analysis for individual fluorescent probes. <em>Biophys J</em>. 2002;82(5):2775-2783. doi:10.1016/S0006-3495(02)75618-X</p>
+</blockquote>
+</li>
+<li>
+<p>极大似然估计</p>
+<ul>
+<li>原理：找出与样本的分布最接近的概率分布模型。“似然”的意思为寻找合适的参数使得观察到实验结果的概率为最大。</li>
+<li>极大似然估计通过得到荧光分子联合分布概率密度的 最大值去估算荧光分子的位置，但需要充分了解 CCD噪声、增益等参数的精确信息。该方法理论上可以达到极限定位精度。</li>
+<li>随着光子数 的增加，两种算法的精度都有提升，但极大似然估计始终在同等条件下比非线性最小二乘法更为准确。</li>
+<li>对于满足泊松分布的荧光发射模型，其联合分布概率为
+<img src="/images/image-20211101105147777.png" alt="image-20211101105147777" style="width:60%;" /></li>
+</ul>
+</li>
+<li>
+<p>DAO-STORM算法：将多 个重叠的荧光PSF与多点PSF模型进行拟合，其重建密度较传统算法提高了６倍。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="漂移校正">漂移校正</h4>
+<ul>
+<li>校正原因：精度要求高、SMLM成像时间长（拍摄数目多）、热效应&amp;机械松弛&amp;振动等因素导致的漂移</li>
+<li>软件校正
+<ul>
+<li>类型
+<ul>
+<li>使用基准物（荧光微球）：通过识别每一帧图像上的基准标记对应的荧光峰值，生成平均位置与时间的关系曲线</li>
+<li>不使用基准物：将数据等分成多个时间窗口，再对相邻时间窗口图像进行互相关分析，得到时间序列的互相关函数，然后通过高斯拟合得到漂移量。==互相关分析、高斯拟合==</li>
+</ul>
+</li>
+<li>特点：校正时间间隔长，中间缺少数据只能采用插值，有一定误差</li>
+</ul>
+</li>
+<li>硬件校正——载物台的移动→消除漂移
+<ul>
+<li>方法：
+<ul>
+<li>增加一个光路，检测明场图像变化，实时互相关分析</li>
+<li>增加一个光路，质心算法，检测基准物漂移量</li>
+</ul>
+</li>
+<li>特点：实时校正，但增加建造成本</li>
+</ul>
+</li>
+</ul>
+<h3 id="单分子发生">单分子发生</h3>
+<h4 id="palmstorm">PALM、STORM</h4>
+<p>PALM-光响应荧光蛋白</p>
+<ol>
+<li>
+<p>全称：(fluorescence) Photoactivated localization microscopy：（荧光）光激活定位显微技术</p>
+</li>
+<li>
+<p>类型</p>
+</li>
+</ol>
+<ul>
+<li>光激活(Photoactivation)：非激活态→ 激活态： PA-GFP, PA-TagRFP …</li>
+<li>光转换(Photoconversion)：激活态1 → 激活态2：mEos2/3, mMapple …</li>
+<li>光开关(Photoswitching)：非激活态 ⇔ 激活态：Dronpa, rsEGFP …</li>
+<li>光开关转换：mIris</li>
+</ul>
+  <img src="/images/Snipaste_2021-10-31_19-38-13-16378949226271.png" style="width: 60%;" />
+<ol start="3">
+<li>步骤：</li>
+</ol>
+<ul>
+<li>利用光激活绿色荧光蛋白（PA-GFP） 标记样品
+<ul>
+<li>未被激活前：激发时不发荧光/发微弱荧光</li>
+<li>405nm激活：低能量脉冲方式照射目标区域→激活稀疏分布的少量荧光分子（ON）</li>
+<li>561nm激发：连续激发直至漂白，只有ON态的可以被激发并发出光子，OFF态将不发光</li>
+<li>多次循环、重构、得到图像</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li>特点</li>
+</ol>
+<ul>
+<li>优点：样品损伤极小，适于膜蛋白方面研究</li>
+<li>缺点：
+<ul>
+<li>荧光蛋白可能会影响蛋白功能、分布</li>
+<li>瞬时转染，蛋白再体内成熟需要时间，需对成像时机有一定估算</li>
+</ul>
+</li>
+</ul>
+<p>STORM-光转换荧光染料</p>
+<ol>
+<li>
+<p>全称：Stochastic optical reconstruction microscopy，随机光学重构技术</p>
+</li>
+<li>
+<p>Cy3-Cy5分子对</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>Cy5 (Pentamethine cyanine dyes, Cy5)</p>
+<ul>
+<li>高强度633nm红光持续照射：大量的 Cy5 与β-巯基乙醇发生化学反应，Cy5 的化学结构改变，导致其<strong>吸收谱发生改变</strong>，进入OFF态</li>
+<li>低强度532nm绿光短时照射：少部分随机分布的结合了β-巯基乙醇的 Cy5 会<strong>脱去β-巯基乙醇</strong>，恢复至ON态；</li>
+<li>633nm红光照射：ON态的Cy5分子发射荧光并转换为OFF态</li>
+<li>Cy5在 完全被光漂白前可重复以上步骤100次左右。</li>
+</ul>
+</li>
+<li>
+<p>Cy3 (Trimethine cyanine dyes,Cy3)</p>
+<ul>
+<li>
+<p>加速Cy5从OFF态到ON态转换的响应时间；</p>
+</li>
+<li>
+<p>Cy3 与 Cy5 同时存在时绿色激光的荧光激发率提高了 1000 倍</p>
+<p><img src="/images/16359377644251.png" alt="图片1" style="width: 25%;" /><img src="/images/Snipaste_2021-11-03_19-07-35-163789510212019.png" alt="Snipaste_2021-11-03_19-07-35" style="width: 60%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>注：上述过程须在低氧/无氧条件</p>
+<ul>
+<li>在富氧溶液中，Cy5 基本和氧发生反应，而几乎不与β-巯基乙醇反应；</li>
+<li>Cy5 和氧发生反应后就会淬灭，且一旦淬灭就无法再次被激活。</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>dSTORM</li>
+</ol>
+<ul>
+<li>Alexa647箐染料：它不需要启动染料，只需要波长的转换即可实现开态和关态之间的转换。首先使用647nm波长的激光照射，荧光分子进入暗态，再在514nm波长的激发下回到荧光态</li>
+</ul>
+<ol start="4">
+<li>特点</li>
+</ol>
+<ul>
+<li>
+<p>优点</p>
+<ul>
+<li>被标记的细胞更为原生态</li>
+<li>免疫荧光探针商业化强，选择灵活，易于多色成像，荧光特性好</li>
+</ul>
+</li>
+<li>
+<p>缺点</p>
+<ul>
+<li>
+<p>闪烁需要特殊的缓冲液</p>
+</li>
+<li>
+<p>免疫染色，需要抗体标记，抗体尺寸较大，无法自由进入细胞膜，需要细胞膜打孔处理；抗体的来回摆动造成的成像误差 → <strong>改进：</strong></p>
+<ul>
+<li>
+<p>使用木瓜酶处理过的Fab段抗体、天然不含轻链的骆驼科抗体[2]、</p>
+</li>
+<li>
+<p>SNAP标签[3]、Halo标签[4]、短肽标签[5]等；（这些标记物的大小均在5nm以下）</p>
+<blockquote>
+<p>2.Hamers-Casterman C, Atarhouch T, Muyldermans S, et al. Naturally occurring antibodies devoid of light chains j. nature,1993, 363(6428): 446-448</p>
+<p>3.Keppler A, Gendreizig S, Gronemeyer T, et al. A general method for the covalent labeling of fusion proteins with small molecules in vivo [J]. Nature Biotechnology, 2003, 21(1): 86-89</p>
+<p>4.LoS G V, Encell L P, McDougall M G, et al HaloTag: a novel protein labeling technology for cell imaging and protein analysis [J]. ACs Chemical Biology,2008,3(6):373-382.</p>
+<p>5.Virant D, Traenkle B, Maier J, et al. A peptide ta specific nano body enables highrquallty labeling for dSTORM imaging[J ] Nature Communications, 2018,9:930</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="dna-paint">DNA-PAINT</h4>
+<ul>
+<li>
+<p>全称：基于DNA的点累积的纳米分辨成像( DNA-Points Accumulation for Imaging in Nanoscale Topography, PAINT)</p>
+<p><img src="/images/Snipaste_2021-10-21_19-00-16.png" style="width: 40%;" /><img src="/images/Snipaste_2021-10-21_19-10-50.png" style="width: 70%;" /></p>
+<ul>
+<li>标记：
+<ul>
+<li>目标检测物：使用“<strong>抗体-生物素</strong>”标记</li>
+<li>Binder(B)：具有生物素标记的ssDNA，可以与“抗体-生物素”通过亲和素结合；（也可省略这一步，直接将ssDNA与抗体偶联）</li>
+<li>imager(P)：带有荧光分子的ssDNA（可以与Binder互补配对）</li>
+</ul>
+</li>
+<li>检测：
+<ul>
+<li>先抗体/Binder标记</li>
+<li>第一波imager，激发，荧光接收，淬灭/清洗</li>
+<li>B-P结合时间的影响因素→用于调控DNA结合与解离动力学→控制闪烁动力学：DNA链长度、GC 含量、成像缓冲液的温度或盐度</li>
+<li>与未结合imager本身背景的区分：荧光分子本身不具有单一性，但与Binder结合后，被固定住，在成像时间序列中被稳定成像，将具有更高的亮度。（未结合的将成游离态，亮度暗，成为背景）
+<ul>
+<li>优化：或许可以通过荧光分子拆分/FRET，实现只有与Binder结合的imager的荧光分子才能发光</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>特点</p>
+<ul>
+<li>优点：
+<ul>
+<li>将单分子成像中的需要特殊的荧光蛋白矛盾→使用DNA之间的矛盾</li>
+<li>可以通过缓冲液清洗、更换imager标记荧光蛋白实现多色成像。</li>
+<li>不需担心光漂白→可以一直补充新的imager</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>假阳性（带荧光分子的ssDNA与胞内非靶标DNA/RNA结合、固定）→使用左手螺旋DNA（不与人体内（右手螺旋）配对，极大降低假阳性）</li>
+<li>背景强（荧光分子乱飘 ）→  给Binder(B)增加荧光标记，使用FRET（但又导致了B的荧光无法抵抗光漂白，成像时间有限）</li>
+<li>成像速度受DNA链结合解离速率影响，采集速度被限制在20Hz以下，导致整个成像时间较长。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="minflux">MINFLUX</h4>
+<p>原理：</p>
+<ul>
+<li>
+<p>传统：检测亮，宽；虽然可以通过高斯等算法计算中心，但容易受像差、散射等因素影响，达不到理论效果；MINFLUX：检测暗。</p>
+</li>
+<li>
+<p><strong>使用激发光位置定位，而非发射光；根据暗态确定分子位置，而非亮态；</strong>（光斑是扩散而大的，而暗态是小的）</p>
+</li>
+<li>
+<p>定位：（一维2点；二维4点；三维6点）</p>
+<img src="/images/image-20241225141715422.png" style="width: 50%;" />
+<img src="/images/image-20241225141755626.png" style="width: 50%;" />
+</li>
+</ul>
+<img src="/images/image-20241225141842430.png" style="width:40%;" />
+<ul>
+<li>参数
+<ul>
+<li>分辨率：三向 1~3nm</li>
+<li>成像速度：5us/一个点的六向及迭代；100μs/点</li>
+<li>视野：400nm×400nm</li>
+<li>中空光斑孔径：100nm（荧光分子为光开光分子，所以可以避免标记密度问题，但未激活蛋白在激发光激发下，仍会产生背景 → 标记密度限制）</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>实现基于相机检测的高通量分子级轴向定位仍然是一个重大挑战</li>
+<li>标记密度限制</li>
+<li>甜甜圈点的三角形扫描和每个分子的顺序定位方案限制了其视野，使得大面积的超分辨率成像不切实际</li>
+</ul>
+</li>
+</ul>
+<h4 id="sofi">SOFI</h4>
+<p>全称：（Super-resolution Optical Fluctuation Imaging，超分辨光学波动成像）</p>
+<ul>
+<li>
+<p>条件：</p>
+<ul>
+<li>①标记的荧光样本至少要展现出两种状态（即荧光样本在观测时要有不同的波动）</li>
+<li>②若发光的荧光量子点要独立的闪烁</li>
+<li>③成像CCD有效像元尺寸（SOFI所能达到的实际分辨率相关因素）＜光学分辨极限</li>
+</ul>
+</li>
+<li>
+<p>原理：</p>
+<ul>
+<li>
+<p>量子点的荧光涨落</p>
+<ul>
+<li>
+<p>荧光间歇性/涨落：荧光发射的强度一般不是恒定的，而是会随着时间发生强度的涨落现象(荧光闪烁)，即荧光间歇性。（注：量子点发射的荧光具有十分明显的涨落现象)</p>
+<blockquote>
+<p>Universal emission intermittency in quantum dots, nanorods and nanowires. Nature Physics. 2008</p>
+</blockquote>
+</li>
+<li>
+<p>量子点荧光涨落可能解释：量子点表面的悬空键会俘获和失去电子，当悬空键带正电荷时，量子点能够发光，当悬空键呈中性或者带负电荷时，量子点则处于暗态。（量子点的荧光涨落遵循幂法则）。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>有机荧光染料和荧光蛋白的荧光涨落</p>
+<ul>
+<li>有机荧光染料：需要添加特定的还原剂
+<ul>
+<li>青色素：硫醇/磷化氢；在特定光照射下具有亮态、暗态变</li>
+<li>ATTO655：硫醇还原剂MEA；658nm将亮态→暗态；ATTO655+氧气后又恢复亮态。</li>
+</ul>
+</li>
+<li>荧光蛋白：光开关</li>
+</ul>
+</li>
+<li>
+<p>SOFI：通过过去时间序列的大量图像，得知每个像素上的荧光涨落变化，根据这些变化（时间自相关积累量，空间互相关积累函数）确定哪些荧光来自相同的荧光分子，进而达到缩小艾里斑大小并达到超分辨成像效果。</p>
+</li>
+</ul>
+<p><img src="/images/Snipaste_2021-10-11_15-11-38-163789513305823.png" style="width: 50%;" /><img src="/images/Snipaste_2021-10-11_15-38-09-163789512477822.png" style="width:50%;" /></p>
+</li>
+<li>
+<p>特点</p>
+<ul>
+<li>优点：设备简单：宽场，CCD相机（对像素点精度有要求）</li>
+<li>缺点：
+<ul>
+<li>成像时间长（时间序列成像），且与单次曝光时间具有限制（时间越长，信噪比越好）；</li>
+<li>单个时间序列内，需要样品保持静止（每个荧光点的位置保持不变）（应该是所以单分子成像、点成像的限制）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>改进</p>
+<ul>
+<li>
+<p>互相关SOFI算法：每个像素不仅是自相关的，还与相邻像素互相关→互相关像元带来了额外信息，增加了分辨率</p>
+</li>
+<li>
+<p>高阶SOFI算法：高阶统计量是指比二阶统计量更高阶的随机变量或者随机过程的统计量，可以同时获得信号的幅度信息和相位信息，辨识到非最小相位、非因果、非线性系统、抑制高斯或非髙斯有色噪声，抽取不同于高斯信号的多种信号特征，分析与处理周期性平稳信号等等。</p>
+</li>
+<li>
+<p>傅里叶SOFI、像差纠正&hellip;.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="fpm">FPM</h4>
+<p>全称：荧光偏振显微镜：Fuorescence polarization microscopy (FPM)</p>
+<p>原理</p>
+<ul>
+<li>
+<p>荧光分子</p>
+<ul>
+<li>绝大部分荧光分子都是荧光偶极子，具有偶极子取向；
+<ul>
+<li>其光子吸收效率受激发光的偏振方向调制，其发射光也是偏振光；</li>
+<li>当激发光偏振方向与荧光分子的偶极子取向相同时，发射光强度最大；垂直时反之。</li>
+</ul>
+</li>
+<li>通过荧光偏振显微术(Fluorescence Polarization Microscopy, FPM)，可以在测量荧光探针强度的同时测量偶极子的方向。由于荧光分子的取向与所标记的生物结构相关，荧光偏振成像可以揭示标记样本的结构信息</li>
+</ul>
+</li>
+<li>
+<p>类型
+<img src="/images/Snipaste_2021-10-22_11-19-59.png" style="width: 70%;" /></p>
+<ul>
+<li>(a)荧光偶极子发射的荧光信号也是偏振的，因此可以在探测端通过不同偏振通道来检测偶极子取向，Wollaston棱镜(WP)是一种产生不同偏振探测通道的方法，可以同时使用两个相机检测两个偏振通道。</li>
+<li>(b)荧光偶极子的激发效率与激发光的偏振方向有关，因此可以通过偏振调制（LD，又称为线性二色性）的方法来测量荧光偶极子取向</li>
+<li>(c)由于发射荧光的偏振特性，当荧光偶极子在成像中离焦时，离焦图案也会随偶极子取向变化，因此通过离焦图案识别的方法也可以检测偶极子取向</li>
+</ul>
+</li>
+</ul>
+<h5 id="spodexpan">SPoD/ExPAN</h5>
+<ul>
+<li>翻译
+<ul>
+<li>Super resolution by Polarization Demodulation、Excitation Polarization Angle Narrowing (2014)</li>
+<li>偏振反调制、激发极化角缩小</li>
+</ul>
+</li>
+<li>原理：荧光分子都是偶极子，可以理解成有着不同的朝向。当用不同朝向的偏振光激发时，荧光分子的亮度也会随之不同。可以周期性地改变偏振光朝向，连续拍摄一段录像，分析比较图像中每个像素点荧光强度的周期变化情况，来区分不同荧光分子，实现超分辨。</li>
+<li>SPoD与ExPAN通过极化解调实现了超分辨率，但在 SPEED (sparsity penalty-enhanced estimation by demodulation)反卷积过程中丢失了偶极子方向的信息。因此，不能严格地将SPoD视为FPM的一种形式。</li>
+</ul>
+<h5 id="sdom">SDOM</h5>
+<p>全称：（Super resolution dipole orientation mapping, 超分辨率偶极子测绘技术, 2016）</p>
+<ul>
+<li>
+<p>原理：
+<img src="/images/Snipaste_2021-10-22_11-00-03.png" style="width: 90%;" /></p>
+<ul>
+<li>(<strong>a</strong>) SDOM 基于宽视场落射荧光照明显微镜。
+<ul>
+<li>通过在激光前连续旋转半波片调制线偏振光的激发方向。</li>
+<li>照明光束聚焦到物镜的后焦平面上，以产生旋转偏振光的均匀照明。</li>
+<li>从不同角度的偏振激发激发的一系列荧光图像由 EMCCD 相机收集。</li>
+</ul>
+</li>
+<li>(<strong>c</strong>) SDOM 超分辨率技术原理图解。
+<ul>
+<li>具有 100 nm 距离和不同偶极子方向（红色和绿色的伪色）的两个相邻荧光团发出由旋转偏振光激发的周期性信号。</li>
+<li>通过改变线偏振光激发方向，两个分子之间的发射强度/亮度被相应地调制，导致它们在偏振域中分离。</li>
+<li>稀疏反卷积进行偏振解调制可以获得有效偶极子强度的超分辨率图像；通过最小二乘拟合，可以确定偶极子方向。箭头表示偶极子取向的方向。</li>
+</ul>
+</li>
+<li>(<strong>b</strong>) GFP的N端与靶蛋白C端相连，荧光团的偶极角将反映目标蛋白的方向。</li>
+<li>(<strong>d</strong>) 两条交叉线的 SDOM 结果，超分辨率图像顶部有箭头，说明偶极子方向和 OUF。</li>
+</ul>
+</li>
+<li>
+<p>特点</p>
+<ul>
+<li>优点：
+<ul>
+<li>可以实现150 nm空间分辨率和亚秒时间分辨率的成像</li>
+<li>同时获得高精度的取向角测量，可以被用于固定细胞和活细胞成像。</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>只能测量平均偶极子，无法将单个荧光团的摆动信号与荧光团的取向分布区分开。</li>
+<li>对没有偏振特性的样本成像时不能得到超分辨效果。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="z轴分辨率">Z轴分辨率</h2>
+<blockquote>
+<p>王潇,涂世杰,刘鑫,赵悦晗,匡翠方,刘旭,郝翔.三维超分辨显微成像技术的研究进展及展望[J/OL].激光与光电子学进展:1-35[2021-11-14].</p>
+</blockquote>
+<p>光束：厄米-高斯光束、拉盖尔-高斯光束、中空贝塞尔光束（贝塞尔函数）、艾里光束</p>
+<h3 id="简介-1">简介</h3>
+<p>思想——区分Z轴不同位置</p>
+<ul>
+<li>编码解码——3D-SIM</li>
+<li>制造差异——PSF改造
+<ul>
+<li>引入像差：柱透镜（3D-STORM）</li>
+<li>引入特殊光束：拉盖尔-高斯光束（DH-PSF）、艾里光束（self-bending PSF )</li>
+<li>引入干涉：ROSEZ</li>
+<li>特点：
+<ul>
+<li>成像时占据了较多的面积。在对高密度的生物样品进行成像时，成像深度越深，PSF越容易发生混叠，提高了算法定位的难度。（解决：DeepSTORM3D算法）</li>
+<li>Z轴的xy平面差异可能会降低xy面的分辨率</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>多位置观测（通过在物方或者像方的不同位置进行同时成像，从中提取物体的轴向位置）
+<ul>
+<li>多平面： dMUM、MFM</li>
+<li>多角度：
+<ul>
+<li>增加视场角：4pi、VVSRM</li>
+<li>引入视差：SMLFM</li>
+</ul>
+</li>
+<li>特点：存在像差、光子效率、系统复杂度和样品制备等多种影响成像质量的因素。</li>
+</ul>
+</li>
+<li>超临界角荧光（SAF）
+<ul>
+<li>特点：在 SAF存在的轴向范围内，这种方法能够达到很好的轴向分辨率，但是超过此范围就无 法使用 SAF进行定位，需要与其它技术进行结合。</li>
+</ul>
+</li>
+</ul>
+<h3 id="编码解码3d-sim">编码解码——3D-SIM</h3>
+<h3 id="制造差异psf改造">制造差异——PSF改造</h3>
+<h4 id="3d-storm">3D-STORM</h4>
+<ul>
+<li>
+<p>原理：（使用柱透镜，引入像差）</p>
+<ul>
+<li>（在PSF中引入不对称像差→轴向定位）</li>
+<li>使得图像在 x 和 y 方向受到不同程度的调制。于是，荧光分子的 PSF椭圆度和方向随着轴向位置变化。当荧光分子恰好在平均焦平面时，PSF 在 x 和 y 方向上具有 相等的宽度，图像呈圆形；当荧光分子在其它位置时，PSF 在 x 和 y 方向上聚焦程度不相同，图像呈椭圆形。因此，如果标定好 PSF在 x 和 y 方向 上宽度关于 z 的变化曲线（校正曲线），那么只需 要测量 PSF在这两个方向上的宽度就可以确定荧光分子的轴向位置。</li>
+<li>在选择柱透镜的焦距 时，需要在像散强度和信噪比之间进行权衡，像散 越强，横向 PSF对于轴向位置变化的分辨率就会 越高，具有深度信息的横向 PSF 对轴向位置变化的灵敏度就会越高，但是信噪比也会越差</li>
+</ul>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>优点：光路简单、成本低；</li>
+<li>缺点：单次成像的定位深度较浅，通常限制在距离平均焦平面 ±350 nm的范围，要对厚生物样品进行成像依赖于轴向扫描（因为距离基准面越远，PSF逐渐展宽， 信噪比会变差，同时球影响也越大）</li>
+<li>参数：
+<ul>
+<li>成像深度：600nm</li>
+<li>分辨率：横向20-30nm；纵向50-70nm</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>问题：柱透镜成像原理</p>
+<img src="/images/Snipaste_2021-10-30_18-35-18.png" style="width: 70%;" />
+</li>
+</ul>
+<h4 id="selfi">SELFI</h4>
+<p>全称：自干涉三维超分辨显微镜（Self-interference 3D super-resolution microscopy, SELFI）</p>
+<p>原理
+<img src="/images/Snipaste_2021-10-30_16-21-30.png" style="width: 50%;" /></p>
+<ul>
+<li>对于焦点平面附近的荧光分子，所收集的荧光的波前曲率 很大程度上取决于分子的轴向位置，并且在焦点处表现出曲率符号反转。==因此，在成像平面中，通过干涉测量法对荧光波前（等相波面）的分析可以揭示发射器的轴向位置。==</li>
+<li>因此，在成像平面中，通过干涉测量对荧光波前进行的分析可以得到荧光分子 的轴向位置。他们在距离像面几个微米的位置加入了一个相位衍射光栅对 PSF 进行改造，产生了一 种空间重叠度大于 90%的自相干 PSF，它的干涉图案随着荧光分子的轴向位置而改变，并且干涉图案的包络线对应着原始 PSF 的横向分布。</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>优点：SELFI对像差不敏感，可以让 3D SMLM深入完整组织内部进行三维成像</li>
+<li>参数：
+<ul>
+<li>成像深度：10-50um；</li>
+<li>轴向定位深度： 700 nm（±350 nm）</li>
+</ul>
+</li>
+</ul>
+<h4 id="dh-psf">DH-PSF</h4>
+<p>全称：傅里叶调制：双螺旋 PSF（double-helix PSF, DH-PSF）</p>
+<p>原理：</p>
+<ul>
+<li>
+<p>使用 SLM在傅里 叶面对 PSF进行调制，通过在模态平面叠加特定 的高斯-拉盖尔模式，使 PSF拥有类似于 DNA的 双螺旋结构。在距离焦平面不同深度的位置上， DH-PSF两个主瓣之间连线与水平方向夹角的不同， 反映了荧光分子轴向位置的变化。与像散的方法一
+样，在绘制校正曲线后，就可以确定荧光分子的轴向位置。</p>
+<img src="/images/Snipaste_2021-10-28_20-22-38.png" style="width: 60%;" />
+</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>缺点：DH-PSF 旁瓣（side lobes）的能量占用和 SLM的能量损失，导致光子效率较低，需要较长的曝光时间才能提高定位精度，因此只适用于高亮度的荧光染料和荧光蛋白。（小改进：专门定制的相位板替换SLM）</li>
+<li>参数
+<ul>
+<li>成像深度：2um</li>
+<li>分辨率：三向10-20nm（使用最大似然估计分辨率还可以继续提高）</li>
+</ul>
+</li>
+</ul>
+<h4 id="self-bending-psf">Self-bending PSF</h4>
+<p>全称：艾里光束的非衍射特性提出的自弯曲 （self-bending PSF )</p>
+<p>原理</p>
+<ul>
+<li>自弯曲 PSF由两个艾里光束组成，艾里光束在传播时会发生横向位移（光路弯曲）。因此， 可以根据两个艾里光束的横向位移来确定光束沿轴向的传播距离，从而确定荧光分子的轴向位置。</li>
+<li>他们使用折射型相位板产生了一组 对称的艾里光束 PSF，即孪生艾里光束（twin-airy） PSF，这解决了艾里光束 PSF 离焦灵敏度不均匀 和无法确定离焦方向的问题。在整个成像深度范围 内，孪生艾里光束 PSF的灵敏度几乎保持一致， 并且两个主瓣之间的距离同时提供了位置和离焦方向信息，这使得有效的成像深度提升了两倍。因此， 在物镜参数为 60×和 1.4 NA的条件下，在 SPT中 能够实现在三个方向上的定位精度均低于 30 nm 并且成像深度高于 7 μm的能力，这也表明了孪生艾里光束 PSF在细胞结构三维成像中的应用潜力。</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>参数
+<ul>
+<li>成像深度：3um；</li>
+<li>三维分辨率：三向20nm（定位精度为10nm）
+<img src="/images/Snipaste_2021-10-28_20-23-19.png" style="width: 50%;" /></li>
+</ul>
+</li>
+</ul>
+<h4 id="rose-z">ROSE-Z</h4>
+<p>全称：轴向定位重复光学选择曝光技术（axial localization with repetitive optical selective exposure）</p>
+<p>前身——ROSE：重复光学选择性曝光（repetitive optical selective exposure）</p>
+<ul>
+<li>
+<p>原理</p>
+<ul>
+<li>
+<p>通过激发光产生6个不同的相干干涉条纹，对同一个荧光点进行六种不同的成像，进而得到更为精准的定位。</p>
+</li>
+<li>
+<p>元件</p>
+<ul>
+<li>
+<p>激发光光路：电光调制器（EOM）</p>
+<ul>
+<li>原理：基于光电效应，具有不同类型，可分为调制光的相位、频率、幅度、偏振 调制器</li>
+<li>两路光线；又分别分成x y方向光；两路光线发生相关；对应x y的分别相干条纹；</li>
+<li>EOM1为电光幅度调制器；EOM2/3为电光相位调制器</li>
+<li>一个位置采集三次，每次之间 光路的相位相差120°</li>
+<li>速度：1MHz</li>
+</ul>
+</li>
+<li>
+<p>发射光光路：谐振阵镜</p>
+<ul>
+<li>
+<p>原理：x y方向偏动的反射镜；将不同的发射光传到CCD的不同位置。</p>
+</li>
+<li>
+<p>以4 kHz的频率工作（与电光调制器相位变化同步），扫描一个周期（6个区域）仅需要125μs (远低于荧光团的接通开关响应时间和偶极子旋转强度波动)</p>
+<p><img src="/images/Snipaste_2021-10-30_12-21-10.png" style="width:90%;" /><img src="/images/Snipaste_2021-10-30_15-52-28.png" style="width:50%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>缺点：</p>
+<ul>
+<li>样品漂移：实时漂移矫正（明场+暗场）</li>
+<li>系统机械漂移：盖玻片涂有 5-μm 聚苯乙烯微球。在数据采集过程中，同时采集微球的明场图像，并实时估计和校正微球的 3D 漂移</li>
+<li>干涉条纹漂移：基于互相关的方法：单个分子的定位信息根据检测时间分为几组。然后，执行每组与第一组的互相关以进一步估计和校正漂移。</li>
+</ul>
+</li>
+<li>
+<p>参数：</p>
+<ul>
+<li>分辨率：横向5nm（220nm干涉条纹时：50/根号N，N为单荧光分子光子数）</li>
+<li>视场：25 × 25 μm<sup>2</sup></li>
+</ul>
+</li>
+</ul>
+<p>ROSEZ</p>
+<ul>
+<li>
+<p>原理：</p>
+<ul>
+<li>
+<p>激光通过分束器被分成两束， 一束激光汇聚在物镜的后焦面上，从底部激发样品， 而另一束激光被透镜聚焦，从顶部激发样品。于是在样品中，这两束光将产生干涉，从而产生轴向非对称干涉光路。</p>
+</li>
+<li>
+<p>使用与ROSE相似的EOM和谐振阵镜对Z轴进行三次测量。</p>
+</li>
+<li>
+<p>为了解决干涉的周期性干扰，ROSE-Z中加入了柱透镜引入像散，以根据 PSF 的形状提供初始轴向信息。通过这个粗略的轴向位置，我们可以确定单个分子的轴向定位与周期性干涉条纹之间的位置关系</p>
+<img src="/images/Snipaste_2021-10-30_14-05-48.png" style="width: 90%;" />
+</li>
+</ul>
+</li>
+<li>
+<p>参数：</p>
+<ul>
+<li>分辨率：3000光子数时，<strong>轴向</strong>2nm（263nm干涉条纹时：42/根号N，N为单荧光分子光子数）</li>
+<li>成像深度：500-600nm</li>
+</ul>
+</li>
+</ul>
+<h3 id="多位置观测">多位置观测</h3>
+<h4 id="双平面dmum">双平面：dMUM</h4>
+<p>全称：双物镜多焦面显微镜 （ dual objective multifocal plane microscopy, dMUM）</p>
+<ul>
+<li>
+<p>原理</p>
+<ul>
+<li>
+<p>对于 MUM，当两个探测器分别位于焦平面 （0 nm）和远离焦平面（500 nm）的位置时，对 于同一个分子发出的荧光信号，探测器接收到的信 号强度分布是不同的，换而言之就是横向 PSF的 形状不同。因此，可以通过实验测得深度和 PSF 形状（信号强度分布）之间的关系，确定荧光分子 的轴向位置，或者可以通过 PSF 模型的理论计算进行定位。</p>
+</li>
+<li>
+<p>dMUM使用了类似于 4Pi 和 I5M的双物镜结构，提高了光子利用效率，定位精度得到进一步提升</p>
+<img src="/images/Snipaste_2021-10-28_20-32-36.png" style="width: 70%;" />
+</li>
+</ul>
+</li>
+<li>
+<p>缺点</p>
+<ul>
+<li>复杂度高</li>
+<li>对于 NA较大的物镜， 偏离物镜和管镜预设的焦平面进行成像会引入球差和其它高级像差，影响定位精度，并且在偏移较大的情况下像差的影响会加剧</li>
+</ul>
+</li>
+<li>
+<p>参数</p>
+<ul>
+<li>成像深度：1-2um</li>
+<li>轴向定位精度：10nm</li>
+</ul>
+</li>
+</ul>
+<h4 id="多平面mfm">多平面：MFM</h4>
+<p>全称：多焦点显微镜（multifocus microscopy, MFM）</p>
+<ul>
+<li>原理
+<ul>
+<li>若想要减少多平面观测中像差的影响，则可以 使用定制的衍射光学器件将物体发出的光衍射为多 个级次，并同时无像差地成像在同一平面的不同位 置上，不同级次之间相位不同，这对应着不同位置的平面。</li>
+<li>将荧光衍射为 9 个级次，即得到了 9 个间距相同 的平面。</li>
+</ul>
+</li>
+<li>特点
+<ul>
+<li>缺点
+<ul>
+<li>光子效率低：衍射光栅的衍射效率较低，9个级次的理论极限仅 为 67%左右。</li>
+<li>改进：可以增加衍射 级次或者使用多重相位光栅（multiphase grating） 代替原本的二元光栅，9 个级次的效率可提升至74%，甚至更高[92,93]。</li>
+</ul>
+</li>
+<li>参数
+<ul>
+<li>成像深度：4 μm。</li>
+<li>分辨率：横向20nm；纵向50nm</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="多角度vvsrm">多角度：VVSRM</h4>
+<p>全称：虚体积超分辨成像显微镜（Virtual Volume Super-Resolution Microscopy, VVSRM）</p>
+<p>原理（增加视场角）</p>
+<ul>
+<li>
+<p>锥形微反射镜孔（pyramidal micromirror wells） 基底对直径 190 nm的聚苯乙烯颗粒进行高速 3D SPT成像，三维定位精度达到了 20 nm。如图 10 所示，当颗粒进行轴向移动时，虽然对颗粒直接成 像几乎无变化，但是荧光在微型反射镜的入射点是 上下移动的，使得颗粒的反射成像在横向上移动， 即微型反射镜将轴向位移转化为横向位移，并且若有其它位置的反射成像就能实现轴向定位。</p>
+</li>
+<li>
+<p>制作了一种反射镜基底，倾斜的反 射镜可以对荧光分子侧面进行反射成像，通过分束 镜和辅助透镜可将实像和离焦的反射像同时成像在 同一个平面上，再对横向定位的结果进行坐标变换 即可实现轴向定位。当反射镜倾斜角度为 45°时， 理论上可以实现空间上各向同性的分辨率，各向同 性也使得其体积测量的准确度也会高于共聚焦显微 镜。</p>
+<p><img src="/images/Snipaste_2021-10-28_20-45-06.png" style="width:50%;" /><img src="/images/Snipaste_2021-10-28_20-45-24-163789517380524.png" style="width:50%;" /></p>
+</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>参数
+<ul>
+<li>与PALM结合：三向100nm；与PAINT结合：150nm</li>
+<li>若光子数超过 5000，则定位精度能达到亚20 nm。</li>
+</ul>
+</li>
+</ul>
+<h4 id="多角度smlfm">多角度：SMLFM</h4>
+<p>全称：单分子光场显微镜 （single molecule light field microscopy, SMLFM）= 傅里叶光场显微镜（fourier light-field microscopy,FLFM）+ SMLM</p>
+<p>原理（引入视差）</p>
+<ul>
+<li>最早引入视差的方法通常是在物镜后焦面或者 后焦面的共轭面，加入楔形棱镜或者反射镜将成像 光路按角度分成两个通道，使得物体的轴向位移表 现为两个横向图像之间相对位置的改变，在 3D SPT中都可以达到纳米级的精度</li>
+<li>在探测器 的接收面上，MLA将成像光路在横向上划分为二 维阵列，阵列的每个区域都可以测量光场的四维信 息，二维空间和角度信息。每个微透镜都会对物体 的一部分波前进行成像，若物体发生轴向位移，则在阵列的不同区域，其图像的横向位置会朝着孔径 波前平均梯度的方向移动，并且位移长度与平均梯 度成比例关系。例如，当物体靠近物镜，图像向阵 列中心外侧移动；反之，则向中心内侧移动。通过 理论模型进行计算即可获取轴向位置信息，因此微透镜阵列可以测量光场的五维信息。</li>
+</ul>
+<p><img src="/images/Snipaste_2021-10-28_20-46-12-163789518468825.png" style="width:50%;" /><img src="/images/Snipaste_2021-10-28_20-46-38.png" style="width:50%;" /></p>
+<p>特点</p>
+<ul>
+<li>缺点
+<ul>
+<li>微透镜阵列→减小了视场范围（15um × 15um）</li>
+<li>其产生的二维阵列在某些区域存在 失真，定位时需要舍弃，这减少了光子效率。若想 提升此效率，则可以使用六边形微透镜阵列代替方 形微透镜阵列或者在二维定位前对失真数据进行反卷积。</li>
+</ul>
+</li>
+<li>参数
+<ul>
+<li>成像深度：3-5um</li>
+<li>分辨率：三向50nm</li>
+</ul>
+</li>
+</ul>
+<h3 id="tirf掠入射">TIRF、掠入射</h3>
+<p>掠入射：可以达到1um成像深度（物镜的景深最大范围）</p>
+<h3 id="超临界角荧光">超临界角荧光</h3>
+<p>原理</p>
+<ul>
+<li>
+<p>临界角荧光：在样品和玻璃界面之间存在折射率不匹配的情况，这对在分界面附近的荧光分子辐射角度分布有很大影响</p>
+<ul>
+<li>
+<p>低临界角荧光（undercritical angle fluorescence, UAF）：在距离分界面的一定范围内，荧光分子辐射的一部分荧光会以低于临界角的范围射入玻璃。</p>
+</li>
+<li>
+<p>超临界角荧光（supercritical angle fluorescence, SAF）：除了低临界角荧光，一部分荧光以超过临界角的范围射入玻璃。</p>
+<ul>
+<li>
+<p>荧光分子所辐射的倏逝分量会在分界面另一侧的介质中传播（例如，玻璃），并且会随着荧光分子和 分界面的距离增加而急剧下降。因此，SAF 的能量贡献会随着此距离增加而急剧下降，而在此范围内 UAF的能量贡献则几乎不变。</p>
+</li>
+<li>
+<p>当荧光分子与分界面接触时（z = 0 nm），SAF 光子数大致等于总光子数的一半；</p>
+</li>
+<li>
+<p>当荧光分子与分界面距离大于等于λ时（z ≥ λ），SAF光子数几乎为 0，并且光子数随着与分界面距离的增加呈指数形式下降。</p>
+<p><img src="/images/Snipaste_2021-11-01_19-22-23-163789519460226.png" style="width: 70%;" /><img src="/images/Snipaste_2021-10-28_21-04-26.png" style="width: 60%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="safm">SAFM</h4>
+<p>全称：超临界角荧光显微镜（supercritical angle fluorescence microscopy, SAFM）</p>
+<p>原理：在 3D-SAFM 中，SAF和 UAF分别由抛物面形聚光器和物镜收 集，角度范围分别为 60°~75°（最小角度通过光阑 可调节）和0°~24°。在一定范围内，UAF的能量 分布与激光相同，相比于 SAF几乎没有改变，因 此可以使用 SAF和 UAF的比值和轴向位置的关 系进行定位，而且 SAF还避免了外界因素对成像 采集过程中漂移的影响。经过实验验证，3DSAFM的轴向定位精度可达亚 15 nm，在对小鼠胚 胎纤维细胞的微管网络进行三维成像时，轴向分辨率优于 60 nm。</p>
+<img src="/images/Snipaste_2021-10-28_21-06-39.png" style="width:50%;" />
+<h4 id="dsalm">dSALM</h4>
+<p>全称：直接超临界角定位显微镜（direct supercritical angle localization microscopy, dSALM）</p>
+<p>原理：定制的椭圆形反射镜（elliptical mirror）在后焦 面上将 SAF 从落射荧光中直接分离出来。在 UAF 路中，他们加入柱透镜引入较弱的像散，用 于进行横向定位和精度较低的轴向定位。在定位算 法方面，dSALM继续沿用了 DAISY的方案。因此，相比于舍弃近乎一半能量的 vSALM， dSALM的直接分离法让其定位精度和有效景深得 到 4倍的提升。在对荧光珠的 3D成像和 DNA折 纸四面体的 3D DNA-PAINT成像中，各个方向上 的定位精度均在 4~5 nm 之间，分辨率可以达到 30 nm；在对细胞网格蛋白小窝和微管的 3D DNAPAINT 成像中，分辨率可以达到 50 nm。此方法 虽然提升了定位精度，但是由于 dSALM引入了弱 像散，导致成像深度较深时定位精度无法保证，因 此其单次成像定位的深度较浅，实验中最高为 600 nm。此外，dSALM使用高数值孔径（1.7 NA） 物镜所需的高折射率镜油，导致其无法使用光激活 荧光染料；较强的视场像差（strong field-dependentaberrations）将视场限制在 20 μm。</p>
+<img src="/images/Snipaste_2021-10-28_21-09-26.png" style="width:50%;" />
+<h2 id="样品放大exm">样品放大：ExM</h2>
+<h3 id="exm">ExM</h3>
+<p>全称：Expansion microscopy， 膨胀显微镜</p>
+<blockquote>
+<p>Chen F, et al. Science. 2015;347(6221):543-548.</p>
+</blockquote>
+<p>原理</p>
+<ul>
+<li>
+<p>标记</p>
+<ul>
+<li>
+<p>一抗、二抗-ssDNAF、锚点-ssDNAR-荧光分子（DNA-PAINT）</p>
+</li>
+<li>
+<p>锚点：甲基丙烯酰氧基团(Methacryloyl Group)：与凝胶结合(橙色线)</p>
+<p><img src="/images/Snipaste_2021-10-30_22-21-15-163789520753328.png" style="width: 70%;" /><img src="/images/Snipaste_2021-10-30_23-31-45-163789520433827.png" style="width: 60%;" /><img src="/images/Acrylamide_gel_(zh-cn).svg.png" style="width: 50%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>凝胶化</p>
+<ul>
+<li>
+<p>单体溶液：1 × PBS、2 M NaCl、8.625% (w/w) 丙烯酸钠(sodium acrylate)、2.5% (w/w) 丙烯酰胺( acrylamide)、0.15% (w/w) <em>N,N&rsquo;</em>-亚甲基双丙烯酰胺(N-N&rsquo;-methylenebisacrylamide, BIS)</p>
+</li>
+<li>
+<p>催化剂：APS(过硫酸铵)、TEMED(四甲基乙二胺)</p>
+</li>
+<li>
+<p>抑制剂：哌啶醇氧化物 (4-hydroxy-2,2,6,6-tetramethylpiperidin-1-oxyl， 4-hydroxy-TEMPO) （4-羟基-2,2,6,6-四甲基哌啶-1-氧自由基, TEMPOL）：在组织切片凝胶化浸泡时使用，防止凝胶溶液在扩散到组织切片的过程中凝胶化（未扩散完全）</p>
+</li>
+<li>
+<p>过程：TEMED的游离碱基催化APS产生自由基SO42-，丙烯酰胺单体的双键打开，活化形成自由基之后，与丙烯酸钠和BIS聚合形成凝胶</p>
+</li>
+<li>
+<p>注：</p>
+<ul>
+<li>BIS浓度会影响凝胶膨胀倍数；浓度越大，膨胀倍数越小；但浓度越小，凝胶易断裂；浓度为0.15%(w/w) 时，凝胶在去离子水中可达到4.5倍的线性扩展，且不影响实验操作。</li>
+<li>使用N,N-二甲基丙烯酰胺(DMAA)和丙烯酸钠作为单体，经过硫酸钾和TEMED催化形成聚合物凝胶，在水中可达到10倍的线性扩展。</li>
+<li>PAGE是由单体的丙烯酰胺和BIS聚合而成</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>强消化：蛋白酶（蛋白酶K）处理样品→机械特性均匀化</p>
+<ul>
+<li>注意：抗体和荧光蛋白应具有相对的蛋白酶抗性（不被蛋白酶K所降解），应选取这样的蛋白（如GFP）</li>
+</ul>
+</li>
+<li>
+<p>膨胀</p>
+<ul>
+<li>置于过量体积的双去离子水数小时，重复3-5次，直到膨胀样品的尺寸趋于稳定</li>
+<li>膨胀后收缩：添加盐（用于收纳储存样品）</li>
+</ul>
+</li>
+<li>
+<p>凝胶固定</p>
+<ul>
+<li>
+<p>问题：水镜 OR 长时成像，样品漂移</p>
+</li>
+<li>
+<p>策略：</p>
+<ul>
+<li>聚赖氨酸修饰玻片：利用聚赖氨酸和凝胶之间相反电荷的吸附作用使凝胶附着于玻片上，且凝胶和玻片之间的界面是透明的，可在倒置显微镜中使用；</li>
+<li>低熔点琼脂糖包埋：样品安装是可逆的，可以在成像后收缩样品并储存在缓冲液中；界面不透明→不能应用于倒置光学显微镜；</li>
+<li>强力胶粘合：附着力较强，可使样品在数天内稳定成像；但硬化后不透明，不能应用于倒置光学显微镜；</li>
+</ul>
+<blockquote>
+<p>Gao, Ruixuan et al. “Q&amp;A: Expansion microscopy.” BMC biology vol. 15,1 50. 19 Jun. 2017</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>参数
+<ul>
+<li>单向可放大4.5倍；分辨率为300/4.5=70 nm</li>
+<li>误差：均方根 (root-mean-square, rms) 误差：在 0 μm 和 20 μm 之间的长度尺度上，rms 误差约为测量距离的 1-2%。
+<ul>
+<li>膨胀前图像采集：超分辨率显微镜</li>
+<li>膨胀后图像采集：传统显微镜</li>
+<li>匹配：非刚性配准（在它们通过旋转、缩放和平移的刚性变换尽可能对齐之后），计算</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>优点：提高时间分辨率、减少生物信息密度</li>
+<li>缺点
+<ul>
+<li>凝胶扩展过程中使轴向厚度增加，超过了油镜成像的高度，影响成像精度;</li>
+<li>现有的染色标记方法对于扩展后的样品标记密度较低</li>
+<li>随着分辨率提高，探针的大小（飘）也将成为阻碍成像分辨率提高的主要因素。</li>
+</ul>
+</li>
+</ul>
+<h3 id="proexm">proExM</h3>
+<blockquote>
+<p>Tillberg PW, et al. Nat Biotechnol. 2016;34(9):987-992.</p>
+</blockquote>
+<p>全称：（protein-retention ExM，蛋白质锚定ExM）</p>
+<p>改进点</p>
+<ul>
+<li>问题：ExM不会导致天然蛋白质保留在凝胶中，并且依赖于未广泛使用的定制试剂（凝胶锚定分子）</li>
+<li>解决：将天然蛋白质锚定在可膨胀的凝胶上，允许使用传统的荧光标记抗体和链霉亲和素，以及荧光蛋白。</li>
+</ul>
+<p>原理：6-((丙烯酰)氨基)己酸（6-((acryloyl)amino)hexanoic acid AcX, AcX）</p>
+<ul>
+<li>
+<p>AcX的琥珀酰亚胺酯基团：可与蛋白质中的胺类、胺修饰的核酸反应生成酰胺键</p>
+</li>
+<li>
+<p>AcX的丙烯酰胺基团：可共聚于聚丙烯酰胺的基质或表面（如在微阵列和生物传感器中）
+<img src="/images/Snipaste_2021-11-22_10-32-17.png" style="width:70%;" /></p>
+</li>
+</ul>
+<p>步骤（三类）</p>
+<ul>
+<li>
+<p>免疫染色的细胞和组织成像： 固定&amp;免疫染色、AcX 处理、凝胶化、消化、膨胀、凝胶固定</p>
+</li>
+<li>
+<p>转染荧光蛋白的生物样品：荧光蛋白表达&amp;固定、AcX 处理、&hellip;&hellip;</p>
+</li>
+<li>
+<p>扩展前排列紧密的组织或生物大分子： 固定、AcX 处理、凝胶化、温和的匀浆程序(如碱性水解变形或LysC 消化) 、膨胀、免疫染色、凝胶固定
+<img src="/images/Snipaste_2021-11-06_22-38-33.png" style="width:90%;" /></p>
+</li>
+</ul>
+<h3 id="exfish">ExFISH</h3>
+<p>全称：（Expansion FISH (fluorescent <em>in situ</em> hybridization)， 膨胀荧光原位杂交显微镜）、</p>
+<blockquote>
+<p>Chen F, et al. Nat Methods. 2016;13(8):679-684</p>
+</blockquote>
+<p>改进：检测RNA</p>
+<p>原理</p>
+<ul>
+<li>
+<p>LableX组成：① AcX：锚定在凝胶上；② Label-IT Amine：可以通过烷基化反应与 RNA 和 DNA 中的鸟嘌呤碱基的N7基团结合
+<img src="/images/Snipaste_2021-10-31_15-33-45.png" style="width:50%;" /></p>
+</li>
+<li>
+<p>LableX合成：AcX和Label-IT Amine通过<strong>NHS-酯化反应</strong>生成（室温震荡过夜）</p>
+</li>
+<li>
+<p>RNA探针类型</p>
+<ul>
+<li>
+<p>单分子探针（细胞）：smFISH（single molecular FISH）：使用多个荧光团通过寡核苷酸探针传递到单个 mRNA （测定RNA 拷贝数以及空间定位的有效 方法，但目前只能在单细胞中同时检测 10 ～ 30 种RNA）</p>
+</li>
+<li>
+<p>信号放大（组织）：杂交链反应（hybridization chain reaction, HCR）、滚环扩增</p>
+</li>
+<li>
+<p>Multiplexed error-robust fluorescence in situ hybridization( MERFISH) ：可鉴定单细胞中数千种RNA 的拷贝数和空间定位，进而分析与蛋白质相关的RNA分布以及预测基因功能。但是，在细胞中，RNA 分子之间相互重叠，致使高丰度RNA多重成像受到限制。</p>
+<blockquote>
+<p>Moffitt J Ｒ，Zhuang X． Methods Enzymol． ，2016，572: 1－49
+Wang G，Moffitt J Ｒ，Zhuang X W． Sci． Ｒep． ，2018，8( 1) : 4847</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<p>步骤：LableX处理固定RNA分子、RNA荧光探针结合、凝胶化、消化、膨胀、检测</p>
+<p>RNA检测</p>
+<ul>
+<li>
+<p>细胞：smFISH（Single-molecule FISH）</p>
+<img src="/images/Snipaste_2021-11-07_19-04-52.png" style="width:60%;" />
+<blockquote>
+<p>Raj, Arjun et al. “Imaging individual mRNA molecules using multiple singly labeled probes.” Nature methods vol. 5,10 (2008): 877-9. doi:10.1038/nmeth.1253</p>
+</blockquote>
+</li>
+<li>
+<p>组织：HCR-FISH（hybridization chain reaction-FISH）：可放大信号</p>
+<img src="/images/Snipaste_2021-11-07_18-54-29.png" style="width: 90%;" />
+<blockquote>
+<p>Choi, Harry M T et al. “Next-generation in situ hybridization chain reaction: higher gain, lower cost, greater durability.” ACS nano vol. 8,5 (2014): 4284-94. doi:10.1021/nn405717p</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="click-exm">click-ExM</h3>
+<blockquote>
+<p>Sun, De-En et al. “Click-ExM enables expansion microscopy for all biomolecules.” Nature methods vol. 18,1 (2021): 107-113.</p>
+</blockquote>
+<p>改进：基于点击化学，使用带 <strong>-N<sub>3</sub>/乙炔基团</strong> 的单位分子类似物，对新生的脂质、多糖、蛋白质、核酸进行标记，通过HDC反应，将生物素等标记分子耦合到兴趣分子上；ExM成像
+<img src="/images/Snipaste_2021-11-15_10-49-22.png" style="width:80%;" /></p>
+<p>原理</p>
+<ul>
+<li>
+<p><em>叠氮 OR 乙炔基团 标记的生物分子</em> 与 <em>乙炔 OR 叠氮标记的生物素</em>发生HDC点击化学反应，然后用 <em>锚点(AcX/GA)-链霉亲和素-荧光分子</em> 染色；</p>
+<ul>
+<li>
+<p>点击化学：乙炔基团与叠氮基团在Cu(I)催化下，会发生Huisgen 1,3-偶极环加成(Huisgen 1,3-dipolar cycloaddition, HDC)反应
+<img src="/images/Snipaste_2021-11-15_10-06-311.png" style="width: 60%;" /></p>
+<blockquote>
+<p>Hein, Christopher D et al. “Click chemistry, a powerful tool for pharmaceutical sciences.” <em>Pharm Res</em>. 2008;25(10):2216-2230. doi:10.1007/s11095-008-9616-1</p>
+</blockquote>
+</li>
+<li>
+<p>AcX：(上图AcX为反应后AcX)，与蛋白的氨基反应(N端、带氨基的AA(Lys))，链霉亲和素有14个Lys残基，可以结合14个AcX，因此可以最大程度促进链霉亲和素与就近与凝胶结合</p>
+</li>
+<li>
+<p>GA：戊二醛(Glutaraldehyde, GA)
+<img src="/images/320px-Glutaraldehyd.svg.png" style="width:50%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>生物分子的 叠氮 OR 乙炔基团 标记</p>
+<ul>
+<li>
+<p>脂质：乙炔胆碱 (alkyne-choline, Alk-Cho) 标记含有 Cho 基团的磷脂(如：磷脂酰胆碱)</p>
+</li>
+<li>
+<p>核酸：5-乙炔基-2-脱氧尿苷(5-ethynyl-2&rsquo;-deoxyuridine, EdU) 标记新生 DNA； 5-ethynyluridine (EU) 标记新生RNA；</p>
+</li>
+<li>
+<p>多糖：</p>
+<ul>
+<li>唾液酸：叠氮-N-乙酰甘露糖胺(ManNAz)</li>
+<li>O-连接糖基化：叠氮-N-乙酰半乳糖胺(GalNAz)</li>
+</ul>
+</li>
+<li>
+<p>蛋白：叠氮高丙氨酸 (azidohomoalanine, AHA)，甲硫氨酸的非天然AA替代物，标记新生蛋白质；</p>
+<img src="/images/16375038801511.png" style="width: 70%;" />
+<img src="/images/Snipaste_2021-11-15_12-54-40-163789523220929.png" style="width: 60%;" />
+</li>
+</ul>
+</li>
+<li>
+<p>信号放大
+<img src="/images/Snipaste_2021-11-15_10-56-10.png" style="width:90%;" /></p>
+</li>
+</ul>
+<h3 id="iexm">iExM</h3>
+<p>全称：（iterative ExM，迭代ExM）</p>
+<blockquote>
+<p>Chang JB, et al. Nat Methods. 2017;14(6):593-599.</p>
+</blockquote>
+<p>改进：二次膨胀</p>
+<p>原理：</p>
+<ul>
+<li>
+<p>凝胶裂解：使用可化学裂解的交联剂</p>
+<ul>
+<li>
+<p>BAC：N,N&rsquo;-cystaminebisacrylamide，可在tris(2-carboxyethyl)phosphine (TCEP)环境下裂解</p>
+</li>
+<li>
+<p>DHEBH：N,N′-(1,2-dihydroxyethylene) bisacrylamide，其二醇键可在高 pH (NaOH)值时裂解</p>
+</li>
+<li>
+<p>BIS：可耐受TCEP和NaOH</p>
+<img src="/images/Snipaste_2021-10-31_16-02-32.png" style="width:90%;" />
+</li>
+</ul>
+</li>
+<li>
+<p>标签迁移：第一轮使用带ssDNA-F的锚定抗体；第二轮使用带ssDNA-R和荧光分子的锚定分子，通过DNA链互补配对承接第一轮信息；</p>
+<ul>
+<li>锚定：Acrydite的丙酰氨基可以参与凝胶聚合，锚定在凝胶中；因此在Acrydite发挥作用的时期是在凝胶形成期间，一旦凝胶形成后，Acrydite便不能再锚定到凝胶中；（区分第一次与第二次凝胶）
+<ul>
+<li>第二轮凝胶化是在第一轮膨胀后发生（凝胶间间隙拉大，丙烯酸钠、丙烯酰胺等分子可以浸入，进而凝胶化）（膨胀后的第一轮凝胶相当于ExM中细胞）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>步骤：</p>
+<ul>
+<li>第一轮：一抗标记、二抗-ssDNA-F标记、Acrydite-ssDNA-R标记；凝胶化、消化、膨胀（中间某个步骤应是解离了“二抗-ssDNA-F”）；</li>
+<li>第二轮：Acrydite-ssDNA-F-GFP标记；凝胶化、第一轮凝胶裂解（中间某个步骤应是解离了“Acrydite-ssDNA-R”）、膨胀；&hellip;&hellip;</li>
+</ul>
+<p><img src="/images/Snipaste_2021-11-06_22-40-24-163789524609730.png" style="width: 50%;" /><img src="/images/Snipaste_2021-11-07_13-34-58.png" style="width:40%;" /></p>
+</li>
+</ul>
+<h3 id="点击化学">点击化学</h3>
+<blockquote>
+<p><a href="http://www.xmjsci.com/article/109">http://www.xmjsci.com/article/109</a></p>
+<p>Oliveira BL, Guo Z, Bernardes GJL. Inverse electron demand Diels-Alder reactions in chemical biology. <em>Chem Soc Rev</em>. 2017;46(16):4895-4950. doi:10.1039/c7cs00184c</p>
+</blockquote>
+<p>概念：描述具有一定特点的反应：高产率、范围广、通过非色谱方法（结晶、蒸馏）提供简单的产品分离、立体特异性、反应条件简单、不使用溶剂/使用温和or易于去除的溶剂；</p>
+<p>类型(已有)</p>
+<blockquote>
+<p>Hein, Christopher D et al. “Click chemistry, a powerful tool for pharmaceutical sciences.” <em>Pharm Res</em>. 2008;25(10):2216-2230. doi:10.1007/s11095-008-9616-1</p>
+</blockquote>
+<ul>
+<li>
+<p>环加成</p>
+<ul>
+<li>[3+2]环加成反应([3+2] cycloadditions)：Huisgen 1,3-偶极环加成(Huisgen 1,3-dipolar cycloaddition, HDC)</li>
+<li>[4+1]环加成反应 [异腈(异氰化物)—四嗪] ([4+1] cycloadditions between isonitriles (isocyanides) and tetrazines)</li>
+</ul>
+</li>
+<li>
+<p>亲核开环(Nucleophilic ring-openings)：杂环亲电试剂（氮丙啶、环氧化物、环状硫酸盐、氮丙啶离子、表锍离子）</p>
+</li>
+<li>
+<p>非羟醛类型的羰基化学(Carbonyl chemistry of the non-aldol)：脲、硫脲、腙、肟醚、酰胺、芳族杂环等的形成</p>
+</li>
+<li>
+<p>C-C多重键的加成(Additions to carbon-carbon multiple bonds)：环氧化、氮丙啶化、二羟基化、亚磺酰卤加成、亚硝酰卤加成、某些迈克尔加成</p>
+<p><img src="/images/Snipaste_2021-11-15_10-06-31-16369422674741-163789525103331.png" style="width: 65%;" /><img src="/images/Snipaste_2021-11-15_10-13-27.png" style="width:65%;" /></p>
+</li>
+</ul>
+<h2 id="附1-成像深度像差">附1 成像深度、像差</h2>
+<p>思想：减少像差</p>
+<ul>
+<li>物镜、浸没液选择</li>
+<li>自适应光学 (Adaptive optics, AO)</li>
+<li>组织透明化（Tissue clearing）</li>
+</ul>
+<h3 id="物镜浸没液选择">物镜、浸没液选择</h3>
+<ul>
+<li>物镜：数值孔径越高，集光能力更强，理论上会带来更高的成像分辨率；但它允许包含更高阶的像差以降低图像形成，导致越来越扭曲的 PSF 。</li>
+<li>浸没液：物镜浸没液和组织样品的折射率不匹配会导致球差，且球差随着成像深度的增加而增加。
+<ul>
+<li>油镜：甘油（折射率 1.45）：富含脂质的组织/细胞（脑组织）</li>
+<li>水镜：水（折射率 1.33）：常规的活细胞</li>
+</ul>
+</li>
+</ul>
+<h3 id="自适应光学">自适应光学</h3>
+<p>英文：Adaptive optics, AO</p>
+<p>概念：使用动态光学元件、计算机→纠正像差，提高性能</p>
+<p>作用：样品像差、系统像差、深度成像的散射像差</p>
+<ul>
+<li>像差：微深的样品</li>
+<li>散射：过深的样品：增加样本内的图像深度应该会在低阶像差之上产生更大的散射贡献。
+<img src="/images/Snipaste_2021-10-04_20-57-26.png" style="width: 80%;" /></li>
+</ul>
+<p>像差测量</p>
+<ul>
+<li>
+<p>标准像点：荧光小珠、双光子</p>
+</li>
+<li>
+<p>像差直接测量法：波前传感器——Shack-Hartmann (SH)传感器</p>
+<ul>
+<li>
+<p>策略：使用2D透镜阵列分割光线 → 光线聚焦到相机上  → 计算每个波前段的局部斜率 → 波前重建</p>
+</li>
+<li>
+<p>缺点：需要排除焦点之外的光（小孔、双光子、相干） → 不宜在透明组织、深度成像（散射会导致相位信息丢失，如波前传感器上的扩散焦点）</p>
+<p><img src="/images/873.png" style="width:50%;" /><img src="/images/874.png" style="width:50%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>像差间接测量法：像差优化法</p>
+<ul>
+<li>
+<p>策略：依据相应的控制模型（如泽尼克多项式）→ 调节动态校正元件参数 → 获得一系列图像 → 像质评价 (强度、锐度)→ 建立相关模型，凸优化，确立最佳参数。</p>
+</li>
+<li>
+<p>优点：实施起来更简单，并且可以应用于透明和散射组织</p>
+</li>
+<li>
+<p>缺点：需要尽可能多的图像 → 耗时长、漂白
+<img src="/images/875.png" style="width: 90%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>像差校正——动态调节元件（SLM、DM）</p>
+<ul>
+<li>
+<p>功能</p>
+<ul>
+<li>引入像差→抵消样品像差；</li>
+<li>矫正检测或成像路径过程中的像差</li>
+</ul>
+</li>
+<li>
+<p><strong>变形镜（Deformable mirrors, DM</strong>）</p>
+<ul>
+<li>构造：通过多个致动器(&lt;100)调节变形</li>
+<li>类型：
+<ul>
+<li>驱动原理：静电、电磁或压电，并提供一系列直径和驱动器数量</li>
+<li>表明：连续型、非连续型</li>
+</ul>
+</li>
+<li>特点：
+<ul>
+<li>不影响光的偏振与波长；</li>
+<li>调节速度快 (kHz)；<strong>光转化效率高；</strong></li>
+<li>DM 直径对显微镜设计有影响，因为将 DM 的瞳孔和物镜与具有适当放大倍数的重新成像系统相匹配非常重要。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>液晶空间光调制器（<em>Liquid crystal spatial light modulators, SLM</em></strong>）</p>
+<ul>
+<li>构造：由 100,000 个甚至数百万个液晶单元组成</li>
+<li>特点：
+<ul>
+<li>较DM具有更大的复杂度，也因之具有更高的灵活性，大量像素允许校正非常高阶的像差</li>
+<li>对光的偏振和相位敏感，可进行相位调制；</li>
+<li>调节速度慢 (&lt;100Hz)；<strong>光转化效率低；</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>注：为了保证调制效果，空 间光调制器和变形镜需要和物镜后焦面光学共轭。</p>
+</li>
+</ul>
+<h3 id="组织透明化">组织透明化</h3>
+<p>英文：Tissue clearing</p>
+<p>成像技术</p>
+<ul>
+<li>光片显微镜</li>
+<li>共聚焦、双光子显微镜</li>
+<li>光学投影扫描断层</li>
+</ul>
+<p>步骤</p>
+<ul>
+<li>①组织固定
+<ul>
+<li>作用：保存目的蛋白和分子</li>
+<li>类型：
+<ul>
+<li>多聚甲醛PFA固定
+<ul>
+<li>优点：最常用的固定试剂，渗透能力强，固定均匀，对目标蛋白本身结构影响不大，一般不影响一抗识别；</li>
+<li>缺点：但对膜的固定作用较差，不适合固定膜相关的结构，如内质网和膜关联蛋白。</li>
+</ul>
+</li>
+<li>水凝胶包埋</li>
+<li>戊二醛固定
+<ul>
+<li>优点：蛋白强固定剂，细微结构保持更好，对膜也有较好的固定作用，可真实地保存细胞的形态；</li>
+<li>缺点：会影响目标蛋白空间构型，从而影响一抗识别，造成实验假象。戊二醛溶液本身会导致细胞有较强的背景荧光，需用还原剂如硼氢化钠处理后方可进行实验，否则严重影响超分辨成像效果。</li>
+</ul>
+</li>
+<li>冰甲醇固定
+<ul>
+<li>优点：通过蛋白沉淀固定样品，蛋白抗原性保存非常好，不影响抗体识别</li>
+<li>缺点：会溶解膜结构，破坏细胞真实形态。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>②透化处理
+<ul>
+<li>作用：促进高折射率介质向深层组织渗透的重要环节</li>
+<li>类型：①水溶性有机溶剂；②高水化试剂；③脱脂试剂</li>
+</ul>
+</li>
+<li>③脱色：除去内源性色素（其会衰减光的传播，干扰观察）</li>
+<li>④折光率匹配：使整个组织折射率均匀化，并且与物镜折射率匹配
+<ul>
+<li>球面像差是一个严重的图像质量下降问题，如果显微镜的光学系统没有针对光在样品平面和物镜之间横穿的各种折射率进行准确校正，就会发生这种问题。</li>
+<li>大多数长工作距离物镜是为在空气中或浸水（折射率分别为 1.0 或 1.33）中成像而设计的。与样品折射率不正确匹配的物镜不会将光线聚焦到显微镜内的正确点。这将导致高度的球面像差。</li>
+<li>此外，当使用折射率不匹配的物镜时，光学焦平面不会像显微镜上的物理聚焦驱动器移动相同的距离，从而导致最终图像中感兴趣点之间的测量不可靠。</li>
+</ul>
+</li>
+<li>⑤数据处理：大数据量的三个挑战
+<ul>
+<li>存储速率：如何将数据写入存储介质，因为它以超过 500 GB/小时的速度获取</li>
+<li>存储介质：在哪里以及如何存储这些海量数据集</li>
+<li>处理分析：如何分析并处理数据。</li>
+</ul>
+</li>
+</ul>
+<p>类型</p>
+<ul>
+<li>
+<p>脂溶性试剂透明化：</p>
+<ul>
+<li>原理：
+<ul>
+<li>应用含有高折射率介质的光学透明剂取代组织中水分和脂质来平衡组织折射率，使组织达到光学透明。</li>
+<li>高折射率介质与水不混溶，因此需要应用有机溶剂进行组织脱水；</li>
+<li>脂质是光散射的主要来源，脂质双分子层决定细胞膜的通透性，因此，组织脱水后必须进行脱脂处理， 以促进光学透明剂向深层组织渗透。</li>
+<li>步骤：①脱水/脱脂；②光学透明剂浸透</li>
+</ul>
+</li>
+<li>优点：透明化效率高</li>
+<li>缺点：
+<ul>
+<li>缺乏水分子对应荧光蛋白的保护作用，且脂溶性试剂对蛋白破坏性较大，荧光蛋白易淬灭；</li>
+<li>有机溶剂透明会导致样本大幅度皱缩，对组织结构和蛋白 具有潜在的破坏性；</li>
+<li>有机溶剂具有一定的毒性和腐蚀性，需要特殊防护，并且需要特殊物镜进行成像，限制了其广泛应用。</li>
+</ul>
+</li>
+<li>方法：Spalteholz、苯甲醇:苯甲酸苄酯 (benzyl alcohol: benzyl benzoate, BABB) 、溶剂清除器官的三维成像(3D imaging of solvent-cleared organ, 3DISCO)、免疫性溶剂清除器官三维成像(immunolabeling-enabled three-dimensional imaging of solvent-cleared organs，iDISCO)</li>
+</ul>
+</li>
+<li>
+<p>亲水试剂透明</p>
+<ul>
+<li>
+<p>优点：</p>
+<ul>
+<li>亲水性试剂通常与蛋白质等组织成分以及周围的水分子形成氢键，这有助于保持组织成分的 3D 结构，从而保护荧光蛋白的信号</li>
+<li>亲水性试剂可以高浓度溶解在水中，并可用作 RI 匹配介质以在介质中提供高 RI。</li>
+</ul>
+</li>
+<li>
+<p>缺点：透明化效率低，所需时间长</p>
+</li>
+<li>
+<p><strong>类别与方法</strong></p>
+<ul>
+<li>单纯浸泡透明：高折射率试剂被动浸润样品：不破坏质膜
+<ul>
+<li>Sucrose、FocusClear、组织清除法( clearing method for tissue，clear<sup>T</sup>) 、 deep brain(SeeDB)、FRUIT、2,2-thiodiethanol( TDE)</li>
+</ul>
+</li>
+<li>高水化脱脂透明
+<ul>
+<li>特点：由于高折射率介质分子体积较大，不易在组织内扩散；组织脱脂（洗涤剂）可以提高组织渗透性和透明效率。</li>
+<li>被动去除脂质，并利用水合作用降低样品折射率（refractive index, RI）
+<ul>
+<li>Scale、ScaleS</li>
+<li>去脂，平衡透明化法（clear, unobstructed brain imaging cocktails and computational analysis，CUBIC) ：基于尿素的高水化作用以及多元醇的脱脂脱色功能</li>
+<li>SWITCH（基于戊二醇的透明技术）：通过缓冲液切换，将组织转化为耐热和耐化学的凝胶混合物，便于多轮免疫标记，应用SDS高温脱脂，可以快速透明组织，而组织结构、生物分子和抗原性不受损伤。该技术不需要灌注，也不需要任何特殊设备或试剂，因此适用于动物和人类样本。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>基于水凝胶的组织透明化</p>
+<ul>
+<li>
+<p>优点</p>
+<ul>
+<li>可以从组织中完全和均匀地去除脂质→ 增加了水凝胶-组织混合物的光学透明度、大分子渗透性</li>
+<li>最大限度地减少结构损伤和生物分子的损失（CLARITY 中蛋白质损失 10%，而仅甲醛固定组织中蛋白质损失 70%）</li>
+<li>可与ExM结合！！在提高分辨率的时候降低时间的消耗</li>
+</ul>
+</li>
+<li>
+<p><strong>方法</strong></p>
+<ul>
+<li>水凝胶主动透明化法 clear lipid-exchanged acrylamide-hybridized rigid imaging-compatible tissue-hydrogel，CLARITY)
+<ul>
+<li>基于洗涤剂的脱脂作用，水凝胶包埋为组织 提供物理框架支持，与蛋白质、核酸等生物分子形成共价连接，使细胞结构和分子信息得到有效保存。</li>
+<li>洗涤剂分子量较大，在组织中渗透缓慢，因此需要提高洗涤剂在组织内的扩散动力学，实现深层组织充分脱脂。</li>
+</ul>
+</li>
+<li>水凝胶被动透明化法 (passive clarity technique，PACT)</li>
+<li>二代主动透明化法 (active clarity technique-pressure related efficient and stable transfer of macromolecules into organs，ACT-PRESTO)</li>
+</ul>
+</li>
+<li>
+<p>注：CUBIC、PACT、ACT-PRESTO可对完整小鼠进行透明化</p>
+</li>
+</ul>
+</li>
+</ul>
+<img src="/images/Snipaste_2021-11-01_21-57-23.png" style="width: 80%;" />
+<img src="/images/Snipaste_2021-11-01_21-59-35.png" style="width: 80%;" />
+<img src="/images/Snipaste_2021-11-01_22-23-24.png" style="width: 80%;" />
+<img src="/images/Snipaste_2021-11-02_14-45-58.png" style="width: 80%;" />
+<img src="/images/Snipaste_2021-11-02_14-46-42.png" style="width:80%;" />
+<h2 id="附2-多色成像">附2 多色成像</h2>
+<p>原因：图像探测器（如EMCCD、sCOMS）都仅能探测光子数，而无法区分波长（颜色）</p>
+<h3 id="基于不同激发光不同发射光">基于不同激发光、不同发射光</h3>
+<ul>
+<li>
+<p>原理：</p>
+</li>
+<li>
+<p>优点：原理简单，实施方便，串扰小（虽然低波长激发光可以激发另一个荧光分子，但由于发射光不同，可以通过滤光片过滤）</p>
+</li>
+<li>
+<p>缺点：依次采集，时常常，样品漂移与校正。</p>
+<blockquote>
+<p>Subach, et al. “Photoactivatable mCherry for high-resolution two-color fluorescence microscopy.” Nature methods vol. 6,2 (2009): 153-9.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="基于不同激活光">基于不同激活光</h3>
+<ul>
+<li>
+<p>缺点：激活光可非特异性激活不同分子对，颜色串扰较高（可通过使用不同发射光，结合滤光片）</p>
+<blockquote>
+<p>Bates, et al. “Multicolor super-resolution imaging with photo-switchable fluorescent probes.” Science (New York, N.Y.) vol. 317,5845 (2007): 1749-53.</p>
+</blockquote>
+<img src="/images/image-20241225142402651.png" style="width:60%;" />
+</li>
+</ul>
+<h3 id="基于荧光淬灭">基于荧光淬灭</h3>
+<ul>
+<li>原理：分批次采集，一次采集一种荧光，然后淬灭，并重新标记新荧光（类似DNA-PAINT的更换imager策略）</li>
+<li>缺点：费时费力</li>
+</ul>
+<h3 id="基于分光技术">基于分光技术</h3>
+<ul>
+<li>
+<p>优点：同步采集，减少时间，图片叠加时也不需额外的位置校正；</p>
+</li>
+<li>
+<p>缺点：两颜色间串扰明显，尤其当成像密度较高时</p>
+<ul>
+<li>
+<p>单激发光源：为了保证激发效率，所选的两个荧光探针的吸收谱必然近似；则它们的发射谱必然发生交叠从而导致窜扰（要么产生串扰，要么损失串扰部分）。</p>
+</li>
+<li>
+<p>为实现双通道正确叠加，DM需把一部分荧光分给另一个光路，使两个通道数据产生关联性，但也带来了窜扰，甚至是数据的丟失（这个或许可以通过实现测量校正达到正确叠加，就无此问题）</p>
+<blockquote>
+<ul>
+<li>Bossi, Mariano et al. “Multicolor far-field fluorescence nanoscopy through isolated detection of distinct molecular species.”Nano Lett. 2008;8(8):2463-2468.</li>
+<li>Kim, Dahan et al. “Bleed-through correction for rendering and correlation analysis in multi-colour localization microscopy.” Journal of optics (2010), 15(9), 094011.</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<img src="/images/Snipaste_2021-11-05_10-08-48.png" style="width:70%;" />
+</li>
+</ul>
+<h3 id="基于光谱技术">基于光谱技术</h3>
+<ul>
+<li>
+<p>基于三棱镜（SR-STORM）</p>
+<ul>
+<li>
+<p>原理：双通道：①空间信息（样品信息）、②光谱信息（三棱镜→区分多色）</p>
+</li>
+<li>
+<p>优点：同步采集，可同时获得多达四色的超分辨图像；双物镜系统实现高通量荧光信号采集，在获得光谱信息的同时不影响空间定位分辨率</p>
+</li>
+<li>
+<p>缺点：需要大量复杂的数据处理；</p>
+<blockquote>
+<p>Zhang, Zhengyang et al. “Ultrahigh-throughput single-molecule spectroscopy and spectrally resolved super-resolution microscopy.” Nature methods vol. 12,10 (2015): 935-8.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>基于光栅</p>
+<ul>
+<li>
+<p>原理：</p>
+<ul>
+<li>利用光栅的衍射，nλ=d (sinα ± sinβ)；（α为入射角，β为衍射角，d为光栅常数，n为衍射级数）；</li>
+<li>n=0时，λ与β无关，但光强最强→ 空间定位</li>
+<li>n=±1时，λ越长，β越大，强度大→ 光谱区分（n=±2时，强度小，不利于区分，常滤去）</li>
+</ul>
+</li>
+<li>
+<p>优点：光展开较大(与d相关)，具有较大的光谱分辨率；</p>
+</li>
+<li>
+<p>缺点：采用单物镜成像系统，分流了空间定位的荧光信号；该文的光谱分路只采用了1级衍射光，降低了荧光利用率（分辨率）；光谱展开增大了CCD的像素需求，不利于高密度样品；</p>
+<blockquote>
+<p>Dong, Biqin et al. “Super-resolution spectroscopic microscopy via photon localization.” Nature communications vol. 7 12290. 25 Jul. 2016</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="/images/Snipaste_2021-11-05_09-56-28-163789527984732.png" style="width: 50%;" /><img src="/images/Snipaste_2021-11-05_10-02-34.png" style="width:50%;" /></p>
+</li>
+</ul>
+<h3 id="基于psf工程技术">基于PSF工程技术</h3>
+<ul>
+<li>
+<p>原理：（单光路系统）利用一种光谱依赖的四脚相位板，可调制不同颜色荧光的PSF，同时该形状与Ｚ轴深度相关，进而实现双色三维SMLM；</p>
+</li>
+<li>
+<p>优点：同步采集，且不依赖于分光技术，颜色间串扰较低</p>
+</li>
+<li>
+<p>缺点：被调至过的PSF占据了较多的CCD成像面积，限制了每帧图像采集的分子数（否则信号易发生交叠），降低了采集效率，因此较适合低密度目标物的成像（改进：或许可以结合ROSE显微镜种的谐振阵镜，利用高速采集，将采集点分散到不同CCD上）</p>
+<blockquote>
+<p>Shechtman, Yoav et al. “Precise Three-Dimensional Scan-Free Multiple-Particle Tracking over Large Axial Ranges with Tetrapod Point Spread Functions.” Nano letters vol. 15,6 (2015): 4194-9.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li>
+<p>李栋 等. 细胞成像技术. 2021</p>
+</li>
+<li>
+<p>降雨强 等. 生物影像技术. 2021</p>
+</li>
+<li>
+<p>柳振峰 等. 细胞的物理生物学. 2021</p>
+</li>
+<li>
+<p>张金刚. 智能成像技术及python实现. 2021</p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Fluorescence-Microscopy-Principles-Biological-Applications/dp/3527329226">Ulrich Kubitscheck. Fluorescence Microscopy: From Principles to Biological Applications. 2013</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Modern-Biophysical-Chemistry-Detection-Biomolecules/dp/B010WFIJAK">Peter Jomo Walla. Modern Biophysical Chemistry: Detection and Analysis of Biomolecules. 2014</a></p>
+<blockquote>
+<p>本文还引用了众多学者的文章，但由于当时自己未能做好引用标注工作，现因较难对其考证而未对其进行引用，特在此表示对其工作的感谢与未能提及的抱歉。</p>
+</blockquote>
+</li>
+</ol>
+
+  </article>
+
+  
+  
+    
+    <div class="author-card">
+    <div class="underline"></div>
+    <div class="author-box">
+      <div class="author-image"><a href="https://poetryw.cn/"><img src="/images/author.webp" alt="林風" /></a></div>
+      <div class="author-content">
+      <p class="author-title">作者</p>
+      <p class="author-name">林風</p>
+      <p class="author-desc">生物学在读博士生，一个怀念旧事物的人。如果你有任何问题，欢迎通过<a href="1225569529@qq.com">邮件</a>一起交流。</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+
+
+</div>
+
+  </main><div class="footer gradient-2">
+  <div class="container footer-container ">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <div class="footer-title">网站地图</div>
+        <ul class="list-unstyled">
+            
+              
+                <li><a href="https://flysein.me/tags/">标签</a></li>
+              
+              
+                <li><a href="https://flysein.me/categories/">分类</a></li>
+              
+            
+            
+            
+            <li><a rel="alternate" type="application/rss&#43;xml" href="https://flysein.me/index.xml"><i class="fas fa-rss-square"></i> RSS订阅</a></li>
+            
+            
+            
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">科学网站</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://researchrabbitapp.com/" rel="noopener" target="_blank">Research Rabbit</a></li>
+          
+          <li><a href="https://www.connectedpapers.com/" rel="noopener" target="_blank">Connected papers</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">艺术网站</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://www.nbfox.com/" rel="noopener" target="_blank">麦田艺术</a></li>
+          
+          <li><a href="https://www.ss.net.tw/" rel="noopener" target="_blank">名畫檔案</a></li>
+          
+        </ul>
+        
+      </div> 
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p class="pull-right text-right">
+          <small><em>Proudly powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo</a></em></small><br/>
+          <small><em>Theme - <a href="https://github.com/shaform/hugo-theme-den" rel="noopener" target="_blank">Den</a></em></small><br/>
+          <small>
+            &copy; 
+            林風
+            
+              2024 -
+            2025
+          </small>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  
+</div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+<body class="">
+  ...
+</body>
+</html>

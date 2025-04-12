@@ -1,0 +1,113 @@
+/* TOC 目录容器样式 */
+.toc-container {
+	position: fixed; /* 初始固定 */
+	bottom: 40px; /* 默认距离底部 */
+	right: 20px;
+	width: 160px;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 14px;
+	overflow-y: auto;
+	max-height: 70%;
+	z-index: 1000;
+	background: transparent !important;
+	border: none !important;
+  }  
+  
+/* 隐藏 TOC 标题（"目录" 二字） */
+.toc-container h2,
+.toc-container h1 {
+  display: none !important; /* 强制隐藏 */
+  visibility: hidden !important; /* 彻底隐藏 */
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 移除无序列表前的点 */
+.toc-container ul {
+	list-style: none; /* 移除无序列表前的点 */
+	padding-left: 0; /* 取消默认缩进 */
+	margin: 0;
+}
+
+/* TOC 链接样式 */
+.toc-container a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	margin: 5px 0;
+}
+.toc-container a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.toc-container {
+	  display: none; /* 在小屏设备上完全隐藏目录 */
+	}
+  }
+
+/* 修改正文样式 */
+body {
+    line-height: 1.8; /* 调整行间距，可修改为 1.6 或 2.0 */
+	/* font-family: "Times New Roman", SimSun, serif;  字体 */
+}
+
+
+
+/* 精准定位正文区域 */
+main,           /* 多数主题的正文容器 */
+article,        
+.post-body,  
+.article-content {
+    font-family: "Times New Roman", "SimSun", serif;
+}
+
+/* 针对代码等特殊元素保持原字体 */
+code, kbd, pre, samp {
+    font-family: monospace !important;
+}
+
+/* 强制覆盖 header/footer 区域 */
+header, footer, 
+.navbar,     
+.site-header, 
+.site-footer {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.whiteboard {
+	position: relative;
+	width: 100%;
+	min-height: 1000px; 
+	background-color: transparent;
+	overflow: visible;  /* 允许内容溢出显示 */
+	margin: 20px 0;
+  }
+  
+.whiteboard img {
+	position: absolute;
+	cursor: move; /* 显示拖拽手势 */
+	user-select: none; /* 禁止选中 */
+	touch-action: none; /* 禁止触摸时默认行为 */
+}
+
+.whiteboard-text {
+	position: absolute;
+	font-size: 16px;
+	color: #333;
+	background-color: rgba(255, 255, 255, 0.7); /* 半透明背景 */
+	padding: 5px;
+	border-radius: 3px;
+	cursor: move; /* 如果你希望文本可拖拽 */
+  }
+  
+
+/* 为白板设置全屏样式 */
+body.whiteboard-fullwidth .container {
+	max-width: none !important;
+	width: 60% !important;
+  }
+  

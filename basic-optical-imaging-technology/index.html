@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <script src="/js/custom.js"></script>
+  <meta name="generator" content="Hugo 0.110.0" />
+  <meta charset="utf-8">
+  <title>基础光学成像技术 · 逍遙游</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="物理光学 光的波-粒二象性 波动性 粒子性 光的干涉、衍射 可持续光波干涉的条件：固定相位差 &#43; 固定波长差；（相长干涉、相消干涉） 杨氏双缝干涉（相长干涉" />
+
+  <meta name="keywords" content="Hugo, theme, den" />
+
+<link rel="canonical" href="https://flysein.me/basic-optical-imaging-technology/" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://flysein.me/css/den.css">
+
+<link rel="stylesheet" href="https://flysein.me/css/custom.css">
+
+
+
+
+<meta property="og:title" content="基础光学成像技术" />
+<meta property="og:description" content="物理光学 光的波-粒二象性 波动性 粒子性 光的干涉、衍射 可持续光波干涉的条件：固定相位差 &#43; 固定波长差；（相长干涉、相消干涉） 杨氏双缝干涉（相长干涉" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://flysein.me/basic-optical-imaging-technology/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-24T16:00:42+08:00" />
+<meta property="article:modified_time" content="2022-01-24T16:00:42+08:00" />
+<meta itemprop="name" content="基础光学成像技术">
+<meta itemprop="description" content="物理光学 光的波-粒二象性 波动性 粒子性 光的干涉、衍射 可持续光波干涉的条件：固定相位差 &#43; 固定波长差；（相长干涉、相消干涉） 杨氏双缝干涉（相长干涉"><meta itemprop="datePublished" content="2022-01-24T16:00:42+08:00" />
+<meta itemprop="dateModified" content="2022-01-24T16:00:42+08:00" />
+<meta itemprop="wordCount" content="14022">
+<meta itemprop="keywords" content="science," />
+
+<head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-860LXS9FV3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-860LXS9FV3');
+</script>
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+</head>
+<body>
+  
+  <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://flysein.me/images/background.jpg'); background-position: center; background-size: cover;">
+  <div class="container">
+  <nav class="header-nav navbar navbar-expand-md navbar-dark light-dark">
+    <div class="header-logo navbar-brand">
+      
+        <a class="float-left" href="https://flysein.me/">
+      
+        
+        <img class="mr20 header-logo-image" src="https://flysein.me/images/picasso.png" alt="logo">
+        
+        
+          Flysein
+         
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/text/">文字</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/photography/">影像</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/science/">科学</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://flysein.me/category/art/">艺术</a>
+              
+            
+          </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">基础光学成像技术</h1>
+        <p class="header-date">作者：
+          林風 /
+        
+        2022-01-24
+          / 分类：
+          <a href="https://flysein.me/category/science/">Science</a>
+        </p>
+        
+        <div class="header-underline"></div>
+        
+          <div class="clearfix"></div>
+          <p class="float-right header-tags">
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              <a href="https://flysein.me/tag/science/">science</a>
+          </p>
+        
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <main>
+<div class="toc-container">
+  <h2>目录</h2>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#物理光学">物理光学</a></li>
+    <li><a href="#几何光学">几何光学</a></li>
+    <li><a href="#显微镜的构造">显微镜的构造</a></li>
+    <li><a href="#基础光学成像技术">基础光学成像技术</a></li>
+    <li><a href="#荧光标签">荧光标签</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
+</div>
+<div class="container content">
+  <article>
+  <h2 id="物理光学">物理光学</h2>
+<h3 id="光的波-粒二象性">光的波-粒二象性</h3>
+<ul>
+<li>波动性</li>
+<li>粒子性</li>
+</ul>
+<h3 id="光的干涉衍射">光的干涉、衍射</h3>
+<ul>
+<li>
+<p>可持续光波干涉的条件：<strong>固定相位差</strong> + <strong>固定波长差</strong>；（相长干涉、相消干涉）</p>
+</li>
+<li>
+<p>杨氏双缝干涉（相长干涉）条件：准单色的光源、相干光线来自同一光源（相干光源）、小孔大小和两个小孔之间的距离与入射光的波长相比不太大(&lt;1mm)
+<img src="/images/Snipaste_2021-10-14_13-53-32.png" style="width: 50%;" /></p>
+</li>
+<li>
+<p>光的衍射（无数光、单缝）</p>
+<ul>
+<li>惠更斯原理
+<ul>
+<li>传播中的波 阵面上的每一点都是一个次级球面子波的源，随后某一时刻的波阵面是这些子波的包络。</li>
+<li>若正在传播的波的频率为 n, 并且以波速 Vt 穿过介质，那么次级子波有同样的频率和波速。</li>
+</ul>
+</li>
+<li>菲涅耳衍射（近场，距离~小孔大小）→ NSOM</li>
+<li>夫琅禾费衍射（远场，距离&raquo;小孔大小）→ 常规光学成像</li>
+</ul>
+</li>
+</ul>
+<h3 id="艾里斑显微镜分辨率">艾里斑、显微镜分辨率</h3>
+<ul>
+<li>圆孔夫琅禾费衍射→艾里斑：中心光强约占总光强的84%</li>
+<li>瑞利判据：一个衍射图案的中心最大值与另一个的第一个最小值重合，越等于FWHM（高斯函数的FWHM=2sqrt(2ln2)·σ）</li>
+</ul>
+<h3 id="psfotfft">PSF、OTF、FT</h3>
+<p>见 <a href="http://poetryw/2024/12/24/super-resolution-optical-imaging-technology/">超分辨光学成像技术</a></p>
+<h3 id="光的偏振">光的偏振</h3>
+<p>偏振光： 偏振光指光矢量的振动方向不变或有某种规律的变化</p>
+<ul>
+<li>部分偏振光：在垂直于光传播方向的平面上，含有各种振动方向的光矢量，但光振动在某一方向更显著。</li>
+<li>线偏振光：光矢量末端轨迹在垂直于传播方向的平面为一直线。</li>
+<li>椭圆偏振光、圆偏振光：矢量末端轨迹在垂直于传播方向的平面为一椭圆</li>
+<li>径向偏振光：光矢量指向或者背向光轴</li>
+</ul>
+<h2 id="几何光学">几何光学</h2>
+<h3 id="基本概念定律原理">基本概念、定律、原理</h3>
+<h4 id="光的基本概念">光的基本概念</h4>
+<ul>
+<li>
+<p>电磁波谱</p>
+<img src="/images/EM_spectrum-zh-%25E7%2594%25B5%25E7%25A3%2581%25E6%25B3%25A2%25E8%25B0%25B1.png" style="width: 80%;" />
+</li>
+<li>
+<p>单色光与复色光（单色光现实中不存在，但激光的单色性较好，可近似看作单色光）</p>
+</li>
+<li>
+<p>光源：能够辐射光能量的物体（发光体可以看作是由许多点光源组成）</p>
+<ul>
+<li>实发光点：实际发出光线的 光源点</li>
+<li>虚发光点：光线OR其反向延长线的交点</li>
+</ul>
+</li>
+<li>
+<p>光线：几何光学中的概念，带有方向的几何线</p>
+</li>
+<li>
+<p>波(阵)面：</p>
+<ul>
+<li>概念：
+<ul>
+<li>（发光点发出的光波向四周传播时，某一时刻）<strong>振动位相相同的点</strong>所构成的<strong>等相位面</strong>；</li>
+<li>（在各向同性介质中）波面上某点光的传播方向：该点的法线（即为光线）</li>
+</ul>
+</li>
+<li>类别：空间一些具有一定关系的光线的集合
+<ul>
+<li>平面波：无限远、发光点发出的球面波（近似为平面波）</li>
+<li>球面波：同心光束、有限远</li>
+<li>任意曲面波：像散光束、非球面</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>光束：空间中具有一定关系的（如与波面对应的）所有光线的集合</p>
+<ul>
+<li>同心光束（会聚OR发散 光束）：光线本身OR其延长线 可以交于一点的光束（球面波）</li>
+<li>像散光束：不能交于一点，但具有一定关系的光束（任意曲面波）</li>
+</ul>
+</li>
+</ul>
+<h4 id="基本定律">基本定律</h4>
+<ol>
+<li>
+<p>光的直线传播定律</p>
+<ul>
+<li>定义：各向同性、均匀介质，光是沿着直线方向传播</li>
+<li>局限：
+<ul>
+<li>（波动性）小孔OR狭缝：<strong>衍射现象</strong>：光将不再沿着直线传播；</li>
+<li>各向异性的晶体介质：<strong>双折射现象</strong></li>
+<li>非均匀介质：光线传播路径为曲线，而非直线</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>光的独立传播定律</p>
+<ul>
+<li>定义：<strong>不同光源</strong>，发出的光在空间某点相遇时，彼此互不影响，独立传播；（光强是各光束强度的简单叠加）</li>
+<li>局限：<strong>（波动性）光的干涉</strong>：相同光源（频率相同，振动方向一致），经过不同的路径传播（相位差）后交会，光强将不再是简单叠加。</li>
+</ul>
+</li>
+<li>
+<p>光路的可逆原理</p>
+<ul>
+<li>当光线的方向反转时，它将逆着同一光径传播。</li>
+</ul>
+</li>
+<li>
+<p>光的反射定律和折射定律
+<img src="/images/Snipaste_2021-09-16_15-43-38.png" style="width: 25%;" /></p>
+</li>
+</ol>
+<ul>
+<li>基本概念；
+<ul>
+<li>入射角（I）、反射角（I&rsquo;&rsquo;）、折射角（I&rsquo;）：入射光线、反射光线、折射光线与法线的夹角；</li>
+<li>折射率(n)：光速在真空中的速度/在介质中传播的速度，即：n=c/v</li>
+</ul>
+</li>
+<li>反射定律：（同一均匀介质）
+<ul>
+<li>①反射光线位于入射光线AND法线所决定的平面内；</li>
+<li>② I&rsquo;&rsquo;=-I</li>
+</ul>
+</li>
+<li>折射定律：（两种均匀介质）
+<ul>
+<li>①折射光线位于入射光线AND法线所决定的平面内；</li>
+<li>②在一定温度AND压力下，两种均匀介质的折射率为常数，则：n&rsquo;sin(I&rsquo;)=nsin(I)</li>
+</ul>
+</li>
+<li>反射定律与折射定律的关系：令n&rsquo;=-n：则有I&rsquo;=-I（即反射定律）</li>
+</ul>
+<ol start="5">
+<li>
+<p>光的全反射现象</p>
+<ul>
+<li>介质
+<ul>
+<li>光密介质：折射率高，光传播速度低；</li>
+<li>光疏介质：折射率低，光传播速度高；</li>
+</ul>
+</li>
+<li>全反射原理：n&rsquo;&lt;n → I&rsquo;＞I：I&rsquo;更偏离法线；
+<ul>
+<li>当I增大到某种程度（临界角，记为I<sub>m</sub>），I&rsquo;达到90°，折射光线将沿界面掠射出去；</li>
+<li>当I＞I<sub>m</sub>，光线不在进入第二种介质（否则sin(I&rsquo;)＞1），而是全部反射回第一种介质，即全反射现象。</li>
+</ul>
+</li>
+<li>性质：
+<ul>
+<li>
+<p>全反射的光能效益(无反射能量损失)＞镀有反射膜层的平面反射镜的光能效益(90%) →→光纤</p>
+</li>
+<li>
+<p>全反射后，在第二种介质中将产生“倏逝波”→→<strong>TIRF</strong>
+<img src="/images/Snipaste_2021-09-18_21-35-02.png" style="width: 80%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="其它原理">其它原理</h4>
+<ol>
+<li>
+<p>费马原理（光程极端定律）</p>
+<ul>
+<li>定义：光是沿着光程为极值（极大、极小或常量）的路径传播的（即t(x)或l(x)的一阶微分为0）。</li>
+<li>光程(s)：
+<ul>
+<li>s=nl（光所在介质的折射率n × 光在介质中传播的几何路程l）；</li>
+<li>s=nl，l=vt → s=ct：光在某种介质中的光程 == 同一时间内光在真空中所走过的几何路程；</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>马吕斯定律</p>
+<ul>
+<li>光线束在各向同性的均匀介质中传播时，始终保持着与波面的正交性，并且入射波面与出射波面对应点之间的光程均为定值。</li>
+<li>这种正交性表明：垂直于波面的光线束经过任意多次折、反射后，无论折、反射面形如何，出射光束仍垂直于出射波面。</li>
+</ul>
+</li>
+<li>
+<p>折/反射定律、费马原理、马吕斯定律之间的关系：知任一可推它二。</p>
+<ul>
+<li>费马定理→折射定律
+<img src="/images/Snipaste_2021-09-16_16-30-25.png" style="width: 90%;" /></li>
+</ul>
+</li>
+</ol>
+<h3 id="光学系统像差">光学系统、像差</h3>
+<ol>
+<li>
+<p>眼睛光学系统</p>
+<ul>
+<li>明视距离：正常眼，观察物体最舒服的距离，为25cm；</li>
+<li>眼睛的最灵敏波长：555nm；</li>
+<li>极限最小分辨角：1分</li>
+</ul>
+</li>
+<li>
+<p>光学系统：由若干反射或折射面组成的光学系统 （ 如透镜、显微镜物镜、目镜等）</p>
+<ul>
+<li>共轴光学系统：所有的球心都在一条直线</li>
+<li>非共轴光学系统</li>
+</ul>
+</li>
+<li>
+<p>理想光学系统：能够使通过光学系统的同心光束仍保持同心性的光学系统 ；</p>
+<ul>
+<li>同心性不变： 由物点发出的同心光束通过光具组后应保持其同心性不变；</li>
+<li>等光程成像： 由物点发出的所有光线通过光具组后均应以相等的光程到达像点（与“同心性不变”等价，可互推）</li>
+<li>对于理想光学系统，每一个物点均有与之共轭的像点（物的共轭像点）</li>
+</ul>
+</li>
+<li>
+<p>物点与像点</p>
+<ul>
+<li>物点：发光点 OR <strong>入射</strong>同心光束的顶点
+<ul>
+<li>实物点：发散的入射光束的顶点 (a, b)</li>
+<li>虚物点：会聚的入射光束的顶点，或入射光束延长线的交点 (c, d)</li>
+</ul>
+</li>
+<li>像点：经光学系统，<strong>出射</strong>同心光束的顶点
+<ul>
+<li>实像点：会聚的同心出射光束的顶点 (a, c)</li>
+<li>虚像点：发散的同心出射光束的顶点 (b, d)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<img src="/images/Snipaste_2021-09-17_16-30-05.png" style="width: 70%;" />
+<ol start="5">
+<li>
+<p>像差</p>
+<ul>
+<li>
+<p>单色像差：由成像系统偏离傍轴条件所引起的几何像差，与波长无关。</p>
+<ul>
+<li>球差：<strong>轴上物点</strong>，发出的**远轴光线（大口径）**经球面透镜汇聚在光轴不同位置的光斑。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<img src="/images/1.png" style="width:50%;" />
+<ul>
+<li>慧差：<strong>轴外物点</strong>，在透镜不同位置的<strong>成像放大率不同</strong>所造成的像是彗星状的光斑。弧矢慧差 ≈ 1/3子午慧差</li>
+</ul>
+ <img src="/images/2.png" style="width: 50%;" />
+<ul>
+<li>
+<p>像散：<strong>轴外物点</strong>，视场很大时，边缘上的物点离光轴远，光束倾斜大，物点在成象后在两个特 定地方变成两个分离并且相互垂直的短线，在理想象平面上综合后，形成一个椭圆形的斑点。</p>
+<img src="/images/3.png" style="width: 50%;" />
+<img src="/images/Snipaste_2021-09-17_14-52-21.png" style="width: 50%;" />
+</li>
+<li>
+<p>场曲：<strong>平面物点</strong>，聚焦后的理想像面是一个曲面→像平面上不同离轴区域出现不同程度模糊。</p>
+<img src="/images/4.png" style="width: 50%;" />
+</li>
+<li>
+<p>畸变：成像后，由于局部放大率不等而使物体的像产生变形。2%~4%的畸变人眼无法分辨</p>
+<ul>
+<li>枕形(正)畸变：远轴区域的横向放大率＞傍轴区域的横向放大率</li>
+<li>桶形(负)畸变：远轴区域的横向放大率＜傍轴区域的横向放大率</li>
+</ul>
+<img src="/images/5.png" style="width: 50%;" />
+</li>
+<li>
+<p>色像差：由光学介质的色散（对于不同波长的光，光学材料具有不同的折射率  ）所引起的几何像差</p>
+<ul>
+<li>
+<p>位置(轴向)色差：成像透镜对不同波长的光具有不同的焦距</p>
+</li>
+<li>
+<p>倍率(横向)色差：不同波长的色光具有不同的横向放大率</p>
+</li>
+</ul>
+</li>
+</ul>
+<img src="/images/Snipaste_2021-09-16_20-39-01.png" style="width:50%;" />
+<h2 id="显微镜的构造">显微镜的构造</h2>
+<h3 id="光源">光源</h3>
+<ul>
+<li>卤钨灯： 30~100W；色温低，暖色调光源，波长长；</li>
+<li>氙灯： 75 ~200W；可见光波段，输出光强而平坦，亮度高，接近日光；</li>
+<li>金属卤素灯、汞灯：亮度非常高，常用于荧光激发；</li>
+<li>LED：低能耗，发光效率高，寿命长，光谱范围窄（注意：部分白光LED灯非正常连续频段白光，而是由红黄蓝三色光组成）</li>
+<li>激光 ： 低能耗，高亮度，线光源、偏振光
+<ul>
+<li>气体激光器、固体激光器、半导体激光器</li>
+<li>连续激光器、脉冲激光器</li>
+</ul>
+</li>
+</ul>
+<h3 id="光阑">光阑</h3>
+<ul>
+<li>
+<p>孔径光阑：限制<strong>轴上物点</strong>的光束，决定轴上点发出的平面光束的孔径角。</p>
+</li>
+<li>
+<p>视场光阑：限制<strong>轴外物点</strong>的光束，决定物平面或物空间中成像范围，限制横向视场的大小。</p>
+</li>
+<li>
+<p>渐晕光阑：影响<strong>轴外物点</strong>的光束，降低其能量，产生像面亮度渐晕(即亮度渐弱)，减少对轴上物象的干扰。</p>
+<img src="/images/Snipaste_2021-09-17_14-55-43.png" style="width: 50%;" />
+</li>
+<li>
+<p>消杂光光阑：不限制通过光学系统的成像光束，限制杂散光（非成像物体射来的光、光学系统各折射面反射的光、仪器内壁反射的光）</p>
+</li>
+</ul>
+<h3 id="照明系统">照明系统</h3>
+<h4 id="临界照明系统">临界照明系统</h4>
+<ul>
+<li>
+<p>原理：将光源的像成在物平面上</p>
+</li>
+<li>
+<p>缺点：<strong>聚光镜的像方视场</strong>与<strong>物镜的物方视场</strong>重合，其缺点就是光源表面亮度的不均匀性会导致物面照明的不均匀，从而影响观察效果.</p>
+<img src="/images/v2-4c1709ee7c247cb24e5097c14e7a5535_r.png" style="width: 50%;" />
+</li>
+</ul>
+<h4 id="科勒照明系统">科勒照明系统</h4>
+<ul>
+<li><strong>光源与孔径光阑（aperture stop）、视场光阑（field stop）与照明面的共轭关系</strong></li>
+<li><strong>孔径光阑对入射光线数量的控制（调节照明明暗）</strong></li>
+<li><strong>视场光阑对照明范围的控制（调节照明范围）</strong></li>
+<li>光源和孔径光阑成像在物镜后焦面→经物镜后产生平行光，产生均质光</li>
+</ul>
+<img src="/images/Typical-Koehler-illumination-principle-in-microscopy-systems-it-provides-a-homogeneous.jpg" style="width: 50%;" />
+<img src="/images/Snipaste_2021-09-16_21-35-43.png" style="width: 50%;" />
+<h3 id="物镜">物镜</h3>
+<ul>
+<li>消色差物镜（Achromatic objective，“Ach”）：校正了<strong>红、蓝</strong>二色轴上色差、球差（黄绿光）和近轴点慧差。视场中间清晰，适于黄绿光源。</li>
+<li>半复消色差物镜（Semi apochromatic objective，&ldquo;FL&rdquo;）：在结构上透镜的数目比消色差物镜多，比复消色差物镜少；成像质量上，较消色差物镜好，接近于复消色差物镜。</li>
+<li>复消色差物镜（Apochromatic objective，&ldquo;Apo&rdquo;）：透镜采用了特种玻璃或萤石等材料制作而成，对红、蓝、黄 光校正了轴向色差。一般<strong>须用目镜配合使用</strong>，消除残余色差。</li>
+<li>平场物镜（Plan objective，&quot; Plan &ldquo;）：在物镜的透镜系统中增加一快半月形的厚透镜， 以达到校正像场弯曲，提高视场边缘成像质量。</li>
+<li>&hellip;&hellip;</li>
+<li>湿式物镜：水镜、油镜；折射率&gt; 1</li>
+</ul>
+<h3 id="波长调制元件">波长调制元件</h3>
+<h4 id="光学滤光片f">光学滤光片(F)</h4>
+<ul>
+<li>
+<p>定义：只允许在某一个通频带范围内的信号通过的滤波器</p>
+</li>
+<li>
+<p>类型：短波通、长波通、带通</p>
+</li>
+<li>
+<p>参数：透过率、截止波长、带宽</p>
+<img src="/images/Snipaste_2021-09-21_16-29-09.png" style="width: 50%;" />
+</li>
+</ul>
+<h4 id="电子滤光片atof">电子滤光片—ATOF</h4>
+<ul>
+<li>
+<p>全称：声光可调谐滤波器(Acousto-optic tunable filters, AOTF)</p>
+</li>
+<li>
+<p>作用：灵活、快速(us级)地 选择光的波长、强度</p>
+</li>
+<li>
+<p>原理：</p>
+<ul>
+<li>
+<p>声光效应</p>
+<ul>
+<li>超声波是一种弹性波，当它通过介质时，介质中的各点将出现随时间和空间周期性变化的弹性应变。</li>
+<li>由于弹光效应，介质中各点的折射率也会产生相应的疏密周期性变化。等效为光栅；光栅间距等于声波波长</li>
+</ul>
+</li>
+<li>
+<p>晶体周期：特殊的双折射晶体(如：二氧化碲, TeO2：可调制450-4000nm)，受到高频(几百MHz)声波的影响，产生周期性的压缩条纹，改变了晶体的局部衍射能力，并产生了不同折射率的周期性条纹；</p>
+</li>
+<li>
+<p>波长调制：调节 (驱动晶体的) <em>入射声波的频率</em> 调制 (衍射带的波长取决于声学的频率)；通过向AOTF传输多个频率，可以控制偏转光的光谱宽度。</p>
+</li>
+<li>
+<p>光强调制：调节 (驱动晶体的) <em>入射声波的振幅</em> 调制</p>
+<img src="/images/Snipaste_2021-11-17_21-39-32.png" style="width:50%;" />
+</li>
+</ul>
+</li>
+<li>
+<p>单模光纤：自身具有滤波作用，出射光斑可以更加完美地呈高斯分布</p>
+</li>
+</ul>
+<h4 id="二向色镜dcsp">二向色镜(DCSP)</h4>
+<ul>
+<li>
+<p>指45度入射或大角度入射时，把光源分离出特定的光谱改变部分光谱光路方向；特点是对一定波长的光几乎完全透过，而对另一些波长的光几乎完全反射。</p>
+</li>
+<li>
+<p>荧光滤色块：模块，包含激发滤光片、发射光滤片和二向色镜</p>
+</li>
+</ul>
+<h4 id="偏振分束镜pbs">偏振分束镜(PBS)</h4>
+<ul>
+<li>在光学玻璃表面镀上一层/多层薄膜，使得入射光线产生折射and全反射，产生两束光</li>
+</ul>
+<h4 id="偏振片">偏振片</h4>
+<ul>
+<li>
+<p>定义：仅允许透过某种振动方向的光</p>
+</li>
+<li>
+<p>波片(相位延迟片)：由双折射材料加工而成，用于调整光束的偏振状态</p>
+</li>
+</ul>
+<p>半波片(λ/2)(HWP)</p>
+<ul>
+<li>产生Π奇数倍的相位延迟；</li>
+<li>线偏振光→线偏振光；圆偏振光→旋向相反的圆偏振光；</li>
+<li>若入射线偏振光的振动方向与波片快轴(或慢轴)夹角为α，则出射线偏振光的振动方向为入射光向着快轴(或慢轴)方向转过2α角</li>
+</ul>
+<p>λ/4波片(QWP)</p>
+<ul>
+<li>产生π/2奇数倍的相位延迟；</li>
+<li>入射线偏振光→椭圆偏振光；</li>
+<li>若入射线偏振光的光矢量与波片快(慢)轴成±45°时，将得到圆偏振光。</li>
+<li>而1/4波片就是控制材料和厚度使光经过波片后，两个不同偏振方向的光产生1/4波长的相位差，在此相位差下合成的光为圆偏振光。</li>
+<li>1/4波片可以用于隔离反射光：激光器发出的经过偏振片选择后的线偏振光，经过1/4波片后，两个分量产生1/4波长相位差，反射回来后，两个分量的方向和相位差不变，再次经过1/4波片，两个分量再次叠加1/4波长相位差，共1/2相位差，所以合成的光为线偏振光，且偏振方向与原方向垂直，所以无法再次通过偏振片。</li>
+</ul>
+<h3 id="光子探测器">光子探测器</h3>
+<h4 id="总引">总引</h4>
+<ol>
+<li>
+<p>类型</p>
+<ul>
+<li>
+<p>点探测器：PMT、APD</p>
+</li>
+<li>
+<p>线探测器：线阵APD、线阵CCD</p>
+</li>
+<li>
+<p>面探测器</p>
+<ul>
+<li>
+<p>CCD：CCD、ICCD、EMCCD</p>
+</li>
+<li>
+<p>CMOS：CMOS、sCMOS</p>
+</li>
+<li>
+<p>选择：信号十分微弱、长时间曝光用EMCCD；其他情况用sCMOS（高灵敏度、高信噪比、快速采集、大视场）
+<img src="/images/Snipaste_2021-10-31_21-04-06.png" style="width: 90%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>噪声——热噪声（暗电流）</p>
+<ul>
+<li>暗电流：相机传感器内部的硅晶格因产热产生的电子，由于这些电子也会被像素采集，成为一种噪声干扰。
+<ul>
+<li>暗电流是随时间累积的，曝光时间越长，暗电流越大，影响越大；</li>
+</ul>
+</li>
+<li>解决：制冷冷却，降低传感器发热，降低暗电流（芯片温度每降低7°C，暗电流减半）</li>
+</ul>
+</li>
+</ol>
+<h4 id="pmt">PMT</h4>
+<ul>
+<li>
+<p>全称：光电倍增管(Photomultiplier Tube, PMT)</p>
+</li>
+<li>
+<p>组成：光电发射阴极（光阴极）和聚焦电极、电子倍增极及电子收集极（阳极）</p>
+</li>
+<li>
+<p>原理：</p>
+<ul>
+<li>光线通过石英(或玻璃)窗口进入PMT，并击中由碱金属制成的光敏表面(光电阴极)</li>
+<li>光电阴极释放电子，在高电场(1~2kv)下撞击电极(电节)，电节释放更多的电子(倍增)。这些电子撞击下一个电节。</li>
+<li>最后一个电节测量的电流与入射到光电阴极上的光的强度成比例。</li>
+</ul>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>量子效率低(&lt;30%)；灵敏度高；成本低；响应快(ns)；</li>
+<li>受强光影响大，易损耗</li>
+<li>应用：光子计数、弱光探测、化学发光、生物发光、极低能量射线探测、分光光度计、色度计 生化分析仪等设备中。</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/Snipaste_2021-11-17_23-15-40-16378948311701.png" style="width: 50%;" /><img src="/images/Snipaste_2021-11-17_23-16-21.png" alt="Snipaste_2021-11-17_23-16-21" style="width: 40%;" /></p>
+<h4 id="apd">APD</h4>
+<ul>
+<li>
+<p>全称：雪崩光电二极管(Avalanche photodiodes, APD）</p>
+</li>
+<li>
+<p>原理</p>
+<ul>
+<li>一个足够能量的光子撞击二极管时，它会激发一个电子，从而产生一个自由电子(和一个带正电的电子空穴)</li>
+<li>在阳极和阴极之间施加了高电压，使在阳极和阴极之间产生电子流(“雪崩”)；不断放大；</li>
+</ul>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>量子产率(90%)；响应快；增益低(500-1000)；价格较PET低</li>
+<li>应用：APD因为其具备单光子探测能力，所以常被用于光子计数器应用。和高速计数卡结合可以实现弱信号的光子计数探测能力。</li>
+</ul>
+</li>
+</ul>
+<h4 id="ccd">CCD</h4>
+<ul>
+<li>
+<p>全称：电荷藕合器件图像传感器(Charge-coupled device, CCD）</p>
+</li>
+<li>
+<p>原理</p>
+<ol>
+<li>电荷产生：光子 → 半导体光敏元件 → 基于光电效应 → 产生与光子数相同的电子数(1:1)；
+<ul>
+<li>FI CCD（前照明电荷耦合器件, front-illuminated CCD)：在到达光敏硅层之前，光先入射到电极上；量子效率为60-70%，无法检测紫外光</li>
+<li>BI CCD（后照明电荷耦合器件, back-illuminated CCD)：光先入射到硅层上；量子效率为95%，可检测紫外光</li>
+</ul>
+</li>
+<li>电荷转移（如下图：上面为像素，最下方一行为放大器，输出相应列的信号）
+<ul>
+<li>每列最下方的像素的电子传递给放大器(将电子转换为电压值)，其它像素的电子传递给下一个像素（下移1个单位，最下方单位输出）</li>
+</ul>
+</li>
+<li>电荷输出：电压值转换为离散值(数字化)，并转换成显示屏上的亮度水平(光强)</li>
+</ol>
+<p><img src="/images/Snipaste_2021-11-17_22-06-20-16378948418432.png" style="width: 80%;" /><img src="/images/v2-5a7f1538baa18f76ddc941ca2fd9b18e_r.jpg" style="width: 50%;" /></p>
+</li>
+<li>
+<p>灵敏度影响因素</p>
+<ol>
+<li>电子噪声水平：微弱的信号如果与噪音水平相当，可能无法检测到。
+<ul>
+<li>标准CCD相机由于读出噪声大，往往不足以检测微弱的荧光；标准CCD传感器的高灵敏度只能在相对较低的图像采集速率下实现。</li>
+</ul>
+</li>
+<li>电荷积累峰值：高光下，光子将使CCD像素孔充满电荷，并达到最大的孔容量(饱和电荷)。这可能会导致电荷溢出到邻近的井中，导致图像质量下降。</li>
+</ol>
+</li>
+</ul>
+<h4 id="iccd">ICCD</h4>
+<ul>
+<li>
+<p>全称：Intensified CCD</p>
+</li>
+<li>
+<p>原理</p>
+<ul>
+<li>放大设备——microchannel plate：置于标准CCD光传感器前；1个光子可以产生数千个电子
+<ul>
+<li>组成：1个光电阴极(photocathode)、1组通道(channel)、1个荧光层(phosphor)</li>
+<li>光电阴极：感应光子，光电效应，产生电子(1:1)</li>
+<li>通道：强电场，加速电子，向荧光层移动</li>
+<li>磷光层：每个电子引起多个光子的发射，随后由标准CCD相机的传感器记录。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>优点：对微弱的荧光信号成像具有较高的灵敏度</li>
+<li>缺点；空间分辨率低；背景噪声通常较高；可能会被强光源损坏</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/Snipaste_2021-11-17_23-08-00-16378948470053.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-17_23-08-35.png" style="width:50%;" /></p>
+<h4 id="emccd">EMCCD</h4>
+<ul>
+<li>全称：电子倍增电荷耦合器件, Electron Multiplier Charge-Coupled Device</li>
+<li>原理
+<ul>
+<li>在CCD的读出寄存器后接有一串“增益寄存器”(storage section)；电子在增益寄存器中，受足够高的电场，产生“撞击离子化”效应，产生了新的电子(次级电子)，即所谓的倍增；</li>
+<li>单次转移的倍增增益非常小(1.01~1.015倍)；但重复多次后信号便可显著增大(1000倍以上)</li>
+<li>芯片温度越低，倍增增益越高</li>
+</ul>
+</li>
+<li>特点
+<ul>
+<li>优点：
+<ul>
+<li>量子效率超过90%；</li>
+<li>高灵敏度(信号放大)</li>
+<li>低噪音：读出噪声低(&lt;1eˉ) → 具有良好的弱光探测能力；在一些极微弱信号探测时，仍然能够保持较髙的成像信噪比</li>
+</ul>
+</li>
+<li>缺点
+<ul>
+<li>串行工作方式限制了大量数据的读出速度，该缺陷在很大程度上降低了图像采集速度 (512×512像素, 35帧/秒)</li>
+<li>电子倍增过程还会引入额外噪声,在一定程度上限制了其成像能力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>像素大小：160um（100倍放大后为160nm）</li>
+</ul>
+<h4 id="cmos">CMOS</h4>
+<ul>
+<li>全称：互补型金属氧化物半导体, Complementary metal–oxide–semiconductor</li>
+<li>原理：
+<ul>
+<li>高度集成；每个像素包括：微透镜、光敏元件(仅占一小块, 如下图)、读出放大器(电子元件，大块，但不感光，不收集光线)</li>
+<li>微透镜，将入射光聚焦到光电二极管上；</li>
+<li>每个像素的电荷被转移到芯片上，然后在芯片上按顺序读出。</li>
+</ul>
+</li>
+</ul>
+<img src="/images/Snipaste_2021-11-18_11-34-53.png" style="width: 40%;" />
+<h4 id="scmos">sCMOS</h4>
+<ul>
+<li>
+<p>全称：科研级互补金属氧化物半导体, Scientific Complementary Metal Oxide Semiconductor, sCMOS</p>
+</li>
+<li>
+<p>原理：</p>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>优点：
+<ul>
+<li>并行工作的数据读出方式，具有像阵面大、采集速度快的明显优势</li>
+<li>量子效率超过80%，快速滚动模式下读出噪声约为1.0~1.3e-</li>
+<li>2048×2048全像素图像采集速度最高可达100帧/秒</li>
+</ul>
+</li>
+<li>缺点；不具备长时间曝光的能力</li>
+</ul>
+</li>
+</ul>
+<h2 id="基础光学成像技术">基础光学成像技术</h2>
+<h3 id="暗场显微镜">暗场显微镜</h3>
+<p>原理：(Dark-field microscopy)</p>
+<ul>
+<li>阻挡对样品直射的光线，而检测从样品上散射、反射出的光线。</li>
+<li>聚光镜的数值孔径应＞物镜的数值孔径</li>
+</ul>
+<p>用途：透明物体的直接成像</p>
+<p>瓶颈：对于染色样品，分辨率较普通明场显微镜无明显的提高；无法用于荧光显微镜。</p>
+<img src="/images/440px-Dark_Field_Microscope_@D..svg.png" style="width: 30%;" />
+<h3 id="相差显微镜">相差显微镜</h3>
+<p>原理：(Phase contrast microscope)</p>
+<ul>
+<li>样品：参考光经过样品时，形成折射光，以样品为点光源，折射光的相位将较参考光延后90°</li>
+<li>环状光阑：使透过聚光器的光线形成空心圆光圈，无障碍的穿过样品，作为参考光，而样品折射部分光线，形成折射光。</li>
+<li>相差板：相位板将所有穿过它的光线（主要为参考光）的幅度衰减约70-90%，而将相位提前90°，至此参考光与折射光之间的相位差达到180°，将引起相消干涉。</li>
+</ul>
+<p>用途：适合观察单细胞或较薄的细胞层（不适合观察较厚的组织）；检测活细胞中较大细胞器的位置和运动（需要控制标本的温度与环境）。</p>
+<img src="/images/Snipaste_2021-09-22_08-39-00.png" style="width:80%;" />
+<h3 id="微分干涉显微镜">微分干涉显微镜</h3>
+<p>原理：(Differentical-interference microscope, DIC)</p>
+<ul>
+<li>DIC以平面偏振光为光源，光线经Nomarsk偏振棱镜，分成两束具有微小夹角、振动方向相互垂直且振幅相等的线偏振光，通过物镜后，产生剪切量为Δⅹ(略小于显微镜分辨率)的平行光入射到样品上；</li>
+<li>此时由于样品的厚度和折射率不同，引起两者形成光程差，随后，二者被另一棱镜汇合，产生干涉。（由于被剪切的光朿产生的分离量略小于显微镜的分辩极限，因而在视场中看不到干涉条纹）</li>
+</ul>
+<p>用途：同“相差显微镜”，界面检测</p>
+<p>优缺点</p>
+<ul>
+<li>相较于相差显微镜，DIC的标本可略厚一点，折射率差别更大，故影像的立体感更强，且不会产生光晕现象。</li>
+<li>相较于相差显微镜，DIC采用的是偏振光，不可以透过双折射介质（如透过塑料培养瓶或培养皿）进行活细胞观察（待求证）。</li>
+</ul>
+<h3 id="偏光显微镜">偏光显微镜</h3>
+<ul>
+<li>
+<p>原理：(Polarizing microscope)</p>
+<ul>
+<li>将普通光源→起偏器（偏振棱镜）→样品→物镜→检偏器（与起偏器垂直，视场黑暗）→目镜</li>
+</ul>
+</li>
+<li>
+<p>用途：研究晶体光学性质：单折射(各向同性)或双折射(各向异性)</p>
+<ul>
+<li>单折射：物体不改变 起偏器产生的线偏振光的振动方向→无论怎样旋转载物台，视场仍为黑暗；</li>
+<li>双折射：产生振动方向不同的两种直线偏振光（一束不与检偏镜偏振方向正交）→可见到明亮的像；
+<ul>
+<li>线双折射：线偏振光的分束</li>
+<li>圆双折射（旋光性）：圆偏振光的分束。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="紫外光显微镜">紫外光显微镜</h3>
+<ul>
+<li>问题：大多数玻璃、塑料 会大量地吸收340nm以下波长范围的光→紫外光(380nm-360nm)不能透过玻璃透镜成像
+<ul>
+<li>解决：采用 石英（可透过200nm）、萤石（可透过185nm），但价格昂贵。</li>
+</ul>
+</li>
+<li>问题：紫外光对生物材料具有较大损伤、紫外光的色差</li>
+</ul>
+<h3 id="x射线成像技术">X射线成像技术</h3>
+<ul>
+<li>吸收成像
+<ul>
+<li>X射线透射成像</li>
+<li>CT (Computer Aided Tomography)、microCT</li>
+</ul>
+</li>
+<li>相衬成像
+<ul>
+<li>X射线显微镜(nanoCT)</li>
+<li>相干X射线衍射成像(C0herent X-ray diffractive imaging, CDI)</li>
+</ul>
+</li>
+<li>X射线荧光成像</li>
+<li>X射线自由电子激光(XFEL)</li>
+</ul>
+<h3 id="共聚焦显微镜">共聚焦显微镜</h3>
+<img src="/images/Snipaste_2021-09-22_10-38-33.png" style="width:85%;" />
+<p>原理：点采集，一个点对应一个共焦小孔→屏蔽非焦点反射的光源</p>
+<p>类型：</p>
+<ul>
+<li>激光扫描共聚焦显微镜（LSCM）
+<ul>
+<li>缺点：逐点扫描、采用光电倍增管（PMT）作为检测器→成像速度慢、PMT的光电转换效率低，需要较强的激发光→光漂白和光损伤非常大，不适用于活细胞成像。</li>
+<li>分辨率
+<ul>
+<li>横向：25onm</li>
+<li>纵向：500nm</li>
+</ul>
+</li>
+<li>速度：1fps</li>
+</ul>
+</li>
+<li>转盘式共聚焦显微镜（SDCM）
+<ul>
+<li>转盘设计：上圆盘（在下圆盘每一个针孔对应的位置）都装有微透镜，将入射光直接聚焦在下圆盘的针孔上；下圆盘上的点与样品互为共轭点；</li>
+<li>优点：多点同步采集、使用面阵相机（背照式sCMOS或EMCCD）取代PMT→成像速度快（大视野拼接）、光电转换效率高→大大降低了光漂白和光损伤</li>
+<li>速度：30fps</li>
+<li>缺点：圆盘上的空孔径是确定的（通常设置为便于呈现高放大倍速图像），便难以用来呈现低放大倍速图像</li>
+<li>应用：活细胞3D成像（图像三维重构）、快速动态成像、长时间时间序列拍摄、内部细节结构成像、多色成像（多通道扫描）</li>
+</ul>
+</li>
+</ul>
+<h3 id="反卷积显微镜">反卷积显微镜</h3>
+<p>原理：</p>
+<ul>
+<li>[物点分布 <strong>（卷积）</strong> PSF] + 噪音  =  像点分布；PSF不是点状 → （观测像点分布）像点模糊</li>
+<li>反卷积：通过使用已知的PSF分布，反卷积“像点分布”，反推物点分布，得到更为清晰的图像（降低PSF的影响）</li>
+<li>PSF检测：含有微小荧光珠的测试载玻片→拍摄一系列图像→确定PSF</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>优势：硬件要求低：主要为软件层面；能够实现超分辨</li>
+<li>限制
+<ul>
+<li>由于成像限制（高频信息缺失），无法完美复原</li>
+<li>噪音问题</li>
+</ul>
+</li>
+</ul>
+<p>算法</p>
+<ul>
+<li>Iterative least-squares minimization with Tikhonov Regulation；</li>
+<li>Maximum likehood deconvolution with Possion or Gaussian noise；</li>
+<li>Deconvolution through Bayesian approaches；</li>
+<li>Deconvolution through Bayesian approaches；</li>
+<li>Blind deconvolution without knowing a precise PSF；</li>
+</ul>
+<h3 id="双光子显微镜">双光子显微镜</h3>
+<p>原理</p>
+<ul>
+<li>
+<p>基于测不准原理：荧光分子可以同时吸收两个光子（当 Δt = 10^-15^~10^-16^sec）（如同时吸收2个960 nm波长光子，就可以起到480nm光子的效果）</p>
+<ul>
+<li>
+<p>ΔE·Δt ≥ h/2π</p>
+</li>
+<li>
+<p>当 Δt = 10^-15^~10^-16^sec 时：ΔE = h·Δv ≥  h/2π /Δt</p>
+<img src="/images/Snipaste_2021-09-22_10-40-59.png" style="width: 90%;" />
+</li>
+</ul>
+</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>优点：
+<ul>
+<li>低背景：双光子激发仅在焦点(两光子接触处)碰撞激发，只照亮一个点。（而单光子激发会照亮一个锥型激发区）；也因此产生了更低的光损伤和光漂白</li>
+<li>低散射：光散射效率与光子能量成正比，与光波长成反比：Scattering ~ (wavelength)^−4^</li>
+<li>穿透性：使用波长更长的激发光，具有更好的穿透性</li>
+<li>易滤光：激发光与荧光波长相差大</li>
+<li>其它：不需要pin hole、大视野拼图</li>
+</ul>
+</li>
+<li>缺点：设备要求高</li>
+</ul>
+<h3 id="tirf">TIRF</h3>
+<p>全称：全内反射荧光（Total internal reflection fluorescence, TIRF）显微镜</p>
+<p>原理</p>
+<ul>
+<li>全反射：光线从光密→光疏传播时，光线发生折射，当入射角达到临界角时，折射角达到90°，所有的入射光都被反射。</li>
+<li>衰逝波：由于全反射，虽然从几何光学角度看光疏侧将没有光线，但从物理光学角度看——电磁波不会在两个介质间突然中断，因此在光疏侧光以特殊性质存在(衰逝波)。
+<ul>
+<li>特性：只有~200nm深度，强度随深度指数衰减  →  （只有极靠近全反射面的样本区域会被激发，从而大大降低了背景噪声，提高了信噪比。）
+<img src="/images/Snipaste_2021-09-22_10-42-09-16378946359651.png" style="width: 50%;" /><img src="/images/1-16359066571291.png" style="width: 44%;" /></li>
+</ul>
+</li>
+</ul>
+<p>参数</p>
+<ul>
+<li>分辨率：Z轴＜100nm；xy平面250nm；</li>
+<li>成像速度：1000fps（sCMOS）</li>
+<li>应用：对细胞表面物质的动态观察、背景提及的2个方面</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>优点：Z轴分辨率的提高、降低背景（稀疏成像：可应用到单分子定位）、低光损伤/光漂白</li>
+<li>缺点：成像深度小</li>
+</ul>
+<h3 id="light-sheet-microscopy">Light-Sheet Microscopy</h3>
+<h4 id="spim">SPIM</h4>
+<p>全称：Selective Plane Illumination Microscopy：层状光选择照明显微镜 (2004)</p>
+<p>光片的实现</p>
+<ul>
+<li>
+<p>静态光片——选择性平面照明显微成像技术(SPLM)</p>
+<ul>
+<li>
+<p>原理：使用柱透镜（X轴光聚焦，Y轴光不聚焦 → 线 → 向后传播即成面）</p>
+</li>
+<li>
+<p>特点：横向分辨率受探测物镜的数值孔径（NA）大小的限制；轴向分辨率受照明光片厚度的限制；光片在中心的束腰位置最薄，向束腰两侧逐渐变厚</p>
+<p><img src="/images/image-20211201134756706.png" alt="image-20211201134756706" style="width:80%;" /><img src="/images/image-20211201140249585.png" alt="image-20211201140249585" style="width:40%;" />
+<img src="/images/Snipaste_2021-12-01_14-05-29.png" style="width: 60%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>动态光片——数字扫描激光光片照明显微成像技术(DSLM)</p>
+<ul>
+<li>
+<p>原理：点扫描(先后传播→线)，但速度够快，就成线(面)
+<img src="/images/image-20211201134933330.png" alt="image-20211201134933330" style="width: 75%;" /></p>
+</li>
+<li>
+<p>特点：更均匀的照明强度；更大的灵活性；可以产生带有光强调制的照明图案（与SIM结合）；与静态光片相比需要更高的照明强度</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>光束</p>
+<ul>
+<li>高斯光束：横截面的光强度分布为高斯分布；光强沿传播方向逐渐减弱；<em>产生的光片厚度和长度之间相互制约；</em></li>
+<li>贝塞尔光束：传播时光束主瓣形状和光强保持不变(自愈合特性)；产生的光片在相同轴向分辨率下视场增加；</li>
+</ul>
+<p>特点</p>
+<ol>
+<li>
+<p>优点</p>
+<ul>
+<li>垂直样品池</li>
+<li>提升图像与背景的反差and轴向分辨率（Z轴：300-400nm）；</li>
+<li>减少了光漂白与光毒性；</li>
+<li>成像速度快（100fps）：面成像，快于先前中的点成像技术。</li>
+</ul>
+</li>
+<li>
+<p>缺点</p>
+<ul>
+<li>由于两个物镜相互垂直且相隔较近，故对NA有限制，一般仅为0.8；XY平面的分辨率为400nm</li>
+</ul>
+</li>
+</ol>
+<h4 id="llsm">LLSM</h4>
+<p>全称：LLSM：lattice light-sheet：晶格光片显微镜</p>
+<p>晶格光束：</p>
+<ul>
+<li>多束贝塞尔光束，叠加，通过改变其间距，通过SLM产生干涉，消除贝塞尔光束的旁瓣效应</li>
+<li>晶格可被看作多个分立且彼此之间距离小到一定程度的贝塞尔光束彼此干涉的结果</li>
+</ul>
+<p>元件</p>
+<ul>
+<li>SLM：产生晶格图案</li>
+<li>振镜：振荡晶格图案（高速抖动模式）——晶格光片</li>
+</ul>
+<p>参数</p>
+<ul>
+<li>成像速度：张/1ms</li>
+</ul>
+<p><img src="/images/Snipaste_2021-12-01_14-14-58.png" style="width: 50%;" /><img src="/images/Snipaste_2021-12-01_14-14-58.png" style="width:50%;" /></p>
+<h4 id="3d-illsm">3D-iLLSM</h4>
+<p>全称：三维干涉晶格光片成像（Volumetric interferometric lattice light-sheet imaging）</p>
+<p>原理：4Pi(B型：荧光自干涉) + LLSM
+<img src="/images/Snipaste_2021-12-01_14-10-31.png" style="width:60%;" /></p>
+<h3 id="frap">FRAP</h3>
+<p>全称：荧光漂白恢复（Fluorescence recovery after photobleaching, FRAP）</p>
+<p>原理：</p>
+<ul>
+<li>荧光漂白：使用高能激光束照射样品的某一区域→使该区域的荧光发生不可逆的淬灭</li>
+<li>荧光恢复：由于组分运动，非漂白区域的荧光分子→不断向光漂白区域迁移→光漂白区域荧光恢复</li>
+<li>结果定性分析：半恢复时间τ<sub>1/2 </sub>与漂白区域面积和受 测分子的扩散系数D成正比（线性关系）</li>
+</ul>
+<p>应用：确定细胞骨架、膜蛋白的扩散系数</p>
+<p>缺点：高光强造成的光损伤</p>
+<p>相关技术</p>
+<ul>
+<li>
+<p>FLIP: Fluorescence Loss In Photobleaching</p>
+<ul>
+<li>原理：同FRAP，但检测非漂白区域的荧光信号衰减规律</li>
+<li>优点：FLIP区域不受光损伤影响 → FLIP技术能更准确地分析受测分子的扩散规律</li>
+</ul>
+</li>
+<li>
+<p>Photoactivation, 光激活技术</p>
+<p><img src="/images/Snipaste_2021-11-18_15-16-38.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-18_15-17-00.png" style="width:50%;" /><img src="/images/Snipaste_2021-11-18_15-17-16-16378946504212.png" style="width:50%;" /></p>
+</li>
+</ul>
+<h3 id="fret">FRET</h3>
+<p>全称：荧光共振能量转移（Fluorescence resonance energy transfer, FRET）（图4-24）</p>
+<p>原理：</p>
+<ul>
+<li>
+<p>使用2个荧光蛋白：第1个荧光蛋白的发射波长 <em>接近</em> 第2个荧光蛋白的激发波长。</p>
+</li>
+<li>
+<p>效率荧光染之间的距离成正比：在距离＞10nm时便无法检测到。</p>
+</li>
+<li>
+<p>能量转移的效率E，是荧 光受体的荧光强度与所有荧光强度 ( 受体和供体的 荧光强度之和)的比值；</p>
+<ul>
+<li>
+<p>E = [1 + (R / Ro)<sup>6</sup> ]<sup>-1</sup></p>
+</li>
+<li>
+<p>R 是荧光供体和受体之间的距离；而 Ro是 E为 0.5 时两荧光基团之间的距离 (Forster 半径 )。
+<img src="/images/Snipaste_2021-11-18_16-14-33.png" style="width: 70%;" /><img src="/images/Snipaste_2021-11-18_16-14-10-16378946603223.png" style="width: 70%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>例：青色荧光蛋白(CFP)被433 nm的光激发时，它在475 nm处发出荧光和发光；如果黄色荧光蛋白(YFP)离得很近，CFP不会发出475 nm的光，而是通过FRET将能量传递给YFP，而YFP发出530 nm的光。</p>
+</li>
+</ul>
+<p>应用</p>
+<ul>
+<li>确定两个蛋白质在体内是否相互作用。</li>
+<li>检测活细胞的局部生化环境——FRET传感器：蛋白激酶-CFP，蛋白激酶底物-YFP；当蛋白激酶被磷酸化激活后；蛋白激酶将可以与蛋白激酶底物相结合，促进CFP与YFP的靠近，FRET现象产生。</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>
+<p>激发光也会对YFP进行激发；CFP-蛋白A、YFP-蛋白B、C蛋白A-蛋白B三类在空间的分布存在差异→有时候某位置单纯的YFP荧光强度＞蛋白A-蛋白B互作产生的YFP荧光强度，导致实验误差。</p>
+</li>
+<li>
+<p>改进：FRET-FLIM：检测CFP荧光寿命(CFP的荧光因通过弛豫出传递给YFP，荧光衰减得更快，荧光寿命（群体概念）缩短）。
+<img src="/images/Snipaste_2021-09-30_14-56-07.png" style="width:70%;" /></p>
+</li>
+</ul>
+<p>smFRET：单分子荧光共振能量转移技术 (single molecule fluorescence resonance energy transfer)</p>
+<ul>
+<li>
+<p>原理：单分子成像技术(TIRF&hellip;)+FRET</p>
+<ul>
+<li>
+<p>背景降低</p>
+<ul>
+<li>TIRF</li>
+<li>高数值孔径物镜聚焦激光：减少激发体积</li>
+</ul>
+</li>
+<li>
+<p>荧光染料要求：</p>
+<ul>
+<li>亮度高 ( 高消光系数、高条件发射量子效率 ) ；</li>
+<li>低荧光强度波动性 (至少在所研究的生物事件的时间分辨范围内，荧光强度的波动小 ) ；</li>
+<li>两个荧光蛋白间光谱重叠性低；</li>
+<li>供体/受体间的量子产率具有可比性</li>
+</ul>
+</li>
+<li>
+<p>链霉亲和素 (streptavidin) 和生物素 (biotin)</p>
+<blockquote>
+<p>Roy, Rahul et al. “A practical guide to single-molecule FRET.” Nature methods vol. 5,6 (2008): 507-16. doi:10.1038/nmeth.1208</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="flim">FLIM</h3>
+<ul>
+<li>
+<p>全称：荧光寿命成像显微镜（Fluorescence Lifetime Imaging Microscopy, FLIM）</p>
+</li>
+<li>
+<p>荧光寿命(τ)：一个荧光分子的激发态的电子在激发态的平均时间；
+<img src="/images/Snipaste_2021-11-18_14-33-18.png" style="width: 50%;" /></p>
+<ul>
+<li>K<sub>f</sub>、K<sub>ISC</sub>；荧光分子的固有属性，故不会变化</li>
+<li>Ki：对周围环敏感(溶剂条件、温度、pH、氧气浓度&hellip;&hellip;) → 细胞环境监测</li>
+<li>荧光寿命
+<ul>
+<li>单个荧光光子的荧光寿命：由统计学规律随机决定的</li>
+<li>特定荧光分子的荧光寿命：由无数个荧光单分子的荧光寿命决定</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>测量设备：飞秒脉冲激光器（同双光子显微镜，可结合）</p>
+</li>
+<li>
+<p>测量方案</p>
+<ul>
+<li>
+<p>时域测量：一束窄脉冲将荧光分子激发至较高能态 S1，接着测量荧光的发射几率随时间的变化</p>
+<ul>
+<li>时间相关单光子计数（TCSPC）测量（a图）：利用快速秒表测量激发脉冲与探测荧光之间的时间差。经过多次计数可以得到荧光光子随时间的分布曲线，计算周期。</li>
+<li>时间门（TG）测量（b图）：探测不同时间窗口内的荧光强度，通过曲线拟合得到荧光寿命。</li>
+</ul>
+</li>
+<li>
+<p>频域测量（c图）：对连续激发光进行振幅调制后，分子发出的荧光强度也会受到振幅调制；两个调制信号之间存在与荧光寿命相关的相位差，因此可以测量该相位差计算荧光寿命。</p>
+<p><img src="/images/699.jpg" style="width:80%;" /><img src="/images/702-16378946735444.jpg" style="width: 80%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>显微装置</p>
+<ul>
+<li>LSCM-FLIM</li>
+<li>MP-FLIM</li>
+<li>宽场照明（WFM-FLIM）</li>
+</ul>
+</li>
+<li>
+<p>应用</p>
+<ul>
+<li>自发荧光 FLIM：自发荧光分子团（如 NAD(P)H 和 FAD）</li>
+<li>外源分子探针 FLIM ：利用 FLIM 对物理条件的敏感性（包括pH、粘度、温度、氧气含量、离子浓度、电荷转移动力学），制备光学探针，对之进行检测（需要特异性强的荧光寿命蛋白）</li>
+<li>FRET-FLIM：蛋白质中的构象变化、蛋白质之间的受体 / 配体相互作用、核酸链的杂交或分裂、膜脂质相互作用和分布、蛋白酶的活性、染色质结构&hellip;&hellip;</li>
+</ul>
+</li>
+</ul>
+<h3 id="fcs">FCS</h3>
+<p>全称：荧光相关光谱（Fluorescence correlation spectroscopy, FCS）</p>
+<p>原理：</p>
+<ul>
+<li>
+<p>平衡状态的溶液中，在微小区域内，由于荧光分子的随机扩散（进出观测视场）和 分子间的化学反应；该区域内的荧光强度会随之时间变化，即产生荧光涨落现象。
+<img src="/images/Snipaste_2021-11-18_16-39-09.png" style="width: 90%;" /></p>
+<ul>
+<li>G(τ)：荧光分子的自相关幅度；G(0)可用于表征分子数（体积已知时，可表征分子浓度）</li>
+<li>τ：相关时间</li>
+<li>τ<sub>D</sub>：G(τ)下降到0.5 G(0)时的τ值；与观测半径、扩散系数相关（用于表征分子大小）；分子越小，扩散能力越强，穿越观测范围所需时间越短，τ<sub>D</sub>越小</li>
+</ul>
+</li>
+<li>
+<p>测量</p>
+<ul>
+<li>校准：使用一种已知扩散系数的荧光分子对仪器进行校准，调整观测区域的长度和宽度，直至测得的扩散系数与真实值相符</li>
+<li>测量：未知样品</li>
+<li>范围为：单分子~[G(0)&lt;0.001]</li>
+</ul>
+</li>
+</ul>
+<p>应用：检测溶液中经过荧光标记的分子（或纳米颗粒等）的浓度、大小、相互作用（基于大小变化：检测互作中的一个分子；需要结合后的分子体积&raquo;结合前的分子体积）
+<img src="/images/Snipaste_2021-11-18_16-49-56.png" style="width: 90%;" /></p>
+<p>荧光交相关光谱（FCCS）——检测两分子相互作用（检测两个分子，对大小没有要求，且特异性更强）</p>
+<h3 id="总结">总结</h3>
+<ul>
+<li>荧光特性光谱：传统荧光显微镜、基于荧光分子的物理特性信号、独立性</li>
+<li>荧光相关光谱：基于荧光分子之间的光信号相关关系</li>
+</ul>
+<h2 id="荧光标签">荧光标签</h2>
+<h3 id="荧光跃迁">荧光跃迁</h3>
+<ol>
+<li>
+<p>电子跃迁</p>
+<ul>
+<li>
+<p>条件</p>
+<ul>
+<li>衡量两能级间的跃迁能力：跃迁矩</li>
+<li>跃迁禁阻：不满足跃迁条件的能级</li>
+<li>能量关系、波函数的对称性关系</li>
+<li>角动量守恒：电子跃迁一次，角动量改变 1；因此电子只能在角动量变化差1的能级跃迁（角动量变化为 0→0 或者 0→2 的跃迁是禁阻的）</li>
+</ul>
+</li>
+<li>
+<p>图谱</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/view-16323830426672.jpg" style="width:50%;" /><img src="/images/Snipaste_2021-09-30_14-00-58-16378948597845.png" style="width: 40%;" /><img src="/images/Snipaste_2021-09-20_21-24-25-16323819831621-16378948578044.png" style="width: 40%;" /></p>
+<ol start="2">
+<li>
+<p>辐射途径（释放光子）</p>
+<ul>
+<li>
+<p>荧光：单重激发态(较低振动能层) → 基态(各振动能层)</p>
+<ul>
+<li>激发：~fs</li>
+<li>发射：100ns~ns</li>
+<li>延迟荧光：单重态和三重态能级差趋近于0的材料，可以在室温下(298 K)的这样的热扰动下，电子能够从三重态再回到单重态而发射荧光；</li>
+</ul>
+</li>
+<li>
+<p>磷光：三重激发态(较低振动能层) → 基态(各振动能层)；100s~ms；</p>
+</li>
+</ul>
+</li>
+<li>
+<p>非辐射途径（释放热能）</p>
+<ul>
+<li>弛豫：10ps~10fs</li>
+<li>内转换、外转换</li>
+<li>系内转移(ISC)：等能量非辐射的过程，能量以热量形式释放</li>
+</ul>
+</li>
+</ol>
+<h3 id="荧光探针">荧光探针</h3>
+<h4 id="特性">特性</h4>
+<ol>
+<li>
+<p>斯托克斯位移 (Stokes shift)：激发光谱和发射光谱之间的光谱位移，红移
+<img src="/images/Snipaste_2021-10-01_21-06-48.png" style="width: 50%;" /></p>
+</li>
+<li>
+<p>消光系数 (Extinction coefficient, 𝜀)：给定波长下，荧光分子衰减光的强度的量度（激发光进出样品前后的光强受荧光分子影响强度）。反映了荧光分子的吸光能力，固有属性。单位为M<sup>−1</sup>⋅cm<sup>−1</sup>。</p>
+</li>
+<li>
+<p>量子产率 (Quantum yield, QY)：荧光吸收的光子与发射的光子的比率。反映了荧光分子的光能转换效率，固有属性。</p>
+</li>
+<li>
+<p>占空比：荧光分子的亮态时间/暗态时间的比值</p>
+</li>
+<li>
+<p>亮度 (Brightness)：绝对亮度=消光系数×量子产率；相对亮度=荧光蛋白绝对亮度/EGFP绝对亮度</p>
+</li>
+<li>
+<p>光稳定性 (Photostability)：对光漂白的抗性，通过光漂白的量子子产率来量化，即在同一时间间隔内，被光漂白的分子数量与样品中吸收的光子总数的比值。
+<img src="/images/Snipaste_2021-10-02_12-27-14.png" style="width: 70%;" /></p>
+</li>
+<li>
+<p>光漂白 (Photobleaching)</p>
+<ul>
+<li>
+<p>不可逆过程（可逆为光转换）</p>
+<ul>
+<li>
+<p>光氧化作用：激发态的荧光分子更易与其他分子相互作用（氧化等），荧光分子的结构改变，不再发光</p>
+</li>
+<li>
+<p>其他光引发的作用，荧光分子结构改变
+<img src="/images/Snipaste_2021-11-18_14-49-02.png" style="width:50%;" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>缓解：还原剂 OR 活性氧清除剂 (β-巯基乙醇&hellip;)&hellip;&hellip;</p>
+</li>
+</ul>
+</li>
+<li>
+<p>类别：有机染料、荧光蛋白、量子点(无机染料)、染色聚合物粒子(Dyed Polymer Particle)
+<img src="/images/Snipaste_2021-10-02_12-33-56.png" style="width:70%;" /></p>
+</li>
+</ol>
+<h4 id="荧光蛋白">荧光蛋白</h4>
+<ul>
+<li>
+<p>普通荧光蛋白、生色团</p>
+</li>
+<li>
+<p>优点</p>
+<ul>
+<li>
+<p><strong>高特异性</strong> (靶向特异性蛋白和细胞器)；<strong>高灵敏度</strong> (单个分子可检测)；<strong>高对比度</strong> (单个荧光团发射数千光子，自身光源＋暗背景)</p>
+</li>
+<li>
+<p><strong>多色成像</strong> (测量蛋白质-蛋白质相互作用)；<strong>活细胞成像</strong>；<strong>传感器</strong> ([Ca]， pH，蛋白质构象)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>光响应荧光蛋白</p>
+<ul>
+<li>
+<p>光激活：非激活态→ 激活态： PA-GFP, PA-TagRFP …</p>
+</li>
+<li>
+<p>光转换：激活态1 → 激活态2：mEos2/3, mMapple …</p>
+</li>
+<li>
+<p>光开关：非激活态 ⇔ 激活态：Dronpa, rsEGFP …</p>
+</li>
+<li>
+<p>光开关转换：mIris
+<img src="/images/Snipaste_2021-10-31_19-38-13.png" style="width: 90%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="自标签蛋白染料结合蛋白">自标签蛋白/染料结合蛋白</h4>
+<blockquote>
+<p>self-labeling proteins (SLPs)、self-labeling tags</p>
+</blockquote>
+<ul>
+<li>
+<p>HaloTag、SNAP-tag 和 CLIP-tag</p>
+</li>
+<li>
+<p>SLP优点：高速度、特异性</p>
+</li>
+<li>
+<p>与染料结合，具有更好的荧光特性
+<img src="/images/1-s2.0-S0958166910001795-gr1_lrg.jpg" style="width:80%;" /><img src="/images/image-20220306202417424.png" alt="image-20220306202417424" style="width:80%;" /></p>
+<blockquote>
+<p>Hinner MJ, Johnsson K. How to obtain labeled proteins and what to do with them. <em>Curr Opin Biotechnol</em>. 2010;21(6):766-776. doi:10.1016/j.copbio.2010.09.011</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="有机染料">有机染料</h4>
+<ul>
+<li>
+<p>ER-Tracker：Blue-White DPX</p>
+<ul>
+<li>Glibenclamide：结合、ER膜上的、ATP敏感的K+通道上的sulphonylurea受体</li>
+</ul>
+</li>
+<li>
+<p>线粒体膜电位：MitoTracker：利用线粒体膜电位标记线粒体（连接到线粒体中的硫醇基团）</p>
+</li>
+<li>
+<p>FIAsH、ReAsH：具有最小标记序列（Tetracysteine (TC) motif：Cys-Cys-Pro-Gly-Cys-Cys）的荧光分子</p>
+<img src="/images/Snipaste_2021-10-02_12-45-26.png" style="width: 50%;" />
+</li>
+</ul>
+<h4 id="量子点">量子点</h4>
+<ul>
+<li>组成：通常为CdSe/CdSe核心、ZnS外壳</li>
+<li>大小：本身直径为2-5 nm；但为了水溶性需要额外的外壳(总直径为10-20 nm)</li>
+<li>特性：
+<ul>
+<li>发射波长与量子点直径、核心有关（易于调节）；</li>
+<li>高消光系数、高量子产率、发射谱窄(FWHM 30-90 nm)且对称、抗漂白</li>
+<li>荧光涨落性强(SOFI超分辨)
+<img src="/images/Snipaste_2021-11-17_23-28-15.png" style="width: 70%;" /></li>
+</ul>
+</li>
+</ul>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li>
+<p>李栋 等. 细胞成像技术. 2021</p>
+</li>
+<li>
+<p>降雨强 等. 生物影像技术. 2021</p>
+</li>
+<li>
+<p>柳振峰 等. 细胞的物理生物学. 2021</p>
+</li>
+<li>
+<p>张金刚. 智能成像技术及python实现. 2021</p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Fluorescence-Microscopy-Principles-Biological-Applications/dp/3527329226">Ulrich Kubitscheck. Fluorescence Microscopy: From Principles to Biological Applications. 2013</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Modern-Biophysical-Chemistry-Detection-Biomolecules/dp/B010WFIJAK">Peter Jomo Walla. Modern Biophysical Chemistry: Detection and Analysis of Biomolecules. 2014</a></p>
+<blockquote>
+<p>本文还引用了众多学者的文章，但由于当时自己未能做好引用标注工作，现因较难对其考证而未对其进行引用，特在此表示对其工作的感谢与未能提及的抱歉。</p>
+</blockquote>
+</li>
+</ol>
+
+  </article>
+
+  
+  
+    
+    <div class="author-card">
+    <div class="underline"></div>
+    <div class="author-box">
+      <div class="author-image"><a href="https://poetryw.cn/"><img src="/images/author.webp" alt="林風" /></a></div>
+      <div class="author-content">
+      <p class="author-title">作者</p>
+      <p class="author-name">林風</p>
+      <p class="author-desc">生物学在读博士生，一个怀念旧事物的人。如果你有任何问题，欢迎通过<a href="1225569529@qq.com">邮件</a>一起交流。</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+
+
+</div>
+
+  </main><div class="footer gradient-2">
+  <div class="container footer-container ">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <div class="footer-title">网站地图</div>
+        <ul class="list-unstyled">
+            
+              
+                <li><a href="https://flysein.me/tags/">标签</a></li>
+              
+              
+                <li><a href="https://flysein.me/categories/">分类</a></li>
+              
+            
+            
+            
+            <li><a rel="alternate" type="application/rss&#43;xml" href="https://flysein.me/index.xml"><i class="fas fa-rss-square"></i> RSS订阅</a></li>
+            
+            
+            
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">科学网站</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://researchrabbitapp.com/" rel="noopener" target="_blank">Research Rabbit</a></li>
+          
+          <li><a href="https://www.connectedpapers.com/" rel="noopener" target="_blank">Connected papers</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">艺术网站</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://www.nbfox.com/" rel="noopener" target="_blank">麦田艺术</a></li>
+          
+          <li><a href="https://www.ss.net.tw/" rel="noopener" target="_blank">名畫檔案</a></li>
+          
+        </ul>
+        
+      </div> 
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p class="pull-right text-right">
+          <small><em>Proudly powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo</a></em></small><br/>
+          <small><em>Theme - <a href="https://github.com/shaform/hugo-theme-den" rel="noopener" target="_blank">Den</a></em></small><br/>
+          <small>
+            &copy; 
+            林風
+            
+              2024 -
+            2025
+          </small>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  
+</div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+<body class="">
+  ...
+</body>
+</html>
