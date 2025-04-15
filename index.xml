@@ -22,13 +22,18 @@
       
       <guid>https://flysein.me/their-eyes/</guid>
       <description>一个十分初步的设想与尝试，待续......</description>
-      <content:encoded><![CDATA[<div class="whiteboard" style="min-height: 2000px;">
+      <content:encoded><![CDATA[<div class="whiteboard" style="position: relative; width: 100%; overflow: visible; margin: 20px 0;
+     /* 使用传入的 height 值设置 padding-top，使高度是相对于宽度的百分比 */
+     padding-top: 257.7%;">
   
-<img src="/images/他者之眼 02.jpg" alt="他者之眼 01" style="top: 0px; left: 40px; width: 50%;">
-<img src="/images/他者之眼 04.jpg" alt="他者之眼 02" style="top: 500px; right: 40px; width: 50%;">
-<img src="/images/他者之眼 01.jpg" alt="他者之眼 03" style="top: 1120px; left: 40px; width: 70%;">
-<img src="/images/他者之眼 03.jpg" alt="他者之眼 04" style="top: 1520px; right: 40px; width: 50%;">
+  <div class="whiteboard-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    
+<img src="/images/他者之眼 02.jpg" alt="他者之眼 01" style="top: 0.0%; left: 5.2%; width: 50%;">
+<img src="/images/他者之眼 04.jpg" alt="他者之眼 02" style="top: 25.0%; right: 5.2%; width: 50%;">
+<img src="/images/他者之眼 01.jpg" alt="他者之眼 03" style="top: 56.0%; left: 5.2%; width: 70%;">
+<img src="/images/他者之眼 03.jpg" alt="他者之眼 04" style="top: 76.0%; right: 5.2%; width: 50%;">
 
+  </div>
 </div>
 
 <script>
@@ -520,24 +525,29 @@
 <p style="text-align: center;">他们被人类移出了自然生境，置放在水泥社会中</p>
 <p style="text-align: center;">这加剧了台风施加在他们身上的压力，却也得到了人类最低限度的养护，形成一种十分强烈、扭曲的对抗
 <p style="text-align: center;">而他们只是生长着</p>
-<div class="whiteboard" style="min-height: 4500px;">
+<div class="whiteboard" style="position: relative; width: 100%; overflow: visible; margin: 20px 0;
+     /* 使用传入的 height 值设置 padding-top，使高度是相对于宽度的百分比 */
+     padding-top: 579.9%;">
   
-<img src="/images/行道树 01.JPG" alt="行道树 01" style="top: 0px; left: 40px; width: 50%;">
-<img src="/images/行道树 02.JPG" alt="行道树 02" style="top: 320px; right: 20px; width: 50%;">
-<img src="/images/行道树 03.JPG" alt="行道树 03" style="top: 820px; left: 40px; width: 44%;">
-<img src="/images/行道树 04.JPG" alt="行道树 04" style="top: 820px; right: 40px; width: 44%;">
-<img src="/images/行道树 05.JPG" alt="行道树 05" style="top: 1210px; left: 294px; width: 53%;">
-<img src="/images/行道树 06.JPG" alt="行道树 06" style="top: 1440px; left: 0px; width: 54%;">
-<img src="/images/行道树 07.JPG" alt="行道树 07" style="top: 1830px; left: 80px; width: 80%;">
-<img src="/images/行道树 08.JPG" alt="行道树 08" style="top: 2290px; right: 40px; width: 60%;">
+  <div class="whiteboard-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    
+<img src="/images/行道树 01.JPG" alt="行道树 01" style="top: 0.0%; left: 5.2%; width: 50%;">
+<img src="/images/行道树 02.JPG" alt="行道树 02" style="top: 7.1%; right: 2.6%; width: 50%;">
+<img src="/images/行道树 03.JPG" alt="行道树 03" style="top: 18.2%; left: 5.2%; width: 44%;">
+<img src="/images/行道树 04.JPG" alt="行道树 04" style="top: 18.2%; right: 5.2%; width: 44%;">
+<img src="/images/行道树 05.JPG" alt="行道树 05" style="top: 26.9%; left: 37.9%; width: 53%;">
+<img src="/images/行道树 06.JPG" alt="行道树 06" style="top: 32.0%; left: 0.0%; width: 54%;">
+<img src="/images/行道树 07.JPG" alt="行道树 07" style="top: 40.7%; left: 10.3%; width: 80%;">
+<img src="/images/行道树 08.JPG" alt="行道树 08" style="top: 50.9%; right: 5.2%; width: 60%;">
 
-<img src="/images/行道树 09.JPG" alt="行道树 09" style="top: 3150px; right: 40px; width: 60%;">
+<img src="/images/行道树 09.JPG" alt="行道树 09" style="top: 70.0%; right: 5.2%; width: 60%;">
 
-<img src="/images/行道树 11.JPG" alt="行道树 11" style="top: 2820px; left: 40px; width: 49.2%;">
+<img src="/images/行道树 11.JPG" alt="行道树 11" style="top: 62.7%; left: 5.2%; width: 49.2%;">
 
-<img src="/images/行道树 10.JPG" alt="行道树 10" style="top: 3900px; left: 80px; width: 80%;">
+<img src="/images/行道树 10.JPG" alt="行道树 10" style="top: 86.7%; left: 10.3%; width: 80%;">
 
 
+  </div>
 </div>
 
 <script>
@@ -1890,19 +1900,24 @@
       <description>人眼喜欢清晰的事物，但清晰似乎意味着某种绝对，丧失了想象的可能，而想象又是诗意的根基， 这似乎很有趣：模糊和噪声与诗意相关联 花影</description>
       <content:encoded><![CDATA[<p style="text-align: center;">人眼喜欢清晰的事物，但清晰似乎意味着某种绝对，丧失了想象的可能，而想象又是诗意的根基，</p>
 <p style="text-align: center;">这似乎很有趣：模糊和噪声与诗意相关联</p>
-<div class="whiteboard" style="min-height: 3500px;">
+<div class="whiteboard" style="position: relative; width: 100%; overflow: visible; margin: 20px 0;
+     /* 使用传入的 height 值设置 padding-top，使高度是相对于宽度的百分比 */
+     padding-top: 451.0%;">
   
-<img src="/images/噪声 01.png" alt="噪声 01" style="top: 0px; left: 40px; width: 70%;">
-<img src="/images/噪声 02.JPG" alt="噪声 02" style="top: 380px; right: 40px; width: 70%;">
-<img src="/images/噪声 03.JPG" alt="噪声 03" style="top: 820px; left: 40px; width: 44%;">
-<img src="/images/噪声 04.JPG" alt="噪声 04" style="top: 820px; right: 40px; width: 44%;">
-<img src="/images/噪声 05.JPG" alt="噪声 05" style="top: 1125px; left: 40px; width: 50%;">
-<img src="/images/噪声 06.JPG" alt="噪声 06" style="top: 1785px; left: 40px; width: 44%;">
-<img src="/images/噪声 07.JPG" alt="噪声 07" style="top: 1785px; right: 40px; width: 44%;">
-<img src="/images/噪声 08.JPG" alt="噪声 08" style="top: 2090px; right: 40px; width: 70%;">
-<img src="/images/噪声 09.JPG" alt="噪声 09" style="top: 2520px; left: 40px; width: 70%;">
-<img src="/images/噪声 10.JPG" alt="噪声 10" style="top: 2950px; left: 80px; width: 80%;">
+  <div class="whiteboard-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    
+<img src="/images/噪声 01.png" alt="噪声 01" style="top: 0.0%; left: 5.2%; width: 70%;">
+<img src="/images/噪声 02.JPG" alt="噪声 02" style="top: 10.9%; right: 5.2%; width: 70%;">
+<img src="/images/噪声 03.JPG" alt="噪声 03" style="top: 23.4%; left: 5.2%; width: 44%;">
+<img src="/images/噪声 04.JPG" alt="噪声 04" style="top: 23.4%; right: 5.2%; width: 44%;">
+<img src="/images/噪声 05.JPG" alt="噪声 05" style="top: 32.1%; left: 5.2%; width: 50%;">
+<img src="/images/噪声 06.JPG" alt="噪声 06" style="top: 51.0%; left: 5.2%; width: 44%;">
+<img src="/images/噪声 07.JPG" alt="噪声 07" style="top: 51.0%; right: 5.2%; width: 44%;">
+<img src="/images/噪声 08.JPG" alt="噪声 08" style="top: 59.7%; right: 5.2%; width: 70%;">
+<img src="/images/噪声 09.JPG" alt="噪声 09" style="top: 72.0%; left: 5.2%; width: 70%;">
+<img src="/images/噪声 10.JPG" alt="噪声 10" style="top: 84.3%; left: 10.3%; width: 80%;">
 
+  </div>
 </div>
 
 <script>
@@ -1986,11 +2001,16 @@
   </script>
 
 <p style="text-align: center;">花影</p>
-<div class="whiteboard" style="min-height: 450px;">
+<div class="whiteboard" style="position: relative; width: 100%; overflow: visible; margin: 20px 0;
+     /* 使用传入的 height 值设置 padding-top，使高度是相对于宽度的百分比 */
+     padding-top: 58.0%;">
   
-<img src="/images/花影 01.jpg" alt="花影 01" style="top: 0px; left: 20px; width: 30%;">
-<img src="/images/花影 02.jpg" alt="花影 02" style="top: 0px; right: 0px; width: 62.8%;">
+  <div class="whiteboard-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    
+<img src="/images/花影 01.jpg" alt="花影 01" style="top: 0.0%; left: 2.6%; width: 30%;">
+<img src="/images/花影 02.jpg" alt="花影 02" style="top: 0.0%; right: 0.0%; width: 62.8%;">
 
+  </div>
 </div>
 
 <script>
@@ -2085,70 +2105,75 @@
       <description>川西多雨，雨水滋养万物，却也带走生命 山峦静谧，似佛般俯瞰众生而无言</description>
       <content:encoded><![CDATA[<p style="text-align: center;">川西多雨，雨水滋养万物，却也带走生命</p>
 <p style="text-align: center;">山峦静谧，似佛般俯瞰众生而无言</p>
-<div class="whiteboard" style="min-height: 9800px;">
+<div class="whiteboard" style="position: relative; width: 100%; overflow: visible; margin: 20px 0;
+     /* 使用传入的 height 值设置 padding-top，使高度是相对于宽度的百分比 */
+     padding-top: 1262.9%;">
   
+  <div class="whiteboard-content" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    
 
-<img src="/images/生死场 D01.JPG" alt="生死场 D01" style="top: 0px; left: 40px; width: 70%;">
+<img src="/images/生死场 D01.JPG" alt="生死场 D01" style="top: 0.0%; left: 5.2%; width: 70%;">
 
-<img src="/images/生死场 D03.JPG" alt="生死场 D03" style="top: 410px; right: 40px; width: 70%;">
+<img src="/images/生死场 D03.JPG" alt="生死场 D03" style="top: 4.2%; right: 5.2%; width: 70%;">
 
-<img src="/images/生死场 P05.JPG" alt="生死场 P05" style="top: 810px; left: 55px; width: 70%;">
+<img src="/images/生死场 P05.JPG" alt="生死场 P05" style="top: 8.3%; left: 7.1%; width: 70%;">
 
-<img src="/images/生死场 D07.JPG" alt="生死场 D07" style="top: 1221px; right: 35px; width: 60%;">
+<img src="/images/生死场 D07.JPG" alt="生死场 D07" style="top: 12.5%; right: 4.5%; width: 60%;">
 
-<img src="/images/生死场 D06.JPG" alt="生死场 D06" style="top: 1272px; left: 25px; width: 44%;">
+<img src="/images/生死场 D06.JPG" alt="生死场 D06" style="top: 13.0%; left: 3.2%; width: 44%;">
 
-<img src="/images/生死场 D08.JPG" alt="生死场 D08" style="top: 1565px; right: 0px; width: 70%;">
+<img src="/images/生死场 D08.JPG" alt="生死场 D08" style="top: 16.0%; right: 0.0%; width: 70%;">
 
-<img src="/images/生死场 D09.JPG" alt="生死场 D09" style="top: 2670px; left: 60px; width: 45%;">
+<img src="/images/生死场 D09.JPG" alt="生死场 D09" style="top: 27.2%; left: 7.7%; width: 45%;">
 
-<img src="/images/生死场 D10.JPG" alt="生死场 D10" style="top: 2490px; left: 200px; width: 45%;">
+<img src="/images/生死场 D10.JPG" alt="生死场 D10" style="top: 25.4%; left: 25.8%; width: 45%;">
 
-<img src="/images/生死场 D11.JPG" alt="生死场 D11" style="top: 2300px; right: 45px; width: 45%;">
+<img src="/images/生死场 D11.JPG" alt="生死场 D11" style="top: 23.5%; right: 5.8%; width: 45%;">
 
-<img src="/images/生死场 D04.JPG" alt="生死场 D04" style="top: 1980px; left: 40px; width: 80%;">
-
-
-
-<img src="/images/生死场 L01.JPG" alt="生死场 L01" style="top: 2950px; right: 40px; width: 60%;">
-
-<img src="/images/生死场 L02.JPG" alt="生死场 L02" style="top: 3310px; left: 80px; width: 50%;">
-
-<img src="/images/生死场 L03.JPG" alt="生死场 L03" style="top: 3945px; left: 40px; width: 44%;">
-
-<img src="/images/生死场 L04.JPG" alt="生死场 L04" style="top: 3945px; right: 40px; width: 44%;">
-
-<img src="/images/生死场 L05.JPG" alt="生死场 L05" style="top: 4220px; left: 294px; width: 53%;">
-
-<img src="/images/生死场 L06.JPG" alt="生死场 L06" style="top: 4530px; left: 80px; width: 54%;">
-
-<img src="/images/生死场 L07.JPG" alt="生死场 L07" style="top: 4850px; right: 40px; width: 70%;">
-
-<img src="/images/生死场 L10.JPG" alt="生死场 L10" style="top: 5260px; right: 40px; width: 44%;">
-
-<img src="/images/生死场 L09.JPG" alt="生死场 L09" style="top: 5260px; left: 40px; width: 44%;">
-
-<img src="/images/生死场 L08.JPG" alt="生死场 L08" style="top: 5540px; left: 40px; width: 75%;">
-
-<img src="/images/生死场 L11.JPG" alt="生死场 L11" style="top: 5925px; right: 40px; width: 49.2%;">
-
-<img src="/images/生死场 P01.JPG" alt="生死场 P01" style="top: 6540px; left: 40px; width: 70%;">
-
-<img src="/images/生死场 P02.JPG" alt="生死场 P02" style="top: 6950px; left: 40px; width: 44%;">
-
-<img src="/images/生死场 P04.JPG" alt="生死场 P04" style="top: 6950px; right: 40px; width: 44%;">
-
-<img src="/images/生死场 P03.JPG" alt="生死场 P03" style="top: 7230px; right: 40px; width: 70%;">
-
-<img src="/images/生死场 P06.JPG" alt="生死场 P06" style="top: 7640px; left: 40px; width: 50%;">
-
-<img src="/images/生死场 P08.JPG" alt="生死场 P08" style="top: 8280px; right: 40px; width: 70%;">
-
-<img src="/images/生死场 P07.JPG" alt="生死场 P07" style="top: 8700px; left: 40px; width: 70%;">
-
-<img src="/images/生死场 P09.JPG" alt="生死场 P09" style="top: 9120px; right: 20px; width: 80%;">
+<img src="/images/生死场 D04.JPG" alt="生死场 D04" style="top: 20.2%; left: 5.2%; width: 80%;">
 
 
+
+<img src="/images/生死场 L01.JPG" alt="生死场 L01" style="top: 30.1%; right: 5.2%; width: 60%;">
+
+<img src="/images/生死场 L02.JPG" alt="生死场 L02" style="top: 33.8%; left: 10.3%; width: 50%;">
+
+<img src="/images/生死场 L03.JPG" alt="生死场 L03" style="top: 40.3%; left: 5.2%; width: 44%;">
+
+<img src="/images/生死场 L04.JPG" alt="生死场 L04" style="top: 40.3%; right: 5.2%; width: 44%;">
+
+<img src="/images/生死场 L05.JPG" alt="生死场 L05" style="top: 43.1%; left: 37.9%; width: 53%;">
+
+<img src="/images/生死场 L06.JPG" alt="生死场 L06" style="top: 46.2%; left: 10.3%; width: 54%;">
+
+<img src="/images/生死场 L07.JPG" alt="生死场 L07" style="top: 49.5%; right: 5.2%; width: 70%;">
+
+<img src="/images/生死场 L10.JPG" alt="生死场 L10" style="top: 53.7%; right: 5.2%; width: 44%;">
+
+<img src="/images/生死场 L09.JPG" alt="生死场 L09" style="top: 53.7%; left: 5.2%; width: 44%;">
+
+<img src="/images/生死场 L08.JPG" alt="生死场 L08" style="top: 56.5%; left: 5.2%; width: 75%;">
+
+<img src="/images/生死场 L11.JPG" alt="生死场 L11" style="top: 60.5%; right: 5.2%; width: 49.2%;">
+
+<img src="/images/生死场 P01.JPG" alt="生死场 P01" style="top: 66.7%; left: 5.2%; width: 70%;">
+
+<img src="/images/生死场 P02.JPG" alt="生死场 P02" style="top: 70.9%; left: 5.2%; width: 44%;">
+
+<img src="/images/生死场 P04.JPG" alt="生死场 P04" style="top: 70.9%; right: 5.2%; width: 44%;">
+
+<img src="/images/生死场 P03.JPG" alt="生死场 P03" style="top: 73.8%; right: 5.2%; width: 70%;">
+
+<img src="/images/生死场 P06.JPG" alt="生死场 P06" style="top: 78.0%; left: 5.2%; width: 50%;">
+
+<img src="/images/生死场 P08.JPG" alt="生死场 P08" style="top: 84.5%; right: 5.2%; width: 70%;">
+
+<img src="/images/生死场 P07.JPG" alt="生死场 P07" style="top: 88.8%; left: 5.2%; width: 70%;">
+
+<img src="/images/生死场 P09.JPG" alt="生死场 P09" style="top: 93.1%; right: 2.6%; width: 80%;">
+
+
+  </div>
 </div>
 
 <script>
