@@ -3,48 +3,76 @@
   
   <url>
     <loc>https://flysein.me/categories/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://flysein.me/tag/photography/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://flysein.me/category/photography/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://flysein.me/posts/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://flysein.me/tags/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://flysein.me/their-eyes/</loc>
-    <lastmod>2025-04-10T11:00:42+08:00</lastmod>
+    <loc>https://flysein.me/digital-life/</loc>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://flysein.me/</loc>
+    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/tag/idea/</loc>
+    <lastmod>2025-05-03T17:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/category/idea/</loc>
+    <lastmod>2025-05-03T17:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/a-handbook-for-film-directors/</loc>
+    <lastmod>2025-05-03T17:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/their-eyes/</loc>
     <lastmod>2025-04-10T11:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
