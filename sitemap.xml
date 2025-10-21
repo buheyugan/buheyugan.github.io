@@ -3,7 +3,49 @@
   
   <url>
     <loc>https://flysein.me/categories/</loc>
-    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/posts/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/tags/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/tag/text/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/category/text/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/intimate-relationship-handbook/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://flysein.me/</loc>
+    <lastmod>2025-08-27T19:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,28 +65,7 @@
   </url>
   
   <url>
-    <loc>https://flysein.me/posts/</loc>
-    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://flysein.me/tags/</loc>
-    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://flysein.me/digital-life/</loc>
-    <lastmod>2025-06-13T00:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://flysein.me/</loc>
     <lastmod>2025-06-13T00:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -165,20 +186,6 @@
   <url>
     <loc>https://flysein.me/basic-optical-imaging-technology/</loc>
     <lastmod>2022-01-24T16:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://flysein.me/tag/text/</loc>
-    <lastmod>2021-12-14T19:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://flysein.me/category/text/</loc>
-    <lastmod>2021-12-14T19:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
