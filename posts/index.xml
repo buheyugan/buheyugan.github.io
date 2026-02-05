@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 逍遙游</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Sep 2025 19:00:42 +0800</lastBuildDate><atom:link href="https://flysein.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Feb 2026 11:00:42 +0800</lastBuildDate><atom:link href="https://flysein.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>思考框架方法论</title>
+      <link>https://flysein.me/thinking-framework-methodology/</link>
+      <pubDate>Thu, 05 Feb 2026 11:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/thinking-framework-methodology/</guid>
+      <description>元维度 观测者 设问： 我是谁？我站在谁的利益角度看问题？ 作用： 视角的选择决定了价值判断的基准。对于病毒而言，宿主的死亡是熵减（繁衍成功）；对于宿</description>
+    </item>
+    
     <item>
       <title>HPV疫苗接种调研</title>
       <link>https://flysein.me/hpv-vaccination-survey/</link>
@@ -14,15 +23,6 @@
       
       <guid>https://flysein.me/hpv-vaccination-survey/</guid>
       <description>HPV疫苗 目前按覆盖HPV型别数目可以将HPV疫苗类型划分为2价、4价和9价三类 HPV疫苗类型 | 覆盖HPV型别 | 预防相关疾病 2价 | 16、18</description>
-    </item>
-    
-    <item>
-      <title>亲密关系手册</title>
-      <link>https://flysein.me/intimate-relationship-handbook/</link>
-      <pubDate>Wed, 27 Aug 2025 19:00:42 +0800</pubDate>
-      
-      <guid>https://flysein.me/intimate-relationship-handbook/</guid>
-      <description>基础认知 自我概念的两种需求：吻合的认同 自我提升（self-enhancement，对积极的、赞美的反馈的渴望）：人们从他人那里寻求能提升其自</description>
     </item>
     
     <item>
@@ -158,6 +158,15 @@
       
       <guid>https://flysein.me/art-and-science/</guid>
       <description>关于艺术与科学 高中时听了一句话，说科学与艺术是相通的，当时想着这句话太美好了，把世界上最有趣的两件事结合起来了！就像欧拉恒等式 [e^iΠ^+</description>
+    </item>
+    
+    <item>
+      <title>亲密关系手册</title>
+      <link>https://flysein.me/intimate-relationship-handbook/</link>
+      <pubDate>Fri, 27 Aug 2021 19:00:42 +0800</pubDate>
+      
+      <guid>https://flysein.me/intimate-relationship-handbook/</guid>
+      <description>基础认知 自我概念的两种需求：吻合的认同 自我提升（self-enhancement，对积极的、赞美的反馈的渴望）：人们从他人那里寻求能提升其自</description>
     </item>
     
   </channel>
