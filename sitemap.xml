@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>https://flysein.com/</loc>
+    <lastmod>2026-02-05T11:00:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://flysein.com/tag/idea/</loc>
     <lastmod>2026-02-05T11:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,13 +45,6 @@
   
   <url>
     <loc>https://flysein.com/thinking-framework-methodology/</loc>
-    <lastmod>2026-02-05T11:00:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://flysein.com/</loc>
     <lastmod>2026-02-05T11:00:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
